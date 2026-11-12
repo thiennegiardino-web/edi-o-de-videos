@@ -4,7 +4,7 @@ Transcrito das duas fotos da lista manuscrita. A ordem é uma reconstrução fei
 
 ## Prioridade alta (prazo ou dinheiro em jogo)
 1. [x] Finalizar apresentação para o aulão do dia 20 (no Claude)
-2. [ ] Claude analisar faturas do cartão e pontos não recebidos
+2. [x] Claude analisar faturas do cartão e pontos não recebidos
 3. [x] Abrir reclamação no gov.br
 4. [x] Abrir reclamação no Reclame Aqui, Nescau e Mondial
 5. [x] Fazer apresentação do grupo de viagens Orlando
@@ -17,6 +17,6 @@ Transcrito das duas fotos da lista manuscrita. A ordem é uma reconstrução fei
 ## Projetos para estruturar no Claude
 9. [ ] Criar estrutura das minhas mentorias
 10. [ ] Criar projeto de grupo de achados
-11. [ ] Criar sistema de financeiro
+11. [x] Criar sistema de financeiro (integrado ao sistema pessoal)
 12. [x] Começar projeto Brazuka
 13. [x] Começar projeto IPTV
