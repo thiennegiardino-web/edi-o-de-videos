@@ -167,4 +167,4 @@ Nem sempre. Às vezes a passagem em dinheiro está barata e usar milhas seria de
 - O valor de um ponto muda: use o método do Capítulo 4, não um número fixo.
 - Desconfie de promessas simples demais.
 
-*Próxima parte: como começar a acumular sem gastar nada a mais.*
+*Próxima parte: como acumular com os gastos que você já tem.*

@@ -19,7 +19,7 @@ O iniciante não precisa contratar nem comprar nada para começar.
 4. Como avaliar o valor dos seus pontos e milhas (método de comparação, sem valor fixo) [CONFERIR]
 5. Mitos comuns sobre milhas
 
-**Parte 2 — Começando a acumular, sem gastar nada a mais**
+**Parte 2 — Como acumular com os gastos que você já tem**
 6. Cadastro nos programas e organização das contas
 7. Como acumular sem cartão de crédito (compras do dia a dia, parceiros, cadastros) [CONFERIR]
 8. Como acumular com o cartão que você já tem (visão geral; aprofundamento no e-book 2)

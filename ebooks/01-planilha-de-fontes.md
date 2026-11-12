@@ -60,3 +60,38 @@ Consulta em 12/11/2026. Os sites oficiais dos programas não puderam ser abertos
 4. Cap. 8: pontuação, programa de destino, prazo de crédito, anuidade e exclusões de cada emissor de cartão citado. Onde: site do emissor e regulamento do programa.
 5. Cap. 9: quais programas oferecem verificação em duas etapas e como ativar; prazos e canais de contestação dos programas citados.
 6. Parte 1, Cap. 2: nome atual do programa da Azul e se a moeda é "pontos". Continua pendente (site da Azul bloqueado).
+
+
+---
+
+# Revisão da Parte 2 (após parecer do Codex) e Parte 3 — consulta de 12/11/2026
+
+## Ajustes da Parte 2
+- Cap. 6: orientação sobre inatividade corrigida; planilha separa "último acesso" de "último acúmulo ou resgate".
+- Cap. 7: removida a afirmação de que pontos não podem virar dinheiro. A página "Pontos Viram Dinheiro" da Livelo (www.livelo.com.br/carteira/pontos-viram-dinheiro/institucional) foi aberta em 12/11/2026 e anuncia o serviço de transformar pontos em dinheiro na conta, pelo aplicativo. As condições do serviço NÃO foram lidas e não entram no texto. Lição para a planilha: o regulamento geral não basta para descrever todos os serviços.
+- Cap. 7: exemplo do Carlos com comparação de preço (valores fictícios) e roteiro com meio de pagamento; controle de compras com a coluna "o que inicia a contagem do prazo".
+- Cap. 7: prazo de 60 dias da Livelo agora com o início da contagem e a prevalência do prazo específico do parceiro. PENDENTE de releitura: a tabela da cláusula 4.3.4 usa notas de rodapé (1), (2) e (3) e a correspondência exata entre nota e linha não ficou clara no texto extraído. A redação do texto segue o parecer; reler a cláusula na fonte antes de publicar.
+- Cap. 8: pergunta sobre pontuação agora fala de real, dólar ou outro critério e de cotação; acrescentado o aviso sobre pagar contas no cartão. PENDENTE: página do Itaú citada na revisão (itau.com.br) não aberta nesta sessão (host não liberado).
+- Cap. 9: removida a frase sobre transferência para terceiros. O menu da Livelo mostra "Transferir seus pontos > Para um amigo", ou seja, existe serviço de transferência entre pessoas; a cláusula 6.8.1 trata de transferência para programas parceiros. O tema vai para a Parte 5, com leitura das condições de cada operação.
+- Cap. 9: instrução de não compartilhar senhas e exemplo da mensagem falsa ajustados.
+
+## Parte 3 — itens verificados (fonte oficial lida)
+| Cap. | Afirmação no texto | Fonte | Status |
+|---|---|---|---|
+| 10 | Livelo: validade de pontos de parceiros segue o regulamento do parceiro | Regulamento Livelo, cl. 4.2.1 | CONFERIDO |
+| 10 | Livelo: campanhas da Livelo, 24 meses do lançamento ou conforme a regra da ação | cl. 4.2.2 | CONFERIDO |
+| 10 | Livelo: Pontos+Dinheiro, validade imediata, só para o resgate atrelado | cl. 4.2.3 | CONFERIDO |
+| 10 | Livelo: Clube e Conveniências seguem regras próprias | cl. 4.2.4 | CONFERIDO |
+| 10 | Livelo: vencimento às 23h59 de Brasília; sem prorrogação; pontos vencidos não reembolsados | cl. 4.5.1 e 4.3.10 | CONFERIDO. A cláusula 4.3.10 é referida como "todas as condições mencionadas acima"; reler o contexto antes de publicar |
+| 10 | Smiles: milhas compradas, transferidas entre contas e reativadas valem 12 meses | Página www.smiles.com.br/juntar-e-usar-milhas, 12/11/2026 | CONFERIDO na página. Valores voláteis: confirmar na publicação |
+| 10 | Smiles: planos do Clube com milhas válidas por 10 anos ou sem expiração, conforme o plano | mesma página | CONFERIDO na página; sem nomes de planos no texto por serem voláteis |
+| 10 | Smiles: consulta "tem milhas a expirar", serviços Estender e Reativar; reativar custa e varia com a promoção | mesma página | CONFERIDO |
+| 11 | Livelo: transferência a programa parceiro exige cadastro prévio no destino; mínimo/máximo/múltiplo a critério da Livelo, alteráveis sem aviso; confirmar crédito é responsabilidade do participante | cl. 6.8.1, 6.8.2, 6.8.5 | CONFERIDO |
+
+## Parte 3 — PENDENTES (o que exatamente confirmar)
+1. Validade e condições do LATAM Pass: site bloqueado (403). Fontes de terceiros se contradizem (24 meses a partir do crédito, vitalícia com atividade de voo, prazos maiores no clube). Não usar nada sem texto oficial.
+2. Validade e condições do programa da Azul: site bloqueado (403).
+3. Smiles: validade das milhas acumuladas por voos e por outras formas; condições atuais dos planos do Clube.
+4. Livelo: regras de extensão de validade, se existirem ("Renovação de Pontos" aparece como Conveniência no regulamento, condições não lidas).
+5. Releitura da nota (1)(2)(3) da cláusula 4.3.4 (Parte 2) e do contexto da cláusula 4.3.10.
+6. Regras de transferência dos programas de destino citados na Parte 5.
