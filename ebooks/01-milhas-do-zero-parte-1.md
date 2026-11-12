@@ -11,27 +11,43 @@ Antes de acumular qualquer ponto, vale saber para onde você quer ir. Quem come�
 
 Responda às perguntas abaixo. Não existe resposta errada: elas servem para você enxergar seu ponto de partida.
 
-**1. Qual é o seu objetivo de viagem?**
+**1. Qual é o seu objetivo de viagem?** Marque todas as opções que se aplicam.
 ( ) Uma viagem nacional por ano
 ( ) Uma viagem internacional nos próximos 2 ou 3 anos
-( ) Viajar com a família
 ( ) Ainda não sei, só quero entender como funciona
 
-**2. Com que frequência você viaja de avião?**
+**2. Detalhes da viagem que você imagina:**
+- Cidade de saída: __________
+- Destino desejado: __________
+- Quantas pessoas vão viajar: ____
+- Prazo (daqui a quantos meses): ____
+- Suas datas são flexíveis? ( ) Sim ( ) Mais ou menos ( ) Não
+
+**3. Com que frequência você viaja de avião?**
 ( ) Nunca ou quase nunca
 ( ) Uma ou duas vezes por ano
 ( ) Três vezes por ano ou mais
 
-**3. Quais são seus gastos habituais?** Anote os 3 maiores do mês (mercado, combustível, contas, compras online…). Eles mostram onde você já gasta e pode acumular pontos sem gastar mais.
+**4. Quais são seus gastos habituais?** Anote os 3 maiores do mês (mercado, combustível, contas, compras online…). Eles mostram onde você já gasta e pode acumular pontos sem gastar mais.
 
-**4. Em quais programas você já tem cadastro?** Liste os que se lembrar: companhias aéreas, bancos, lojas, farmácias, supermercados. Muita gente já tem pontos parados e nem sabe.
+**5. Em quais programas você já tem cadastro, e quanto saldo tem em cada um?** Liste os que se lembrar: companhias aéreas, bancos, lojas, farmácias, supermercados. Anote também a **validade** do saldo, que é a data em que ele expira. Muita gente já tem pontos parados e nem sabe.
 
-**5. Você tem hoje algum cartão de crédito?**
+| Programa | Saldo | Validade |
+|---|---|---|
+| | | |
+| | | |
+| | | |
+
+**6. Você tem hoje algum cartão de crédito?**
 ( ) Sim ( ) Não ( ) Prefiro não usar
 
-**Como usar suas respostas:** guarde-as. Nos próximos capítulos você vai voltar a elas para escolher seus primeiros passos.
+**Seu resumo de ponto de partida.** Complete com as suas respostas:
 
-> **[Exemplo fictício]** A Marina quer fazer uma viagem nacional por ano, viaja pouco e gasta mais com mercado e contas. Ela descobriu que tem cadastro em uma farmácia e em um supermercado, e nunca olhou o saldo. O ponto de partida dela é recuperar o que já tem e organizar o resto.
+> Quero viajar de __________ para __________, com ____ pessoa(s), daqui a ____ meses. Já tenho cadastro em __________. Meu primeiro passo é __________.
+
+Guarde esse resumo: nos próximos capítulos você volta a ele para escolher seus primeiros passos.
+
+> **[Exemplo fictício]** A Marina quer fazer uma viagem nacional por ano, viaja pouco e gasta mais com mercado e contas. Ela descobriu que tem cadastro em uma farmácia e em um supermercado, e nunca olhou o saldo. O resumo dela ficou assim: "Quero viajar de Campinas para Salvador, com 2 pessoas, daqui a 10 meses. Já tenho cadastro na farmácia e no supermercado. Meu primeiro passo é ver o saldo e a validade desses dois programas."
 
 ---
 
@@ -51,7 +67,9 @@ Na prática, os dois funcionam como uma moeda digital: você acumula e troca por
 - O programa credita pontos ou milhas na sua conta.
 - Mais tarde, você troca esse saldo por uma passagem, um produto ou outro benefício. Essa troca se chama **resgate**.
 
-Também existe a **transferência**: mover o saldo de um programa para outro. Ela costuma seguir regras próprias, que veremos adiante.
+Também existe a **transferência**: mover o saldo de um programa para outro. Ela depende de parceria entre os programas e pode ter **proporção de conversão** (quantos pontos de um programa viram quantos do outro), **quantidade mínima** e **prazo** próprios. As regras são específicas de cada programa e de cada parceiro.
+
+**Nem todo ponto pode virar passagem.** Nem todo programa permite transferir pontos para companhias aéreas. Alguns saldos só podem ser usados em descontos ou benefícios da própria rede. Antes de acumular pensando em viagens, confira as possibilidades de uso.
 
 **Três cuidados desde já:**
 1. Pontos e milhas **não são dinheiro nem investimento**. Só valem dentro das regras do programa.
@@ -69,15 +87,15 @@ Se os programas dão prêmios, como eles ganham dinheiro? Entender isso ajuda vo
 De forma geral, os programas existem para:
 
 - **Fazer você voltar.** Quem acumula pontos tende a continuar comprando no mesmo lugar para não perder o que juntou.
-- **Vender pontos a parceiros.** Empresas como bancos e lojas compram pontos do programa para oferecer aos clientes. Esse costuma ser um dos principais ganhos do programa.
+- **Vender pontos a parceiros.** Alguns programas também obtêm receita vendendo pontos a empresas parceiras, que os oferecem aos clientes.
 - **Conhecer o cliente.** O programa sabe o que você compra e com que frequência, e usa isso para fazer ofertas.
 
 **O que isso significa para você:**
 - Você não precisa gastar mais para acumular. Pode usar o que já gasta no dia a dia.
 - Quanto mais parceiros um programa tem, mais formas existem de acumular.
-- O programa é uma empresa e pode mudar as regras. Por isso **não vale deixar pontos parados por muito tempo sem acompanhar**.
+- Por isso, **não vale deixar pontos parados sem acompanhar**: as regras são do programa e ele pode alterá-las.
 
-> **[Exemplo fictício]** A Paula percebeu que a farmácia onde compra todo mês pertence a um programa de pontos. Ela não gasta nada a mais: só passou a informar o CPF no caixa.
+> **[Exemplo fictício]** A Paula percebeu que a farmácia onde compra todo mês pertence a um programa de pontos. Ela conferiu as regras, ativou o cadastro necessário e passou a seguir o procedimento exigido para pontuar nas compras que já faria. Alguns parceiros exigem um caminho específico de compra, e só informar o CPF no caixa nem sempre basta.
 
 ---
 
@@ -86,6 +104,8 @@ De forma geral, os programas existem para:
 Esta é uma das perguntas mais comuns: **"quanto vale o meu ponto?"** A resposta honesta é: **não existe um valor fixo**. O valor depende do que você faz com ele. O mesmo saldo pode valer mais ou menos conforme a passagem, a data e o programa.
 
 Em vez de decorar um número, aprenda um método simples.
+
+**Antes de calcular, compare opções equivalentes:** mesmos aeroportos, datas, quantidade de passageiros, bagagem e condições de alteração e cancelamento. Use o **preço total em dinheiro**, com as taxas incluídas.
 
 **Passo a passo:**
 
@@ -105,12 +125,14 @@ Chamamos **milheiro** a cada grupo de 1.000 pontos ou milhas. É assim que o mer
 > **[Exemplo fictício B]** Passagem custa **R$ 600**. Com milhas, o programa pede **15.000 milhas** e mais **R$ 80** de taxas.
 > Conta: (600 − 80) ÷ (15.000 ÷ 1.000) = 520 ÷ 15 ≈ **R$ 34,67 por milheiro**.
 
-**Como interpretar o resultado:** quanto maior o número, mais você "ganhou" por cada mil milhas usado. Compare sempre com o **custo de quem comprou ou acumulou aquelas milhas**: se você as obteve de forma gratuita ou quase gratuita, qualquer valor positivo é um ganho; se pagou por elas, o resgate só compensa se o valor por milheiro for maior do que o que você pagou.
+**Como interpretar o resultado:** quanto maior o resultado, maior foi a economia calculada por milheiro nessa comparação. Isso não significa, sozinho, que o resgate seja a melhor escolha. Considere quanto custou acumular as milhas, outras possibilidades de uso, a validade do saldo e seu orçamento. Mesmo pontos recebidos sem custo direto merecem ser usados com cuidado.
+
+> **[Exemplo fictício C]** No Exemplo A, a passagem de R$ 1.200 deu um resultado atraente: R$ 55 por milheiro. Mas imagine que existe outra opção adequada para o mesmo trajeto e as mesmas condições por **R$ 700**. Nesse caso, você precisa considerar essa alternativa: pagar R$ 700 em dinheiro e guardar as milhas para outro uso pode ser melhor. Uma passagem cara pode gerar um resultado bom por milheiro sem ser a melhor decisão para a sua viagem.
 
 **Cuidados com a conta:**
 - Compare datas e rotas iguais. Uma passagem em alta temporada pode ter um valor por milheiro bem diferente de uma em baixa temporada.
 - Considere **todos os custos**: taxas, bagagem, remarcação.
-- Valores de mercado mudam com o tempo. **Por isso este e-book não traz um número fixo de "quanto vale".** O método é o que dura.
+- Os valores mudam com o tempo. **Por isso este e-book não traz um número fixo de "quanto vale".** O método é o que dura.
 
 **Tarefa:** pegue uma passagem que você gostaria de fazer, tire os três números (preço em dinheiro, milhas necessárias, taxas) e faça a conta.
 
@@ -141,7 +163,7 @@ Nem sempre. Às vezes a passagem em dinheiro está barata e usar milhas seria de
 ### Para fixar a Parte 1
 - Defina seu objetivo de viagem antes de acumular.
 - Pontos e milhas são a moeda de um programa de fidelidade, não dinheiro.
-- Os programas existem para fidelizar e para vender pontos a parceiros.
+- Os programas existem para fidelizar clientes e, em alguns casos, vender pontos a parceiros.
 - O valor de um ponto muda: use o método do Capítulo 4, não um número fixo.
 - Desconfie de promessas simples demais.
 
