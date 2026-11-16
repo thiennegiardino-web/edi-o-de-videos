@@ -143,12 +143,12 @@ Regras de resgates de viagens feitos no Site Livelo. Usadas no texto apenas como
 **Duas perguntas diferentes:** (1) *A fonte diz isso?* (2) *Esta orientação está pronta para publicação?* A coluna "Tratamento" aplica a regra da revisão editorial: só bloqueia a publicação o que **está no texto final** e ainda não foi confirmado.
 
 ## A. Bloqueia a publicação (regra usada no texto final, ainda não confirmada)
-**Nenhum item.** O item da ANAC foi confirmado em 16/11/2026 (ver registro abaixo) e passou para o painel B.
+**Nenhum item.** O item da ANAC foi confirmado em 16/11/2026 (ver registro abaixo, com a identificação de quem consultou) e passou para o painel B.
 
 ### Registro da confirmação da ANAC (quem consultou, o quê e quando)
 | Consulta | Quem | Fonte | O que confirmou |
 |---|---|---|---|
-| 1 | Revisão editorial (pessoa responsável pela revisão), 16/11/2026 | Resolução ANAC nº 400 — texto compilado: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2016/resolucao-no-400-13-12-2016 | Art. 11 (desistência sem ônus em até 24 horas do recebimento do comprovante, para compras com antecedência mínima de sete dias do embarque) e art. 19, parágrafo único (manutenção da volta em voo doméstico, com a intenção informada até o horário originalmente contratado para a ida, sem multa contratual para essa finalidade) |
+| 1 | Codex — revisão assistida por IA, 16/11/2026 | Resolução ANAC nº 400 — texto compilado: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2016/resolucao-no-400-13-12-2016 | Art. 11 (desistência sem ônus em até 24 horas do recebimento do comprovante, para compras com antecedência mínima de sete dias do embarque) e art. 19, parágrafo único (manutenção da volta em voo doméstico, com a intenção informada até o horário originalmente contratado para a ida, sem multa contratual para essa finalidade) |
 | 2 | Claude (esta sessão), 16/11/2026, mesma URL, aberta sem verificação humana | Mesmo texto compilado | Art. 9º, parágrafo único (tarifas aeroportuárias e valores devidos a entes governamentais não integram a base de cálculo de multas); art. 11 e parágrafo único; art. 19 e parágrafo único. Texto lido literalmente |
 
 **Alcance:** confirma as regras gerais da norma. **Não é análise de uma operação específica de resgate com milhas.** O texto do e-book diz isso. A página anterior (www.gov.br/anac/pt-br/assuntos/passageiros/anac_passageiro/alteracoes-da-viagem-e-reembolso), que apresentou verificação humana, **não foi lida** e deixa de ser a fonte.
@@ -156,7 +156,7 @@ Regras de resgates de viagens feitos no Site Livelo. Usadas no texto apenas como
 ## B. Reconfirmar na data da publicação (dados datados usados como exemplo; já lidos na fonte)
 | Fonte | Linhas usadas no texto | Data da leitura |
 |---|---|---|
-| Resolução ANAC nº 400, texto compilado (www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2016/resolucao-no-400-13-12-2016) | art. 9º p.ú. (base de multas), art. 11 e p.ú. (24 horas e 7 dias), art. 19 e p.ú. (volta em voo doméstico) | 16/11/2026 (revisão editorial e Claude) |
+| Resolução ANAC nº 400, texto compilado (www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2016/resolucao-no-400-13-12-2016) | art. 9º p.ú. (base de multas), art. 11 e p.ú. (24 horas e 7 dias), art. 19 e p.ú. (volta em voo doméstico) | 16/11/2026 (Codex — revisão assistida por IA, e Claude) |
 | Regulamento Livelo (www3.livelo.com.br/regulamentos/programa-pontos-livelo) | cl. 1.9, 2.1, 2.5, 3.1 a 3.4, 3.6, 4.2.x, 4.3.4 (60 dias), 4.3.6, 4.3.8, 4.4.4, 4.5.1, 4.5.2, 6.8.x, 6.9.x | 12/11/2026 e 16/11/2026 |
 | Smiles, validade (www.smiles.com.br/portal/validade-de-milhas) | voos GOL por categoria; bônus de transferência de pontos do cartão (6 meses); compradas (12 meses); reativadas (12 meses); planos do Clube; bônus do diferencial por plano (6 meses) | 16/11/2026 |
 | Smiles, "juntar e usar milhas" (www.smiles.com.br/juntar-e-usar-milhas) | compra de milhas: a partir de 1.000, validade 12 meses, limite 100.000 a cada 12 meses, cartão de crédito, até 10x sem juros, crédito em até 72 horas | 12/11/2026 |

@@ -20,15 +20,16 @@ Antes de falar de pontos, vale entender o que um cartão de crédito é. Os pont
 - **Fechamento:** a data em que o período de compras da fatura se encerra. Compras feitas depois dessa data costumam ir para a fatura seguinte.
 - **Vencimento:** a data limite para pagar a fatura.
 - **Pagamento total:** pagar todo o valor da fatura até o vencimento.
-- **Pagamento mínimo ou parcelamento da fatura:** pagar só uma parte e deixar o restante para depois. O que fica **normalmente gera juros e outros encargos**.
+- **Pagamento parcial (sem parcelamento):** pagar só uma parte da fatura e deixar o restante em aberto. O saldo que fica pode ser financiado pelo **crédito rotativo** do cartão, com **juros e outros encargos**.
+- **Parcelamento da fatura:** uma modalidade **separada**, em que o emissor oferece dividir o valor em parcelas, com **condições próprias** (taxa, número de parcelas, encargos). **[A CONFIRMAR: conferir a distinção entre pagamento parcial e parcelamento da fatura na página de perguntas frequentes do Banco Central sobre cartão, www.bcb.gov.br/meubc/faqs/s/cartao. A página usa um aplicativo que não pudemos ler nesta etapa.]**
 - **Juros e encargos:** o custo cobrado quando você não paga o total. Eles estão descritos no seu **contrato** e na **fatura**. **Cada cartão tem os seus.**
 
 ### A regra mais importante
 > **Pague o valor total da fatura, em dia.**
 
-Se você paga só o mínimo ou parcela a fatura, **os juros podem anular qualquer vantagem de pontos**. Para saber se é o seu caso, compare o que você paga de juros e encargos com o valor dos pontos que ganhou.
+Se você paga a fatura parcialmente ou a parcela, o saldo pode gerar **juros e encargos**. **Se você não consegue pagar a fatura integralmente, priorize reorganizar o pagamento e o orçamento antes de escolher um cartão pela pontuação.**
 
-> **[Exemplo fictício, com taxa inventada]** O Rafael gastou R$ 1.000 no cartão e pagou só o mínimo. Suponha, **só para ilustrar**, que o emissor cobre **12% ao mês** sobre o saldo que ficou. Em um mês, os juros seriam de aproximadamente **R$ 120** sobre R$ 1.000 (ignorando outros encargos). Se ele ganhou **1.000 pontos** e estima que cada mil pontos valha **R$ 30**, o bônus foi de **R$ 30**. Os juros fictícios (R$ 120) são **maiores** do que o bônus (R$ 30). **Atenção:** a taxa de 12% é inventada. Use a taxa real do seu cartão, que está no seu contrato e na sua fatura.
+> **[Exemplo fictício, com taxa inventada]** O Rafael recebeu uma fatura de **R$ 1.000** e pagou **R$ 200** (pagamento parcial). **Restaram R$ 800.** Numa simulação simplificada, com uma taxa **fictícia de 12% ao mês**, os juros sobre esse saldo seriam de **R$ 96 em um mês** (R$ 800 × 0,12), desconsiderando outros encargos e detalhes da contagem. **Atenção:** a taxa de 12% é inventada. Use a taxa real do seu cartão, que está no seu contrato e na sua fatura.
 
 ### Como usar o cartão de forma segura
 1. **Use o cartão só para gastos que você já teria.** Não gaste mais só para pontuar.
@@ -40,6 +41,7 @@ Se você paga só o mínimo ou parcela a fatura, **os juros podem anular qualque
 
 ### Seu orçamento de cartão: faça agora
 Anote:
+
 | Item | Valor |
 |---|---|
 | Quanto eu já gasto por mês que posso pagar no cartão (mercado, contas, transporte etc.) | |
@@ -68,7 +70,7 @@ Alguns cartões dão **pontos ou milhas** pelas compras. Entender como isso func
 - **O tipo e a categoria do cartão:** a mesma instituição pode ter cartões com taxas diferentes.
 
 ### O que acontece depois da compra
-Os pontos **não aparecem na hora**. O prazo de crédito depende do emissor e do programa. Como exemplo real, o regulamento do programa Livelo (consulta em 12/11/2026) traz prazos diferentes para pontos vindos de parceiros: **5 dias úteis** para o programa de cartões de um banco, **10 dias úteis** para o programa de benefícios de outro banco, e **60 dias corridos**, contados após o preenchimento dos requisitos para o acúmulo, para "demais parceiros", prevalecendo o prazo específico do parceiro quando ele existir. Esses prazos valem para aquele regulamento e **podem mudar**. Para o seu cartão, **consulte o emissor**.
+**O crédito pode não ser imediato.** O prazo depende do emissor e do programa, e **o evento que inicia a contagem** também varia. Como exemplo real, o regulamento do programa Livelo (consulta em 12/11/2026) traz, para pontos vindos de dois programas de bancos, prazos de **5 e de 10 dias úteis**, **contados após a comunicação do acúmulo pelo parceiro**. Esses prazos valem para aquele regulamento e **podem mudar**. Para o seu cartão, **consulte o emissor** sobre o prazo e sobre o que inicia a contagem.
 
 ### Quanto valem os pontos que você ganha?
 **Não existe um valor fixo.** O valor depende do que você faz com eles (passagem, produto, desconto), do programa e do momento. Você pode **estimar** assim:
@@ -77,7 +79,15 @@ Os pontos **não aparecem na hora**. O prazo de crédito depende do emissor e do
 
 O **milheiro** é cada grupo de 1.000 pontos. O valor do milheiro é **uma estimativa sua**, que depende do uso que você realmente fará. Não use um valor "de vitrine".
 
-> **[Exemplo fictício]** A Marina gasta **R$ 3.000 por mês** no cartão e o cartão dá, **por hipótese**, **1 ponto por real**. Ela ganha **3.000 pontos por mês**, ou 36.000 por ano. Se ela estimar, para o uso que pretende, que cada mil pontos valha **R$ 25**, o valor estimado é **36 × R$ 25 = R$ 900 por ano**. Se o cartão tiver anuidade de **R$ 600 por ano** (valor inventado), o ganho líquido estimado é de **R$ 300**. Se ela estimar um valor menor, esse ganho pode desaparecer. Por isso, **o que importa é o uso real**.
+**De onde vem esse valor?** Compare o que o benefício custa em dinheiro com o que ele custa em pontos.
+
+> **[Exemplo fictício]** Um benefício custa **R$ 500 em dinheiro** ou **20.000 pontos**, sem pagamento adicional. Nessa comparação, o valor obtido é **R$ 500 ÷ 20 = R$ 25 por milheiro** (20.000 pontos são 20 milheiros).
+
+Se houver **pagamento adicional** no resgate, **desconte-o do preço em dinheiro antes da divisão**.
+
+> **[Exemplo fictício]** A Marina gasta **R$ 3.000 por mês** no cartão e o cartão dá, **por hipótese**, **1 ponto por real**. Ela ganha **3.000 pontos por mês**, ou 36.000 por ano. Se ela estimar, para o uso que pretende, que cada mil pontos valha **R$ 25**, o valor estimado é **36 × R$ 25 = R$ 900 por ano**. Se o cartão tiver anuidade de **R$ 600 por ano** (valor inventado), o **benefício estimado dos pontos, após descontar a anuidade**, é de **R$ 300** (R$ 900 − R$ 600). **Esta simulação pressupõe que ela use todos os pontos naquele valor e que não haja outros custos.** Se ela estimar um valor menor, esse benefício pode desaparecer. Por isso, **o que importa é o uso real**.
+>
+> **Um resultado positivo não basta para escolher o cartão.** Compare também com uma **opção sem anuidade** e com uma opção de **cashback**.
 
 ### Um exemplo real de como os pontos podem circular
 A página de validade das milhas da Smiles (consulta em 16/11/2026) lista, como origens de milhas, "milhas acumuladas com o Cartão de Crédito GOL Smiles" e "milhas resgatáveis transferidas do banco", com **validades diferentes por origem**. Isso mostra que **os pontos de cartão podem seguir caminhos diferentes**: ficar direto no programa de uma companhia, ou passar por um programa do banco e depois ser transferidos. O caminho define **o que você pode fazer** com os pontos e **por quanto tempo eles valem**.
@@ -98,7 +108,7 @@ Três nomes aparecem juntos em qualquer cartão, e muita gente os confunde. Sepa
 |---|---|---|
 | **Bandeira** | É a rede que conecta o cartão às lojas e aos estabelecimentos. Define onde o cartão é aceito e pode estar ligada a certos benefícios | Visa, Mastercard, Elo, American Express |
 | **Emissor** | É a instituição que **emite e administra** o cartão: aprova você, define o **limite**, envia a **fatura**, cobra **anuidade** e **encargos** | Bancos e outras instituições financeiras |
-| **Programa de recompensas** | É onde os **pontos ou milhas** ficam. Pode ser do emissor, de uma companhia aérea, de uma rede de varejo ou de uma empresa independente | Programas de bancos, programas de companhias aéreas e programas independentes |
+| **Programa de recompensas** | É onde os **pontos ou milhas** ficam. Pode ser **ligado ao emissor**, **de uma companhia aérea** ou uma **plataforma que reúne pontos de diferentes parceiros** | Veja as três funções abaixo |
 
 ### Por que isso importa
 - **Quem cobra a anuidade e os juros?** O emissor.
@@ -107,29 +117,32 @@ Três nomes aparecem juntos em qualquer cartão, e muita gente os confunde. Sepa
 - **Quem aceita meu cartão?** A bandeira e o lojista.
 - **Alguns benefícios** (por exemplo, certos seguros ou acessos) **dependem da bandeira, da categoria do cartão e do emissor**. Confira no contrato ou com o emissor.
 
-### Programas de bancos, de companhias aéreas e independentes
-- Um **programa do emissor** é administrado pelo próprio banco ou por uma empresa ligada a ele. Como exemplo, o site da Esfera (consulta em 12/11/2026) identifica o Banco Santander (Brasil) S.A. como empresa responsável.
-- Um **programa de companhia aérea** acumula milhas ligadas ao uso dos voos e de parceiros. A Smiles, por exemplo, tem página de validade com várias origens de milhas, incluindo cartão de crédito e parceiros.
-- Um **programa independente** pode receber pontos de vários parceiros. O regulamento da Livelo (12/11/2026) descreve a Livelo como programa que recebe pontos de "parceiros de acúmulo" e permite transferir para "programas parceiros", com regras próprias.
-- Nem todo ponto pode ser transferido para qualquer outro programa. **As regras variam por programa.**
+### Programas de recompensas, pela função
+Em vez de classificar por "quem é o dono", é mais útil olhar **a função** do programa, porque ela mostra o que você pode fazer com os pontos. Um mesmo programa pode ter mais de uma função.
+
+- **Programa ligado ao emissor:** acumula os pontos do cartão do banco. Como exemplo, o site da Esfera traz, em seu rodapé, o nome do Banco Santander (Brasil) S.A. (consulta em 12/11/2026). Este e-book **não afirma quem controla** cada programa: confira no site e no regulamento do programa que você usa.
+- **Programa de companhia aérea:** acumula milhas ligadas ao uso dos voos e de parceiros. A Smiles, por exemplo, tem página de validade com várias origens de milhas, incluindo o cartão de crédito e parceiros (consulta em 16/11/2026).
+- **Plataforma que reúne pontos de diferentes parceiros:** recebe pontos de vários parceiros e permite trocá-los ou transferi-los. O regulamento da Livelo (12/11/2026), por exemplo, descreve "parceiros de acúmulo" e a transferência para "programas parceiros", com regras próprias.
+- **Nem todo ponto pode ser transferido para qualquer outro programa.** As regras variam por programa.
 
 ### Cartão "co-branded"
 **Co-branded** é um cartão **feito em parceria** entre um emissor e outra marca, como uma companhia aérea ou uma rede de varejo. Ele costuma **acumular pontos direto no programa da marca parceira**. A Smiles, por exemplo, lista as milhas acumuladas com o Cartão de Crédito GOL Smiles como uma origem de milhas com validade própria (consulta em 16/11/2026). Pergunte sempre: **para qual programa vão os meus pontos, e posso usá-los como quero?**
 
 ### Mapa do seu cartão
 Complete para qualquer cartão que você tenha ou esteja avaliando:
+
 | Pergunta | Resposta |
 |---|---|
 | Qual é a bandeira? | |
 | Quem é o emissor? | |
 | Em qual programa os pontos ficam? | |
-| Esse programa é do emissor, de uma companhia ou independente? | |
+| Qual é a função do programa: ligado ao emissor, de companhia aérea ou plataforma de parceiros? | |
 | Qual é a taxa de pontuação (por real, por dólar ou outro critério)? | |
 | Quais compras não pontuam? | |
 | Qual é o prazo para os pontos aparecerem? | |
 | Qual é a validade dos pontos? | |
 
-> **[Exemplo fictício]** O Carlos recebeu uma oferta de cartão e perguntou ao emissor as oito coisas acima. Descobriu que os pontos iam para um programa de companhia aérea e que aquele programa não permitia transferir para outro. Como o objetivo dele era usar pontos em hotéis, **descartou a oferta**, sem ter contratado nada.
+> **[Exemplo fictício]** O Carlos recebeu uma oferta de cartão e perguntou ao emissor as oito coisas acima. Descobriu que os pontos iam para um programa de companhia aérea e que aquele programa não permitia transferir para outro. Como o objetivo dele era usar pontos em hospedagem, ele **verificou as opções de hospedagem desse programa** e **não encontrou uma utilização adequada ao seu objetivo**. Por isso, **descartou a oferta**, sem ter contratado nada.
 
 ---
 

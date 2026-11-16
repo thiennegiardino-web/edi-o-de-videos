@@ -12,7 +12,7 @@ Data: 16/11/2026. Arquivo revisado: `ebooks/01-milhas-do-zero-versao-unica.md` (
 - Os avisos por parte (banners de rascunho) foram removidos; os avisos essenciais foram para a abertura.
 
 ## Marcadores
-- **Nenhum** marcador [A CONFIRMAR] resta no texto. O quadro da ANAC (capítulo 14) agora cita o texto compilado da Resolução 400, confirmado em 16/11/2026 pela revisão editorial e por Claude.
+- **Nenhum** marcador [A CONFIRMAR] resta no texto. O quadro da ANAC (capítulo 14) agora cita o texto compilado da Resolução 400, confirmado em 16/11/2026 por Codex (revisão assistida por IA) e por Claude.
 - Os marcadores sobre programas e dados específicos que não aparecem no texto final foram retirados ou convertidos em frases genéricas, sem afirmação de regra (ver painel C da planilha).
 
 ## Pontos corrigidos nesta rodada que mudam o conteúdo
