@@ -21,7 +21,7 @@ Antes de falar de pontos, vale entender o que um cartão de crédito é. Os pont
 - **Vencimento:** a data limite para pagar a fatura.
 - **Pagamento total:** pagar todo o valor da fatura até o vencimento.
 - **Pagamento parcial (sem parcelamento):** pagar só uma parte da fatura e deixar o restante em aberto. O saldo que fica pode ser financiado pelo **crédito rotativo** do cartão, com **juros e outros encargos**.
-- **Parcelamento da fatura:** uma modalidade **separada**, em que o emissor oferece dividir o valor em parcelas, com **condições próprias** (taxa, número de parcelas, encargos). **[A CONFIRMAR: conferir a distinção entre pagamento parcial e parcelamento da fatura na página de perguntas frequentes do Banco Central sobre cartão, www.bcb.gov.br/meubc/faqs/s/cartao. A página usa um aplicativo que não pudemos ler nesta etapa.]**
+- **Parcelamento da fatura:** uma modalidade **separada**, em que o emissor oferece dividir o valor em parcelas, com **condições próprias** (taxa, número de parcelas, encargos).
 - **Juros e encargos:** o custo cobrado quando você não paga o total. Eles estão descritos no seu **contrato** e na **fatura**. **Cada cartão tem os seus.**
 
 ### A regra mais importante

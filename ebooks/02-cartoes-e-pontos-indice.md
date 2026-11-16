@@ -50,3 +50,21 @@ Sem nomes de cartões específicos no comparativo; os critérios e regras també
 ## Notas para o autor
 - Exemplos: perfis fictícios criados por nós; histórias reais suas, se quiser, sem dados pessoais.
 - Cada capítulo precisa resolver uma dúvida distinta; se dois se repetirem, junto.
+
+
+---
+
+## Estrutura atual (revisada em 16/11/2026, após a Parte 2)
+
+A antiga Parte 3 ("Pontos ou cashback?") foi incorporada ao capítulo 5, e a antiga Parte 4 foi reduzida. A nova estrutura **não repete fórmulas**: cada capítulo seguinte as retoma por referência.
+
+**Parte 1 — Base e uso responsável** (capítulos 1 a 3) — redigida
+**Parte 2 — Entendendo as opções por características** (capítulos 4 a 7: custo; pontos, milhas ou cashback; uso dentro do programa e transferência; benefícios) — redigida
+**Parte 3 — Como decidir com os seus números** (capítulo 8: diagnóstico, comparação completa com exemplo fictício e decisão justificada, com espaço para preencher) — rascunho
+**Parte 4 — Usando e revisando** (proposta)
+- Capítulo 9 — Como usar bem: onde os pontos caem, quando e com qual validade; fatura em dia (retomada breve)
+- Capítulo 10 — Quantos cartões ter, armadilhas e golpes
+- Capítulo 11 — Revisão antes da renovação da anuidade: roteiro para decidir se vale manter o cartão
+- Capítulo 12 — Plano prático do primeiro ano, em passos
+
+**Fim:** checklist, glossário, perguntas frequentes, fontes e atualização.

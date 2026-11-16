@@ -28,7 +28,7 @@ Em vez de dividir os cartões em "categorias" que se misturam, vamos olhar **qua
 - **Juros e encargos** em caso de pagamento parcial, parcelamento da fatura ou atraso (Parte 1).
 - **Tarifas** por serviços específicos, como saques ou o pagamento de contas no cartão. **Confira o custo e se a operação gera pontos.**
 - **Seguros ou serviços opcionais** contratados junto com o cartão.
-- **Custo de oportunidade:** gastar mais do que você gastaria só para atingir uma condição de isenção **não é economia**.
+- **Gasto adicional para obter isenção:** comprar algo que você não compraria pode custar mais do que a anuidade economizada.
 
 ### Faça a conta: custo anual do cartão
 > **Custo anual = anuidade do ano + tarifas e outros custos do ano**
@@ -57,17 +57,18 @@ Em vez de dividir os cartões em "categorias" que se misturam, vamos olhar **qua
 - **Cashback:** parte do valor gasto **volta para você em dinheiro ou em crédito**, conforme as regras do cartão.
 
 ### Como comparar: retorno por real gasto
-Para comparar formas diferentes, use o **retorno por real gasto**, em porcentagem:
+Para comparar formas diferentes, use o **retorno por real gasto**. Primeiro, calcule o retorno em reais por cada real gasto; depois, converta em porcentagem:
 
-- **Cashback:** retorno = percentual de cashback.
-- **Pontos ou milhas:** **retorno = pontos por real × valor estimado do milheiro ÷ 1.000**.
+- **Cashback:** o retorno percentual é o próprio percentual de cashback.
+- **Pontos ou milhas:** **retorno em R$ por R$ = pontos por real × valor estimado do milheiro ÷ 1.000**
+- **Retorno percentual = retorno em R$ por R$ × 100**
 
 O **valor estimado do milheiro** é uma **estimativa sua**, baseada no uso que você realmente fará dos pontos (Capítulo 2).
 
 > **[Exemplo fictício]** Dois cartões, com valores **inventados**:
 > - **Cartão A:** **cashback de 1%**, sem anuidade.
-> - **Cartão B:** **1,2 ponto por real**, anuidade de **R$ 480 por ano**. A Marina estima o uso dos pontos em **R$ 18 por milheiro**.
-> **Retorno de B:** 1,2 × 18 ÷ 1.000 = R$ 0,0216 por real, ou **2,16%**.
+> - **Cartão B:** **1,2 ponto por real**, anuidade de **R$ 480 por ano**. O Rafael estima o uso dos pontos em **R$ 18 por milheiro**.
+> **Retorno de B:** 1,2 × 18 ÷ 1.000 = R$ 0,0216 por real; × 100 = **2,16%**.
 > Em R$ 1.000 gastos: A devolve **R$ 10**; B devolve **R$ 21,60**.
 > Com **R$ 24.000 por ano** de gastos:
 > - **A:** 24 × R$ 10 = **R$ 240**, sem anuidade. Resultado: **R$ 240**.
@@ -80,6 +81,10 @@ A partir de quanto o cartão B compensa? Ele precisa devolver, **além do cartã
 > **Gasto anual de equilíbrio = anuidade ÷ (diferença de retorno por real)**
 
 Com os números fictícios: diferença de **R$ 11,60 por R$ 1.000** (R$ 21,60 − R$ 10). **R$ 480 ÷ 0,0116 ≈ R$ 41.379 por ano**, ou cerca de R$ 3.448 por mês. **Abaixo desse gasto, o cartão A rende mais.** Acima, o B passa à frente, **se você realmente usar os pontos no valor estimado**.
+
+**O que esse cálculo pressupõe:** cashback **sem custo fixo**; anuidade de **R$ 480** no outro cartão; **retorno constante** em todos os gastos; **gastos elegíveis iguais** nos dois cartões; e **ausência de limites ou de outros custos**. Se qualquer um desses pontos mudar, o resultado muda.
+
+**Como usar o ponto de equilíbrio:** ele serve para **avaliar os gastos que você já tem**, e **não é uma meta de consumo**. Se a diferença de retorno por real for **zero ou negativa**, **aumentar os gastos não compensa a anuidade** nesse modelo.
 
 ### Quando o cashback faz mais sentido
 - Você **não quer ou não consegue** acompanhar programas, validades e promoções.
@@ -98,16 +103,18 @@ Com os números fictícios: diferença de **R$ 11,60 por R$ 1.000** (R$ 21,60 �
 
 ---
 
-## Capítulo 6 — Vínculo com programas: pontos que se transferem e pontos presos a um programa
+## Capítulo 6 — Vínculo com programas: uso dentro do programa e transferência
 
 ### A pergunta central
 **Para onde vão os meus pontos e o que posso fazer com eles?** A resposta define o valor dos pontos para você.
 
-### Pontos que ficam em um programa
-Em alguns cartões, os pontos ficam em **um programa único**, e você os usa **dentro dele**: trocando por produtos, vales, serviços ou outros benefícios que o programa oferece. Como exemplo real, os menus do site da Esfera (consulta em 12/11/2026) listam formas de usar pontos, como produtos, viagens, vales-compra e **pagar fatura com pontos**. Os menus do site da Livelo (consulta em 12/11/2026) incluem, entre outras, **pagar com pontos via Pix** e o serviço **"Pontos Viram Dinheiro"**. **Cada serviço tem condições próprias, que não são detalhadas neste e-book.**
+Os pontos de um cartão podem ter **dois caminhos de uso**. **Um mesmo saldo pode oferecer os dois**, conforme o programa e as regras.
 
-### Pontos que podem ser transferidos
-Alguns programas permitem **transferir** pontos para outros programas, como o de uma companhia aérea. Isso exige **parceria** entre os programas e segue **regras de cada operação**. Como exemplo, o regulamento da Livelo (12/11/2026), na parte de transferência para programas parceiros, prevê que:
+### Uso dentro do programa
+Você usa os pontos **no próprio programa**: trocando por produtos, viagens, descontos, vales, serviços ou outros benefícios que ele oferece. Como exemplo real, os menus do site da Esfera (consulta em 12/11/2026) listam formas de usar pontos, como produtos, viagens, vales-compra e **pagar fatura com pontos**. Os menus do site da Livelo (consulta em 12/11/2026) incluem, entre outras, **pagar com pontos via Pix** e o serviço **"Pontos Viram Dinheiro"**. **Cada serviço tem condições próprias, que não são detalhadas neste e-book.**
+
+### Transferência para programas parceiros
+Alguns programas permitem **transferir** pontos para outros programas, como o de uma companhia aérea, **quando disponível e sob condições próprias**. Isso exige **parceria** entre os programas e segue **regras de cada operação**. Como exemplo, o regulamento da Livelo (12/11/2026), na parte de transferência para programas parceiros, prevê que:
 
 - o participante precisa estar **previamente cadastrado no programa de destino**;
 - a transferência pode ter **quantidade mínima, máxima e múltipla de pontos**, que podem ser alteradas **sem prévio aviso**;
@@ -126,15 +133,15 @@ Esses itens valem para aquele regulamento e **podem mudar**. A página de valida
 6. **Existem promoções** de transferência com bônus? Quais são as condições e a validade do bônus?
 7. **Posso usar os pontos fora de viagens?** (Produtos, desconto, pagamento de fatura, cashback.)
 
-### Pontos presos × transferíveis: como decidir
+### Pontos sem opção de transferência × pontos com opção de transferência: como decidir
 
-| | Pontos presos a um programa | Pontos transferíveis |
+| | Pontos sem opção de transferência | Pontos com opção de transferência |
 |---|---|---|
 | **Vantagem possível** | Mais simples; menos regras para acompanhar | Mais opções de uso |
 | **Risco** | Se o programa não oferece o que você quer, o valor cai | Regras de conversão, prazo e validade que mudam, e custo de acompanhamento |
 | **O que conferir** | O catálogo e os serviços **do programa** | As **regras de cada transferência** e a **validade** |
 
-> **[Exemplo fictício]** A Paula quer usar pontos para **pagar a fatura do próprio cartão**. Ela confirmou que o programa do cartão **oferece essa opção** e quais as condições. Para ela, a transferência a uma companhia aérea **não é importante**. Já o Carlos quer **viajar de avião** e deu prioridade a cartões cujos pontos **podem ser transferidos**, depois de checar a conversão e a validade.
+> **[Exemplo fictício]** A Paula quer usar pontos para **pagar a fatura do próprio cartão**. Ela confirmou que o programa do cartão **oferece essa opção** e quais as condições. Para ela, a transferência a uma companhia aérea **não é importante**. Já o Carlos quer **viajar de avião**. Ele **comparou também os resgates diretos nos programas das companhias aéreas** com a transferência, e checou a conversão e a validade. **Querer viajar não torna a transferência obrigatória**: dependendo da comparação, o resgate direto pode ser a melhor opção.
 
 **Tarefa:** para cada cartão que você está avaliando, responda às sete perguntas acima e anote a fonte (site, regulamento ou atendimento).
 

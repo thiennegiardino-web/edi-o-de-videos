@@ -32,10 +32,10 @@ Consulta em 16/11/2026. Mesma regra do e-book 1: **A fonte diz isso?** e **Está
 - Cap. 3: programas classificados por FUNÇÃO (ligado ao emissor; de companhia aérea; plataforma de pontos de parceiros). O texto não afirma quem controla cada programa. Exemplo do Carlos ajustado.
 - Tabelas "Seu orçamento de cartão" e "Mapa do seu cartão": acrescentada a linha em branco antes de cada tabela, para que o Word as monte como tabelas reais (conferido no arquivo gerado).
 
-## Pendência nova (Parte 1, cap. 1)
+## Pendência da Parte 1, cap. 1 — RESOLVIDA em 16/11/2026
 | Item | A fonte diz isso? | Pronta para publicação? |
 |---|---|---|
-| Distinção entre pagamento parcial sem parcelamento (leva ao crédito rotativo) e parcelamento da fatura | Citada pela revisão (Codex) a partir das perguntas frequentes do Banco Central sobre cartão (www.bcb.gov.br/meubc/faqs/s/cartao). **Não lida por nós**: a página é um aplicativo que, nas nossas tentativas de 16/11/2026, voltou sem conteúdo (erro 504 e depois página vazia) | **Não.** Há um marcador [A CONFIRMAR] no texto. Confirmar com o texto do Banco Central ou manter só a redação genérica |
+| Distinção entre parcelamento da fatura, pagamento parcial sem parcelamento (que leva ao crédito rotativo) e inadimplência | Perguntas frequentes do Banco Central sobre cartão, item 10 (www.bcb.gov.br/meubc/faqs/s/cartao). **Consulta realizada por: Codex — revisão assistida por IA, 16/11/2026.** Não atribuída ao Claude: as tentativas do Claude de abrir a página voltaram sem conteúdo (erro 504 e página vazia) | Sim. O marcador [A CONFIRMAR] foi retirado do texto. Reconfirmar na publicação |
 
 ## Parte 2 — itens com fonte lida (consulta em 12/11/2026 e 16/11/2026)
 | Cap. | Afirmação no texto | Fonte | A fonte diz isso? | Pronta para publicação? |
@@ -53,3 +53,26 @@ Consulta em 16/11/2026. Mesma regra do e-book 1: **A fonte diz isso?** e **Está
 ## Observações editoriais
 - O capítulo 5 já ensina o método de comparar pontos e cashback (retorno por real, equilíbrio). **A Parte 3 do índice ("Pontos ou cashback?", capítulos 8 a 10) tende a repetir esse conteúdo.** Sugestão: reduzir a Parte 3 a um único capítulo, de decisão (quando um ou outro faz mais sentido, com perfis), e renumerar.
 - Pendência herdada: se a versão final citar taxas, limites legais ou médias de mercado, buscar fonte oficial (Banco Central) antes.
+
+
+---
+
+# Revisão da Parte 2 (parecer do Codex — revisão assistida por IA, 16/11/2026) e Parte 3 (rascunho)
+
+## Ajustes da Parte 2
+- Cap. 5: fórmula com unidade explícita: retorno em R$ por R$ = pontos por real × valor do milheiro ÷ 1.000; retorno percentual = retorno em R$ por R$ × 100.
+- Cap. 5: ponto de equilíbrio com premissas declaradas (cashback sem custo fixo, anuidade de R$ 480, retorno constante, gastos elegíveis iguais, sem limites ou outros custos); uso para avaliar gastos já existentes, não como meta de consumo; se a diferença de retorno for zero ou negativa, aumentar gastos não compensa a anuidade.
+- Cap. 5: a pessoa do exemplo (R$ 24.000 por ano) passou a ser o Rafael. Antes era a Marina, que nos capítulos 2 e 4 gasta R$ 3.000 por mês (R$ 36.000 por ano): evita inconsistência.
+- Cap. 6: reorganizado em "uso dentro do programa" e "transferência para programas parceiros" ("um mesmo saldo pode oferecer os dois caminhos"); "pontos presos" substituído por "pontos sem opção de transferência"; exemplo do Carlos agora compara também resgates diretos e diz que querer viajar não torna a transferência obrigatória.
+- Cap. 4: "custo de oportunidade" substituído por "gasto adicional para obter isenção".
+
+## Parte 3 — itens
+| Cap. | Conteúdo | Fonte | Pronta para publicação? |
+|---|---|---|---|
+| 8 | Passos 1 a 3, modelos de preenchimento e checklist | Método próprio, sem fonte externa | Sim |
+| 8 | Simulação da Marina (opções A, B e C) e testes de sensibilidade | Valores fictícios, identificados. Aritmética conferida: gasto elegível R$ 2.400 × 12 = R$ 28.800; A = 28,8 × R$ 10 = R$ 288; B = 28,8 × 21,6 = R$ 622,08 − 480 + 120 = R$ 262,08; C = 28,8 × 36 = R$ 1.036,80 − 960 + 200 = R$ 276,80; com milheiro em R$ 12: B R$ 54,72 e C − R$ 68,80; em R$ 25: B R$ 504,00 e C R$ 680,00; equilíbrio C × A em ≈ R$ 18,19 e B × A em R$ 18,75 | Sim, identificada como fictícia |
+| 8 | Aprovação e limite dependem do emissor | Conhecimento geral; sem números | Sim |
+
+## Observações
+- Cada capítulo da Parte 3 retoma as fórmulas por referência, sem repeti-las, como pediu a revisão.
+- Estrutura do índice atualizada (ver `02-cartoes-e-pontos-indice.md`).
