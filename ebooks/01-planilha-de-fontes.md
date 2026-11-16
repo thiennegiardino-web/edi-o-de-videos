@@ -47,7 +47,7 @@ Consulta em 12/11/2026. Os sites oficiais dos programas não puderam ser abertos
 | 6 | Contas sem acúmulo/resgate por mais de 36 meses podem ser canceladas, pontos cancelados, aviso com 90 dias de antecedência pelos contatos informados | cl. 3.6 | CONFERIDO |
 | 6 | Conta mostra saldo, extrato e pontos a vencer | cl. 1.8 | CONFERIDO |
 | 7 | Livelo prevê pontos por campanhas de incentivo com condições definidas por quem as oferece | cl. 4.3.1, 4.3.11 | CONFERIDO |
-| 7 | Prazo de crédito: demais parceiros até 60 dias corridos; Bradesco 5 dias úteis; BB 10 dias úteis (parceiros podem ter prazo próprio) | cl. 4.3.4 | VERIFICAÇÃO INCOMPLETA. A fonte diz "até 60 dias corridos" para demais parceiros e que o prazo específico do parceiro prevalece. A correspondência das notas de rodapé (1), (2), (3) com o início da contagem não foi confirmada, e a interpretação "comunicação do acúmulo + cumprimento dos requisitos" foi RETIRADA do texto. Pronto para publicação só: 60 dias corridos (demais parceiros) e prevalência do prazo do parceiro |
+| 7 | Prazo de crédito: demais parceiros até 60 dias corridos; Bradesco 5 dias úteis; BB 10 dias úteis (parceiros podem ter prazo próprio) | cl. 4.3.4 | CONFERIDO em 16/11/2026 no HTML da cláusula: a nota (1) vale para as linhas Bradesco e BB (comunicação do parceiro); para "demais parceiros" valem (2) "após o preenchimento dos requisitos para o acúmulo" e (3) "prazo específico do parceiro prevalece". A interpretação anterior (comunicação + requisitos) estava ERRADA e foi substituída. Texto atualizado. Pronto, com reconfirmação de data |
 | 7 | Reclamação por pontos não creditados: até 30 dias corridos após o prazo final de crédito | cl. 4.3.8 | CONFERIDO |
 | 7 | Livelo pode pedir comprovantes (CPF, nome do parceiro, data, número do pedido etc.) | cl. 4.3.6 | CONFERIDO |
 | 7, 9 | Pontos não têm valor monetário nem conversão em dinheiro | cl. 4.1.3 | SUBSTITUÍDO — NÃO USAR. A fonte (regulamento geral, cl. 4.1.3) diz isso, mas a Livelo oferece o serviço "Pontos Viram Dinheiro". O texto agora diz que pontos não são dinheiro, não têm cotação fixa garantida e que alguns programas oferecem resgates em dinheiro ou descontos sob condições |
@@ -85,7 +85,7 @@ Consulta em 12/11/2026. Os sites oficiais dos programas não puderam ser abertos
 | 10 | Livelo: campanhas da Livelo, 24 meses do lançamento ou conforme a regra da ação | cl. 4.2.2 | CONFERIDO |
 | 10 | Livelo: Pontos+Dinheiro, validade imediata, só para o resgate atrelado | cl. 4.2.3 | CONFERIDO |
 | 10 | Livelo: Clube e Conveniências seguem regras próprias | cl. 4.2.4 | CONFERIDO |
-| 10 | Livelo: vencimento às 23h59 de Brasília; sem prorrogação; pontos vencidos não reembolsados | cl. 4.5.1 e 4.3.10 | VERIFICAÇÃO INCOMPLETA: reler o contexto da cl. 4.3.10. O texto agora distingue "sem período de prorrogação" de serviço opcional de renovação (a cl. 1.9 cita "Renovação de Pontos" como Conveniência; condições não lidas) e marca [A CONFIRMAR] |
+| 10 | Livelo: vencimento às 23h59 de Brasília; sem prorrogação; pontos vencidos não reembolsados | cl. 4.5.1 e 4.3.10 | SUBSTITUÍDO — NÃO USAR a afirmação "não há prorrogação / pontos vencidos não são reembolsados" como regra do vencimento comum. Lido em 16/11/2026: a cl. 4.3.10 e a 4.5.2 ("não existindo período de prorrogação") valem para as hipóteses de cancelamento e extinção; para o vencimento (4.5.1 a), a cl. 4.5.2 prevê a Conveniência "Renovação de Pontos", quando elegível. Texto reescrito: 23h59 de Brasília (cl. 4.5.1), existência da Renovação (cl. 4.5.2) e ausência de indenização na extinção. Pronto, com reconfirmação de data |
 | 10 | Smiles: milhas compradas, transferidas entre contas e reativadas valem 12 meses | Página www.smiles.com.br/juntar-e-usar-milhas, 12/11/2026 | DIVERGENTE entre páginas oficiais. Compradas (12 meses) e reativadas (12 meses): confirmadas também na página de validade, 16/11/2026. Transferidas entre contas Smiles: 12 meses (página "juntar e usar milhas") × 6 meses (página de validade). Sem uso no texto até resolver |
 | 10 | Smiles: planos do Clube com milhas válidas por 10 anos ou sem expiração, conforme o plano | mesma página | CONFERIDO na página; sem nomes de planos no texto por serem voláteis |
 | 10 | Smiles: consulta "tem milhas a expirar", serviços Estender e Reativar; reativar custa e varia com a promoção | mesma página | CONFERIDO |
@@ -116,7 +116,7 @@ Regras de resgates de viagens feitos no Site Livelo. Usadas no texto apenas como
 | 14 | Hotéis e companhias podem cobrar taxas, impostos e suplementos não incluídos no resgate, pagos direto ao hotel/companhia | 6.9.16 | CONFERIDO |
 | 14, 15 | Confirmação da reserva por e-mail; reenvio se não receber em 12 horas | 6.9.2 | CONFERIDO |
 | 14, 15 | E-tickets: reenvio se não recebidos até 48 horas antes do embarque | 6.9.3 | CONFERIDO |
-| 14, 15 | Após a confirmação, cancelamento pelo participante não permitido e pontos não restituídos, salvo direito de arrependimento (7 dias corridos após o resgate) ou casos do item 6.9.4 | 6.9.6 e 6.9.4 | VERIFICAÇÃO INCOMPLETA: reler as cl. 6.9.6 e 6.9.4 na íntegra. A fonte diz isso; o texto resume as exceções |
+| 14, 15 | Após a confirmação, cancelamento pelo participante não permitido e pontos não restituídos, salvo direito de arrependimento (7 dias corridos após o resgate) ou casos do item 6.9.4 | 6.9.6 e 6.9.4 | CONFERIDO: cl. 6.9.4 e 6.9.6 lidas na íntegra em 16/11/2026. Pronto como exemplo datado da Livelo |
 | 14 | Arrependimento exercido com antecedência mínima de 48 horas do embarque, check-in ou retirada do carro | 6.9.6.1 | CONFERIDO |
 | 14 | Sem arrependimento em serviços descritos como "tarifa não reembolsável" | 6.9.6.2 | A fonte diz isso, mas NÃO PRONTA como conclusão geral. Reescrita como condição comercial do regulamento da Livelo, separada dos direitos do passageiro (ANAC) |
 | 14, 15 | No-show: bilhete não alterado nem reembolsado; volta cancelada automaticamente, com exceção prevista | 6.9.7 | CONFERIDO na fonte. Exceção agora explicada no texto: informar, até o horário originalmente contratado do trecho de ida do voo doméstico, que deseja usar a volta |
@@ -138,40 +138,46 @@ Regras de resgates de viagens feitos no Site Livelo. Usadas no texto apenas como
 
 ---
 
-# Painel de status — 16/11/2026
+# Painel de status — 16/11/2026 (v5)
 
-**Legenda:** *A fonte diz isso* = li o texto na fonte. *Pronta para publicação* = a orientação, como está escrita, pode ir para o e-book depois de reconfirmar a data. As duas coisas são diferentes.
+**Duas perguntas diferentes:** (1) *A fonte diz isso?* (2) *Esta orientação está pronta para publicação?* A coluna "Tratamento" aplica a regra da revisão editorial: só bloqueia a publicação o que **está no texto final** e ainda não foi confirmado.
 
-## Revisão desta rodada
-- Parte 2: retirada a interpretação do início da contagem dos 60 dias (mantido: "Consulte o prazo aplicável à operação e o evento que inicia sua contagem"); corrigido "seis coisas" para "as perguntas da lista".
-- Parte 3: uma linha por lote; retiradas duas promessas sem evidência; esclarecido que saldos de programas diferentes não são necessariamente combináveis; distinção entre "sem prorrogação" e serviço de renovação.
-- Parte 4: checklist separa validade do saldo e validade do bilhete; condição do regulamento separada dos direitos do passageiro; exceção do no-show explicada; 48 horas apresentadas como limite máximo, não prazo para esperar; condições fictícias completas (alteração e cancelamento).
-- Partes 5 e 6 redigidas (rascunho).
-
-## Fontes lidas (a fonte diz isso)
-| Fonte | Data | O que foi lido | Pronta para publicação? |
+## A. Bloqueia a publicação (regra usada no texto final, ainda não confirmada)
+| Item | Onde no texto | Situação | Saída possível |
 |---|---|---|---|
-| Regulamento Livelo (www3.livelo.com.br/regulamentos/programa-pontos-livelo): cl. 1.9, 2.1, 2.5, 3.1, 3.2, 3.3, 3.4, 3.6, 4.1.3, 4.2.x, 4.3.x, 4.4.4, 4.5.1, 6.8.x, 6.9.x | 12/11/2026 | Texto das cláusulas | Cada uso segue a linha correspondente acima. Exemplos datados, com aviso de que valem só para a Livelo |
-| Livelo, página "Pontos Viram Dinheiro" (www.livelo.com.br/carteira/pontos-viram-dinheiro/institucional) | 12/11/2026 | Existência do serviço; condições NÃO lidas | Só a existência |
-| Esfera (www.esfera.com.vc/p/multi/e000100435) | 12/11/2026 | Campanha de 09 a 15/11/2026 | Só como regra de campanha, sem números |
-| Smiles, "juntar e usar milhas" (www.smiles.com.br/juntar-e-usar-milhas) | 12/11/2026 | Compra de milhas: a partir de 1.000, validade 12 meses, limite de 100.000 a cada 12 meses, cartão de crédito, até 10x sem juros, crédito em até 72 horas. Reativadas: 12 meses. Planos do Clube: 10 anos ou sem expiração | Como exemplo datado, com [A CONFIRMAR] na data da publicação |
-| Smiles, validade (www.smiles.com.br/portal/validade-de-milhas) | 16/11/2026 | Tabela por origem: voos GOL (6, 6, 8 e 20 anos por categoria); bônus de transferência de pontos do cartão (6 meses); compradas (12 meses); reativadas (12 meses); planos do Clube; bônus do diferencial por plano (6 meses) | Só as linhas escolhidas no cap. 10 e no cap. 16, como exemplo datado. Transferência entre contas: divergência, não usar |
+| ANAC: desistência sem custo em até 24 horas do recebimento do comprovante, com compra feita com no mínimo 7 dias de antecedência do voo | Cap. 14, quadro "Condições do programa e direitos do passageiro" | A página (www.gov.br/anac/pt-br/assuntos/passageiros/anac_passageiro/alteracoes-da-viagem-e-reembolso) abre com teste de verificação humana, nas nossas tentativas e na do revisor. Não lida na fonte | Ler a página e confirmar; ou retirar a regra do quadro |
+| ANAC: no-show em voo doméstico de ida e volta, mantendo a volta sem custo adicional se a intenção for comunicada à companhia até o horário originalmente previsto para a ida | Cap. 14 (quadro) e cap. 15 (item 5) | Idem | Idem |
 
-## Fontes NÃO lidas
-| Fonte | Motivo | Consequência no texto |
+## B. Reconfirmar na data da publicação (dados datados usados como exemplo; já lidos na fonte)
+| Fonte | Linhas usadas no texto | Data da leitura |
 |---|---|---|
-| ANAC, "Alterações da viagem e reembolso" (www.gov.br/anac/pt-br/assuntos/passageiros/anac_passageiro/alteracoes-da-viagem-e-reembolso) | A página abriu com um teste de verificação humana (captcha). Não contornei | As duas regras (desistência em 24 horas com 7 dias de antecedência; no-show em voo doméstico de ida e volta) estão no texto como transcrição da orientação indicada na revisão editorial, com [A CONFIRMAR]. NÃO prontas para publicação |
-| Azul (voeazul.com.br) e LATAM Pass (latampass.latam.com) | Sites responderam "Access Denied" (403) | Nenhuma regra desses programas no texto |
-| Itaú (pontuação por dólar em cartões LATAM Pass) | Site não liberado na rede da sessão | Pergunta genérica no cap. 8; página citada como [A CONFIRMAR] |
-| Regulamento do Clube Livelo | Não lido | Só consta que segue regulamento próprio; [A CONFIRMAR] |
-| Serviço "Pontos Viram Dinheiro", "Para um amigo" (Livelo) e "Transferir milhas entre contas" (Smiles) | Condições não lidas | Só a existência; [A CONFIRMAR] |
+| Regulamento Livelo (www3.livelo.com.br/regulamentos/programa-pontos-livelo) | cl. 1.9, 2.1, 2.5, 3.1 a 3.4, 3.6, 4.2.x, 4.3.4 (60 dias), 4.3.6, 4.3.8, 4.4.4, 4.5.1, 4.5.2, 6.8.x, 6.9.x | 12/11/2026 e 16/11/2026 |
+| Smiles, validade (www.smiles.com.br/portal/validade-de-milhas) | voos GOL por categoria; bônus de transferência de pontos do cartão (6 meses); compradas (12 meses); reativadas (12 meses); planos do Clube; bônus do diferencial por plano (6 meses) | 16/11/2026 |
+| Smiles, "juntar e usar milhas" (www.smiles.com.br/juntar-e-usar-milhas) | compra de milhas: a partir de 1.000, validade 12 meses, limite 100.000 a cada 12 meses, cartão de crédito, até 10x sem juros, crédito em até 72 horas | 12/11/2026 |
+| Esfera, campanha (https://www.esfera.com.vc/p/multi/e000100435) | Só o padrão "entrar pelo botão do parceiro e finalizar na mesma janela"; sem números | 12/11/2026 |
+| Livelo, "Pontos Viram Dinheiro" (www.livelo.com.br/carteira/pontos-viram-dinheiro/institucional) | Só a existência do serviço | 12/11/2026 |
 
-## Pendentes que bloqueiam a publicação
-1. ANAC: ler a página na data da publicação (ou retirar as duas regras).
-2. Smiles: divergência de validade nas milhas transferidas entre contas; reconferir cada linha usada.
-3. Livelo: reler cl. 4.3.4 (notas), 4.3.10, 6.9.4 e 6.9.6; condições de serviço de renovação de pontos; regulamento do Clube Livelo.
-4. Cap. 8: pontuação, programa de destino, prazo, anuidade e exclusões do emissor; página do Itaú.
-5. Cap. 6: requisitos de cadastro (Azul, LATAM Pass, Smiles).
-6. Parte 1, cap. 2: nome do programa da Azul e se a moeda é "pontos".
-7. Cap. 13: decidir entre manter a simulação identificada (recomendado pelo parecer) ou trocar por busca real datada.
-8. Todos os marcadores [A CONFIRMAR] devem ser resolvidos ou ter os respectivos trechos retirados.
+## C. Não bloqueia a publicação (sem afirmação sobre isso no texto final)
+- Azul e LATAM Pass: sites bloqueiam o acesso (403). O texto diz apenas que o e-book não traz as regras desses programas.
+- Dados específicos de emissores de cartão (inclui a página do Itaú): o cap. 8 traz só um roteiro de perguntas.
+- Regulamento do Clube Livelo: o texto só diz que a validade dos pontos do clube segue regras próprias (cl. 4.2.4, lida).
+- Condições de "Pontos Viram Dinheiro", "transferir para um amigo" (Livelo) e "transferir milhas entre contas" (Smiles): o texto só cita a existência e diz que as condições não são detalhadas.
+- Requisitos de cadastro e verificação em duas etapas por programa; procedimento de programas de varejo; milhas de voos realizados: texto genérico, com remissão ao site oficial.
+
+## D. Decisões encerradas
+- Simulação do cap. 13: **mantida**, identificada como fictícia. Marcador sobre trocá-la por busca real foi retirado.
+- Fórmula, exemplos e conclusão do cap. 17 corrigidos conforme a revisão.
+
+## E. Informações retiradas ou divergentes (histórico; não bloqueiam)
+- "Pontos não têm valor monetário / não podem ser convertidos em dinheiro" (Livelo cl. 4.1.3): SUBSTITUÍDO — NÃO USAR.
+- "Vedada transferência de pontos para contas de terceiros" (cl. 6.8.1): SUBSTITUÍDO — NÃO USAR (a cláusula trata de programas parceiros).
+- "Não há prorrogação / pontos vencidos não reembolsados" como regra do vencimento comum (cl. 4.3.10): SUBSTITUÍDO — NÃO USAR.
+- Smiles, milhas recebidas por transferência entre contas: 12 meses (página "juntar e usar") × 6 meses (página de validade). Linha retirada do texto.
+- Interpretação "comunicação do acúmulo + requisitos" para os 60 dias: ERRADA, substituída.
+
+## F. Para fazer na publicação (checklist editorial)
+1. Resolver o item A (ler a ANAC ou retirar as duas regras).
+2. Reconfirmar o item B, linha a linha, e registrar a data da consulta.
+3. Trocar, na seção "Fontes e atualização", "são verificadas" por "foram confirmadas" **somente** depois de concluídas as etapas 1 e 2.
+4. Inserir na seção "Fontes e atualização" a lista final de fontes (endereço e data), extraída desta planilha, e a data da revisão da edição.
+5. Conferir a diagramação das tabelas e dos checklists no PDF final.

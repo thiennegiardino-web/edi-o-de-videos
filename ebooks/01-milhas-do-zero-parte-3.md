@@ -33,7 +33,9 @@ Dentro de um mesmo programa, pontos que vieram de lugares diferentes podem ter v
 - Pontos de campanhas administradas pela Livelo: em geral **24 meses**, contados do lançamento na conta, **ou conforme a regra da própria campanha**.
 - Pontos acumulados por Pontos+Dinheiro: só valem para o resgate ligado àquela compra, com validade imediata.
 - Pontos do Clube Livelo e das Conveniências: seguem as regras próprias de cada um.
-- O vencimento ocorre às **23h59 (horário de Brasília)** da data definida no acúmulo. O regulamento diz que **não há período de prorrogação** para a perda de validade (ou seja, o prazo não é estendido automaticamente) e que pontos vencidos **não são reembolsados**. Isso é diferente de eventuais **serviços opcionais de renovação**, que o regulamento cita como uma das "Conveniências" do programa e que têm condições próprias. **[A CONFIRMAR: se esse serviço existe hoje, para quais pontos vale e quanto custa.]**
+- O vencimento ocorre às **23h59 (horário de Brasília)** da data de vencimento definida no momento do acúmulo.
+- Para os pontos que **vencem**, o regulamento prevê que o participante poderá, por meio da Conveniência **"Renovação de Pontos"**, reativar os pontos, **quando eles forem elegíveis conforme as regras dessa Conveniência**. Neste e-book não detalhamos essas regras: consulte-as no site da Livelo.
+- O regulamento também diz que, em caso de extinção dos pontos por qualquer motivo, **não é devida indenização ou reembolso**.
 
 **Smiles (página oficial de validade, www.smiles.com.br/portal/validade-de-milhas, consultada em 16/11/2026)**
 

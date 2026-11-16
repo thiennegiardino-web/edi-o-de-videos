@@ -18,8 +18,8 @@ Um plano simples, em quatro semanas. Ajuste ao seu tempo: o importante é **segu
 
 ### Semana 2 — Como acumular com os gastos que você já tem
 - [ ] Preencher o **mapa de acúmulo**: o que você já gasta, onde, e se o lugar tem programa (Capítulo 7).
-- [ ] Escolher **no máximo dois ou três** programas para focar.
-- [ ] Fazer as **primeiras compras** pelo caminho do programa, **comparando o preço final** com outras opções e conferindo o **meio de pagamento** aceito.
+- [ ] Como ponto de partida, considerar **concentrar o acompanhamento em poucos programas**. É uma sugestão de organização, não um limite.
+- [ ] **Se houver uma compra já planejada**, testar o procedimento pelo caminho do programa, **comparando o preço final** com outras opções e conferindo o **meio de pagamento** aceito. Não crie gastos novos só para pontuar.
 - [ ] Abrir o **controle de compras**: data, loja, nº do pedido, pontuação esperada, evento que inicia o prazo, data prevista e situação.
 - [ ] Se você tem cartão, **fazer as perguntas da lista** ao emissor (Capítulo 8), **sem gastar a mais para pontuar**.
 
@@ -123,7 +123,7 @@ Use este checklist para conferir se você cobriu o essencial. Cada item remete a
 
 **Tarifa não reembolsável:** tarifa que, pelas regras comerciais, não prevê reembolso. Não substitui direitos do passageiro previstos em norma. (Cap. 14)
 
-**Taxas de embarque:** custos cobrados em dinheiro em passagens, mesmo quando pagas com milhas. (Cap. 13)
+**Taxas de embarque:** valores cobrados pelo uso da infraestrutura aeroportuária, que podem estar incluídos no preço da passagem ou ser cobrados à parte, conforme a opção e o programa. (Cap. 13)
 
 **Transferência:** mover pontos ou milhas de um programa para outro, sujeita a regras próprias (cadastro prévio, mínimos, prazos). (Cap. 17)
 
@@ -165,7 +165,9 @@ Guarde os comprovantes, respeite os prazos de reclamação e use os canais ofici
 
 Este e-book usa, como exemplos, regras de programas e orientações oficiais consultadas nas datas indicadas no texto (principalmente 12/11/2026 e 16/11/2026). **Elas podem ter mudado.**
 
-**Como as informações foram verificadas:** cada informação sobre regras foi confirmada na fonte oficial responsável pela regra, com documentos complementares quando necessário, e registrada com **fonte, data da consulta e condições**. Nenhum processo garante a ausência de erros: por isso, **confirme sempre no site oficial antes de decidir**.
+**Como as informações são verificadas:** cada informação sobre regras deve ser confirmada na fonte oficial responsável pela regra, com documentos complementares quando necessário, e registrada com **fonte, data da consulta e condições**. Nenhum processo garante a ausência de erros: por isso, **confirme sempre no site oficial antes de decidir**.
+
+**[A CONFIRMAR na edição final: trocar "são verificadas" por "foram confirmadas" somente depois de concluída a conferência de todas as informações que permanecerem no texto.]**
 
 **O que este e-book não faz:** não substitui as regras oficiais de programas, bancos e companhias aéreas, e não é recomendação de crédito nem de investimento.
 

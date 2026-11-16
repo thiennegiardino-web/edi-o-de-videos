@@ -68,7 +68,7 @@ Os programas lançam campanhas de tempos em tempos. O regulamento da Livelo, por
 Alguns programas de companhias aéreas têm uma opção para solicitar milhas de voos que você já fez. **[A CONFIRMAR: se e como cada programa permite isso (Smiles exibe a opção "Solicitar milhas de voos realizados" no menu do site), prazo máximo para pedir e documentos exigidos, nos sites oficiais.]**
 
 **Quando os pontos entram?**
-O crédito pode não ser imediato. **Consulte o prazo aplicável à operação e o evento que inicia sua contagem.** O prazo depende do parceiro. No regulamento da Livelo (12/11/2026), por exemplo, para "demais parceiros" o prazo de crédito é de **até 60 dias corridos**, e, se o parceiro informar um prazo específico, **vale o prazo do parceiro**, seja menor ou maior. Anote a data da compra e olhe a conta depois.
+O crédito pode não ser imediato. **Consulte o prazo aplicável à operação e o evento que inicia sua contagem.** O prazo depende do parceiro. No regulamento da Livelo (12/11/2026), por exemplo, para "demais parceiros" o prazo de crédito é de **60 dias corridos, contados após o preenchimento dos requisitos exigidos para o acúmulo**, e, se o parceiro informar um prazo específico, **vale o prazo do parceiro**, seja menor ou maior. Já para alguns parceiros específicos, o regulamento prevê prazos menores, contados após a comunicação do acúmulo pelo parceiro. Anote a data da compra e olhe a conta depois.
 
 **Controle de compras.** Complementa a planilha de saldos do Capítulo 6:
 

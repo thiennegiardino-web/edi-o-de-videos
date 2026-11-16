@@ -11,7 +11,7 @@
 
 ## Capítulo 16 — Clubes de assinatura: quando fazem sentido e quando não
 
-**Clube de pontos ou de milhas** é um serviço pago, em geral mensal, em que você recebe uma quantidade de pontos ou milhas por período, e às vezes outros benefícios. É uma **assinatura**: você paga todo mês até cancelar.
+**Clube de pontos ou de milhas** é um serviço pago, em geral mensal, em que você recebe uma quantidade de pontos ou milhas por período, e às vezes outros benefícios. É uma **assinatura**. A cobrança e os compromissos de pagamento dependem do plano contratado.
 
 ### O que olhar antes de assinar
 1. **Quanto custa por mês** e **como é cobrado** (cartão, recorrência).
@@ -74,16 +74,18 @@ Alguns programas vendem pontos ou milhas. **Comprar é pagar por uma moeda cujo 
 ### 2. Transferência bonificada
 **Transferência** é mover pontos de um programa para outro (por exemplo, de um programa de bancos ou lojas para um de companhia aérea). **Bonificada** significa que, em determinadas promoções, o programa de destino **dá pontos extras** sobre o que você transfere. A promoção tem **regras próprias**, **prazo** e muitas vezes **limite**.
 
-**A conta, em três passos:**
+**A conta, em quatro passos:**
 1. **Quantos pontos eu transfiro?** (X)
 2. **Qual a conversão e o bônus?** Alguns programas convertem **1 para 1**; outros não. O bônus é um **percentual** sobre o valor transferido.
 3. **Quantas milhas chegam?** Milhas = X × conversão × (1 + bônus).
-4. **Qual o custo por milheiro?** (custo dos pontos de origem ÷ milhas recebidas ÷ 1.000)
+4. **Qual o custo por milheiro?**
+> **Custo por milheiro = custo total ÷ (milhas recebidas ÷ 1.000)**
+> No **custo total**, inclua o que pagou pelos pontos de origem e **eventuais taxas e gastos adicionais necessários para participar da oferta**.
 
 > **[Exemplo fictício]** Os pontos de origem custaram **R$ 600** para **20.000 pontos** (R$ 30 por milheiro). A conversão é **1 para 1**.
 > **Promoção com bônus de 30%:** 20.000 × 1,30 = **26.000 milhas**. Custo: R$ 600 ÷ 26 = **R$ 23,08 por milheiro**.
 > **Promoção com bônus de 100%:** 20.000 × 2 = **40.000 milhas**. Custo: R$ 600 ÷ 40 = **R$ 15,00 por milheiro**.
-> Se o resgate rende R$ 23,33 por milheiro (Capítulo 13), o bônus de 30% **mal compensa**, e o de 100% **compensa com folga**.
+> Neste exemplo, o bônus de 100% reduz o custo para R$ 15 por milheiro. A vantagem depende da alternativa em dinheiro, dos custos adicionais e da disponibilidade quando as milhas forem creditadas. No Capítulo 13, por exemplo, a alternativa em dinheiro mais barata rendia R$ 16,81 por milheiro: comprando a R$ 15, a diferença seria de apenas cerca de R$ 1,81 por milheiro, **antes de outros custos**. Com o bônus de 30% (R$ 23,08), o custo ficaria **acima** desse valor.
 
 ### Regras de transferência: leia antes de pedir
 O regulamento da Livelo (12/11/2026), na parte de transferência para programas parceiros, traz condições como estas (**regras da Livelo para essa operação, que não valem para outros programas**):
@@ -107,6 +109,9 @@ Alguns programas permitem **transferir ou presentear pontos e milhas para outras
 - [ ] Calculei o **custo por milheiro** com **todos os custos**.
 - [ ] Comparei com o **valor que obtenho no resgate**.
 - [ ] Li as **condições da promoção** (prazo, limite, quem pode participar).
+- [ ] Conferi se é necessário **cadastrar-se na promoção antes da transferência**.
+- [ ] Verifiquei **separadamente** os prazos de crédito **dos pontos** e **do bônus**.
+- [ ] Considerei que a **passagem encontrada pode mudar de preço ou deixar de estar disponível** durante a espera.
 - [ ] Conferi a **validade** das milhas que vou receber, inclusive do bônus.
 - [ ] Estou **cadastrado** no programa de destino, e os dados estão corretos.
 - [ ] Sei **quanto tempo** o crédito leva e vou **conferir a chegada**.

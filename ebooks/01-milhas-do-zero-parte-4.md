@@ -40,7 +40,6 @@ Mesmo com milhas, costumam existir **valores adicionais** (taxas, bagagem, servi
 
 > ### ⚠️ SIMULAÇÃO COM VALORES FICTÍCIOS
 > Os números, as regras e as opções abaixo **foram inventados** para ensinar o raciocínio. **Não são uma busca real**, não representam nenhum programa nem companhia e **não valem como referência de preço**. Na vida real, preços e disponibilidade mudam o tempo todo. Antes de usar, substitua pelos números que aparecem para você, **na data da sua busca**.
-> **[A CONFIRMAR antes da publicação: substituir esta simulação por uma busca real, com data, rota e programa, ou manter a simulação com o aviso.]**
 
 **Situação:** a Marina (nosso exemplo desde a Parte 1) quer viajar de **Campinas para Salvador**, **ida e volta**, com **2 pessoas**, daqui a 10 meses. Ela tem **72.000 milhas** em um programa fictício, com saldo disponível e válido para concluir o resgate.
 
@@ -54,7 +53,7 @@ Ela pesquisa as datas desejadas, para 2 passageiros, no site do programa e no si
 
 ### Passo 2 — Total de milhas e valores adicionais
 No resgate com milhas, a Marina ainda paga em dinheiro:
-- **Taxas de embarque e outros custos:** R$ 280 no total.
+- **Taxas de embarque:** R$ 280 no total (nesta simulação, esse valor é composto apenas por taxas de embarque; não há outros custos além da bagagem, que vem a seguir).
 
 ### Passo 3 — Bagagem
 Nas duas opções (dinheiro e milhas), a **bagagem despachada não está incluída**. Ela quer **1 mala por pessoa, em cada trecho**: 4 malas no total, a **R$ 90 cada = R$ 360**.
@@ -62,7 +61,7 @@ Nas duas opções (dinheiro e milhas), a **bagagem despachada não está incluí
 | | Dinheiro | Milhas |
 |---|---|---|
 | Passagens | R$ 1.960 | 72.000 milhas |
-| Taxas e custos | incluídos | R$ 280 |
+| Taxas de embarque | incluídas no preço | R$ 280 |
 | Bagagem (4 × R$ 90) | R$ 360 | R$ 360 |
 | **Pago em dinheiro** | **R$ 2.320** | **R$ 640** |
 
@@ -81,12 +80,12 @@ A Marina tem flexibilidade de datas. Procurando outras datas, ela acha a mesma v
 **O que isso mostra:** o resultado por milheiro **caiu** de R$ 23,33 para R$ 16,81 quando a Marina trocou a comparação por uma alternativa mais barata em dinheiro. O mesmo resgate parece mais ou menos vantajoso conforme **com o quê** você compara. Por isso o Capítulo 12 manda procurar a melhor alternativa em dinheiro.
 
 ### Passo 6 — Condições de alteração e cancelamento (simuladas)
-Neste exemplo **fictício**, as condições são estas (todas inventadas, para permitir a comparação):
+Neste exemplo **fictício**, as condições são estas (todas inventadas, para permitir a comparação). **Elas valem para a opção em dinheiro de R$ 1.960 e para o resgate de 72.000 milhas.** As condições da alternativa de R$ 1.490 (Passo 5) **não foram definidas** nesta simulação.
 
 | | Dinheiro | Milhas |
 |---|---|---|
 | **Alteração** (2 pessoas) | Taxa de R$ 150 por pessoa, **R$ 300 no total**, mais a diferença de tarifa, se houver | Taxa de R$ 100 por pessoa, **R$ 200 no total, paga em dinheiro**. Se a nova data pedir **mais milhas**, paga-se a **diferença em milhas**; se pedir menos, **não há devolução** da diferença |
-| **Cancelamento antes do embarque** | Devolução de **80% do valor das passagens**: R$ 1.568 de R$ 1.960. Valor devolvido **em dinheiro**, em até 30 dias | Devolução de **100% das 72.000 milhas**, mais as **taxas de embarque (R$ 280)**, devolvidas integralmente. Taxa de cancelamento de R$ 150 por pessoa, **R$ 300 no total, paga em dinheiro** |
+| **Cancelamento antes do embarque** | Devolução de **80% do valor das passagens**: R$ 1.568 de R$ 1.960. Valor devolvido **em dinheiro** | Devolução de **100% das 72.000 milhas**, mais as **taxas de embarque (R$ 280)**, devolvidas integralmente. Taxa de cancelamento de R$ 150 por pessoa, **R$ 300 no total, paga em dinheiro** |
 | **Bagagem não usada** | Devolvida, se o cancelamento ocorrer antes do check-in | Devolvida, se o cancelamento ocorrer antes do check-in |
 
 **Leitura rápida do cancelamento (fictício):**
@@ -134,7 +133,8 @@ Para mostrar **como essas condições costumam aparecer**, veja alguns trechos d
 
 - Alguns hotéis e companhias aéreas cobram **taxas de serviço, impostos ou suplementos que não estão incluídos no resgate**, pagos diretamente à companhia ou ao hotel.
 - A **confirmação da reserva** é enviada ao e-mail cadastrado; se não chegar em **12 horas**, o participante pode pedir o reenvio.
-- Os **e-tickets** são emitidos pelo parceiro. O regulamento prevê que, se não chegarem até **48 horas antes do embarque**, pode-se pedir o reenvio. **Isso é um limite máximo, não um prazo para esperar:** acompanhe a emissão logo após o resgate e procure atendimento assim que o prazo informado passar.
+- Os **e-tickets** são emitidos pelo parceiro. O regulamento prevê que, se o participante não os receber até **48 horas antes do embarque**, pode solicitar o reenvio à Central de Relacionamento Livelo.
+- **Recomendação deste e-book (não é do regulamento):** acompanhe a emissão **logo após o resgate** e procure o atendimento oficial assim que o prazo informado passar, sem esperar chegar perto da viagem.
 - Após a confirmação do resgate, **o regulamento não permite o cancelamento pelo participante**, e os pontos não são restituídos, **salvo** nas exceções que ele próprio prevê, como o **direito de arrependimento** do regulamento (até 7 dias corridos após o resgate, exercido com antecedência mínima de **48 horas** do embarque) e casos específicos como falecimento ou doenças infectocontagiosas, com comprovação.
 - O regulamento da Livelo diz que **esse direito de arrependimento do regulamento não é garantido em serviços descritos como "tarifa não reembolsável"** no momento do resgate. **É uma condição comercial do programa**, e ela **não substitui os direitos do passageiro previstos em norma** (veja o quadro abaixo).
 - **No-show** (não comparecer ao voo): o bilhete não pode ser alterado nem reembolsado, e **o trecho de volta é cancelado automaticamente**, **exceto** se o participante **informar, até o horário originalmente contratado para o trecho de ida do voo doméstico, que deseja utilizar o trecho de volta**.
@@ -169,7 +169,7 @@ Mesmo com tudo certo, imprevistos acontecem. Saber o que fazer reduz o prejuízo
 Veja primeiro **quanto tempo falta para o embarque** e **quem faz a correção** (o programa ou a companhia). No exemplo da Livelo, a correção de erro de preenchimento precisa ser pedida com **72 horas de antecedência do check-in**; depois, o pedido é feito direto à companhia. **Confirme a regra do seu programa e da sua companhia.**
 
 ### 3. A confirmação ou o bilhete não chegou
-Confira o e-mail cadastrado (inclusive spam). Se não chegar no prazo informado, **peça o reenvio pelos canais oficiais**. No exemplo da Livelo, os prazos de reenvio são **12 horas** para a confirmação da reserva e **48 horas antes do embarque** para os e-tickets. **Não espere até perto da viagem para descobrir que o bilhete não foi emitido:** acompanhe a emissão logo após o resgate e procure atendimento assim que o prazo informado passar.
+Confira o e-mail cadastrado (inclusive spam). Se não chegar no prazo informado, **peça o reenvio pelos canais oficiais**. No exemplo da Livelo, os prazos de reenvio são **12 horas** para a confirmação da reserva e **48 horas antes do embarque** para os e-tickets. **Recomendação deste e-book:** não espere até perto da viagem para descobrir que o bilhete não foi emitido. Acompanhe a emissão logo após o resgate e procure atendimento assim que o prazo informado passar.
 
 ### 4. O pedido foi rejeitado
 No exemplo da Livelo, se o pedido não for processado pelo parceiro, os pontos são **devolvidos automaticamente**, em até **60 dias** (e até 90 dias em operações com Pontos+Dinheiro), com a **validade original**. Fique atento a esse prazo e ao **vencimento** do lote.
