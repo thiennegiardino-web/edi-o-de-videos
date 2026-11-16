@@ -95,3 +95,39 @@ Consulta em 12/11/2026. Os sites oficiais dos programas não puderam ser abertos
 4. Livelo: regras de extensão de validade, se existirem ("Renovação de Pontos" aparece como Conveniência no regulamento, condições não lidas).
 5. Releitura da nota (1)(2)(3) da cláusula 4.3.4 (Parte 2) e do contexto da cláusula 4.3.10.
 6. Regras de transferência dos programas de destino citados na Parte 5.
+
+---
+
+# Revisão da Parte 3 (parecer do Codex, 16/11/2026) e Parte 4 (rascunho)
+
+## Ajustes da Parte 3
+- Cap. 10: tabela que separa vencimento dos pontos, encerramento da conta por inatividade e extensão/reativação.
+- Cap. 10: lembretes de 90, 60 e 30 dias apresentados como sugestão de organização, não como prazos oficiais.
+- Cap. 10: extensão/reativação comparada com um uso concreto e disponível; aviso de que pagar sem perspectiva de uso pode gerar outra perda; exemplo fictício (Rafael).
+- Cap. 10: Smiles em tabela por ORIGEM das milhas. Cada regra vale só para a origem indicada (compradas 12 meses; recebidas por transferência entre contas Smiles 12 meses; reativadas 12 meses; planos do Clube, 10 anos ou sem expiração conforme o plano). Sem afirmação sobre milhas de outras origens (voos, parceiros, cartões): PENDENTE. Fonte: www.smiles.com.br/juntar-e-usar-milhas, 12/11/2026. Nota: a validade das milhas compradas vem do trecho sobre compra de milhas; a das transferidas, do trecho sobre transferência entre contas; a das reativadas, do trecho sobre reativação.
+
+## Parte 4 — itens verificados (regulamento Livelo, cláusula 6.9 "Viagens", lido em 12/11/2026)
+Regras de resgates de viagens feitos no Site Livelo. Usadas no texto apenas como EXEMPLO de como as condições aparecem; o texto avisa que não valem para outros programas.
+| Cap. | Afirmação no texto | Cláusula | Status |
+|---|---|---|---|
+| 14 | Hotéis e companhias podem cobrar taxas, impostos e suplementos não incluídos no resgate, pagos direto ao hotel/companhia | 6.9.16 | CONFERIDO |
+| 14, 15 | Confirmação da reserva por e-mail; reenvio se não receber em 12 horas | 6.9.2 | CONFERIDO |
+| 14, 15 | E-tickets: reenvio se não recebidos até 48 horas antes do embarque | 6.9.3 | CONFERIDO |
+| 14, 15 | Após a confirmação, cancelamento pelo participante não permitido e pontos não restituídos, salvo direito de arrependimento (7 dias corridos após o resgate) ou casos do item 6.9.4 | 6.9.6 e 6.9.4 | CONFERIDO. Os casos do 6.9.4 (falecimento, doenças infectocontagiosas, com laudo) aparecem resumidos no texto; reler a cláusula na íntegra antes de publicar |
+| 14 | Arrependimento exercido com antecedência mínima de 48 horas do embarque, check-in ou retirada do carro | 6.9.6.1 | CONFERIDO |
+| 14 | Sem arrependimento em serviços descritos como "tarifa não reembolsável" | 6.9.6.2 | CONFERIDO |
+| 14, 15 | No-show: bilhete não alterado nem reembolsado; volta cancelada automaticamente, com exceção prevista | 6.9.7 | CONFERIDO (exceção citada só como "prevista") |
+| 14, 15 | Correção de nome (erro de preenchimento): pedir à Livelo com pelo menos 72 horas do check-in; depois, direto à companhia no check-in | 6.9.14 | CONFERIDO |
+| 15 | Pedido não processado pelo parceiro: pontos devolvidos em até 60 dias (90 em Pontos+Dinheiro), com validade original | 6.9.22 | CONFERIDO |
+| 14 | Seguir os termos e condições específicos exibidos no site no momento da escolha | 6.9.23 | CONFERIDO |
+
+## Parte 4 — conteúdo sem fonte externa
+- Cap. 13: SIMULAÇÃO com valores inventados, identificada no texto. Aritmética conferida duas vezes: (2.320 − 640) ÷ 72 = 23,33; (1.490 − 280) ÷ 72 = 16,81; 4 × 90 = 360; 2 × 36.000 = 72.000; 2 × 980 = 1.960; 2 × 745 = 1.490.
+- Cap. 12: critérios de decisão são método próprio, sem dado externo.
+
+## Parte 4 — PENDENTES (o que exatamente confirmar)
+1. Cap. 13: decidir entre manter a simulação com aviso ou substituí-la por uma busca real com data, rota e programa (precisa de acesso ao site de reservas e fica sujeita a mudança de preço e disponibilidade).
+2. Cap. 14: regras de nome do passageiro e de correção em cada programa e companhia citados na versão final.
+3. Cap. 14: regras de resgate, alteração, cancelamento e bagagem de cada programa citado (Smiles, LATAM Pass, Azul) nos sites oficiais. Azul e LATAM Pass bloquearam o acesso; não foram incluídos.
+4. Cap. 15, item 6: orientações oficiais de cada companhia sobre voo cancelado, atrasado ou alterado.
+5. Reler a cláusula 6.9.6 e 6.9.4 na íntegra e confirmar o resumo das exceções.

@@ -11,6 +11,16 @@
 
 **Validade** é a data até a qual você pode usar seus pontos ou milhas. Depois dela, o saldo **vence** e normalmente deixa de existir. Acompanhar isso é uma das tarefas mais importantes de quem acumula.
 
+**Três coisas diferentes, que não devem ser confundidas:**
+
+| | O que é | Exemplo de pergunta que você deve fazer |
+|---|---|---|
+| **Vencimento dos pontos** | Cada lote de pontos tem sua data de validade. Passada a data, aquele lote vence. | "Quais lotes vencem e quando?" |
+| **Encerramento da conta por inatividade** | O programa pode encerrar a conta que fica muito tempo sem movimentação, e os pontos podem ser cancelados junto (Capítulo 6). | "Quanto tempo de inatividade o programa admite e o que conta como movimentação?" |
+| **Extensão ou reativação** | Serviços, em geral pagos, que ampliam o prazo de pontos a vencer (extensão) ou recuperam pontos já vencidos (reativação). | "Quanto custa, para qual saldo vale e por quanto tempo?" |
+
+Uma conta pode estar ativa e mesmo assim ter lotes vencendo, e um lote pode estar dentro do prazo numa conta que corre risco de encerramento por inatividade. Acompanhe os três.
+
 **A regra mais importante: a validade depende do programa e da origem do saldo.**
 Dentro de um mesmo programa, pontos que vieram de lugares diferentes podem ter validades diferentes. Cada grupo de pontos com a mesma data de vencimento costuma ser chamado de **lote**. Por isso, olhar só o saldo total não basta: **olhe o que vence e quando**.
 
@@ -25,33 +35,41 @@ Dentro de um mesmo programa, pontos que vieram de lugares diferentes podem ter v
 - Pontos do Clube Livelo e das Conveniências: seguem as regras próprias de cada um.
 - O vencimento ocorre às **23h59 (horário de Brasília)** da data definida no acúmulo. O regulamento diz que **não há prorrogação** e que pontos vencidos **não são reembolsados**.
 
-**Smiles (página oficial de milhas)**
-- Milhas **compradas**: válidas por 12 meses.
-- Milhas **recebidas por transferência entre contas Smiles**: validade de 12 meses.
-- Milhas **reativadas**: validade de 12 meses.
-- Planos do Clube Smiles: a página informa que alguns planos dão milhas válidas por **10 anos** e outros dão milhas que **não expiram**, conforme o plano.
+**Smiles (página oficial de milhas, www.smiles.com.br, consultada em 12/11/2026)**
+
+Cada regra abaixo vale **apenas para a origem das milhas indicada**. Não generalize a validade de uma modalidade para as demais.
+
+| Origem das milhas | Validade informada na página |
+|---|---|
+| Milhas **compradas** no site ou app | 12 meses |
+| Milhas **recebidas por transferência entre contas Smiles** | 12 meses |
+| Milhas **reativadas** (milhas que venceram nos últimos 12 meses e foram recuperadas) | 12 meses |
+| Milhas dos **planos do Clube Smiles** | Conforme o plano: alguns planos dão milhas válidas por **10 anos** e outros dão milhas que **não expiram** |
+
 - A página oferece a consulta "tem milhas a expirar" e os serviços **Estender milhas** e **Reativar milhas**.
-- **[A CONFIRMAR: validade das milhas acumuladas por voos e por outras formas na Smiles, que a página consultada não informa; e as condições dos planos do Clube, que mudam.]**
+- **A página consultada não informa a validade das milhas de outras origens**, como milhas acumuladas em voos, por parceiros ou por cartões. Por isso, **não afirmamos nada sobre elas**.
+- **[A CONFIRMAR: validade das milhas de outras origens e condições atuais de cada plano do Clube, que mudam.]**
 
 **LATAM Pass e Azul**
 - **[A CONFIRMAR: validade, categorias e condições especiais, nos sites oficiais. Os sites bloquearam o acesso automático e as fontes de terceiros se contradizem. Por isso, nenhuma regra desses programas aparece aqui.]**
 
 ### Estender ou reativar: vale a pena?
-Alguns programas permitem **estender a validade** ou **reativar** milhas vencidas, geralmente pagando. Na página da Smiles, por exemplo, o preço varia conforme a promoção e é calculado pelo valor das milhas mais as milhas bônus da oferta. Antes de pagar:
-1. Descubra **quanto custa** e **por quanto tempo** o prazo será ampliado.
-2. Compare com o **valor que você tira desse saldo**, usando o método do Capítulo 4.
-3. Confira as **condições**: limite mínimo, quantidade máxima, prazo para pedir.
+Alguns programas permitem **estender a validade** ou **reativar** milhas vencidas, geralmente pagando. Na página da Smiles, por exemplo, o preço da reativação varia conforme a promoção e é calculado pelo valor das milhas mais as milhas bônus da oferta, e as milhas reativadas têm validade de 12 meses. Antes de pagar:
+1. Descubra **quanto custa**, **para quais milhas vale** e **por quanto tempo** o prazo será ampliado.
+2. Escolha **um uso concreto e disponível** para esse saldo: uma viagem com data, uma passagem que você já encontrou ou outro resgate real. Calcule o valor que você obteria com o método do Capítulo 4.
+3. **Compare o custo da extensão ou da reativação com esse uso.** Se o custo for maior do que o valor que você obteria, ou se você **não tem uma perspectiva de uso** antes do novo vencimento, pagar pode gerar **outra perda**: você gasta dinheiro para manter um saldo que pode vencer de novo.
+4. Confira as **condições**: limite mínimo, quantidade máxima, prazo para pedir.
 
-Se o custo for maior do que o valor que você obteria com o saldo, pode ser melhor usar o saldo antes de vencer ou aceitar a perda.
+> **[Exemplo fictício]** O Rafael tem 10.000 milhas vencidas. A reativação custaria R$ 300, e as milhas reativadas valeriam por 12 meses. Ele não tem viagem planejada nesse período e não achou nenhuma passagem em que as usaria. Pagar R$ 300 sem uso à vista significaria arriscar perder as milhas de novo, então ele decidiu **não reativar**. Se tivesse uma passagem concreta e a conta mostrasse economia maior do que os R$ 300, a decisão poderia ser outra.
 
 ### Como acompanhar na prática
 Complete a planilha do Capítulo 6 com uma coluna para **cada lote** e sua data de vencimento. Depois:
 1. **Pontos a vencer:** consulte a seção de saldo e extrato da conta, que costuma mostrar o que vence.
-2. **Lembretes:** crie avisos no calendário **90, 60 e 30 dias antes** de cada vencimento relevante.
+2. **Lembretes (sugestão de organização, não são prazos oficiais):** crie avisos no calendário, por exemplo, **90, 60 e 30 dias antes** de cada vencimento relevante. Esses intervalos são uma sugestão nossa para você ter tempo de decidir; o prazo que vale é sempre o do programa.
 3. **Plano de uso:** decida, para cada lote próximo do vencimento, se vai **usar**, **estender**, **reativar** ou **deixar vencer**, sempre fazendo a conta.
 4. **Avisos do programa:** mantenha seu contato atualizado (Capítulo 6), mas não dependa só deles.
 
-> **[Exemplo fictício]** A Marina tem dois lotes na conta de um programa: um com 8.000 pontos vencendo em 4 meses e outro com 12.000 vencendo em 18 meses. Ela marcou lembretes de 90, 60 e 30 dias para o primeiro e decidiu usá-lo em uma compra planejada antes do vencimento. Para o segundo, não precisa fazer nada ainda, mas ele está no calendário.
+> **[Exemplo fictício]** A Marina tem dois lotes na conta de um programa: um com 8.000 pontos vencendo em 4 meses e outro com 12.000 vencendo em 18 meses. Ela marcou lembretes (de 90, 60 e 30 dias, uma sugestão dela) para o primeiro e decidiu usá-lo em uma compra planejada antes do vencimento. Para o segundo, não precisa fazer nada ainda, mas ele está no calendário.
 
 **Tarefa:** para cada programa da sua planilha, descubra a regra de validade **no site oficial** e anote: de onde vêm os pontos, quando vencem e se há extensão ou reativação.
 
@@ -100,7 +118,9 @@ Já falamos disso na Parte 2: **não compartilhe senhas ou códigos**.
 
 ### Para fixar a Parte 3
 - A validade depende do programa **e da origem do saldo**: olhe os lotes.
-- Estender ou reativar custa: **faça a conta** antes.
+- Não confunda **vencimento dos pontos**, **encerramento da conta por inatividade** e **extensão ou reativação**.
+- Estender ou reativar custa: compare com um **uso concreto e disponível** antes; sem perspectiva de uso, pagar pode gerar outra perda.
+- Cada regra vale para a **origem** das milhas a que se refere: não generalize.
 - Confirme as regras no site oficial e registre a data.
 - Guarde comprovantes e respeite os prazos de reclamação.
 - Um checklist mensal de 15 minutos evita a maior parte das perdas.
