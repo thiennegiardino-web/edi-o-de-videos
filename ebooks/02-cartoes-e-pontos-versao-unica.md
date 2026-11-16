@@ -230,6 +230,7 @@ Em vez de dividir os cartões em "categorias" que se misturam, vamos olhar **qua
 > **Custo anual = anuidade do ano + tarifas e outros custos do ano**
 
 > **[Exemplo fictício]** Três cartões, com valores **inventados**:
+>
 > - **Cartão A:** sem anuidade. Custo anual de anuidade: **R$ 0**.
 > - **Cartão B:** anuidade fixa de **R$ 480 por ano**.
 > - **Cartão C:** anuidade de **R$ 960 por ano, isenta se o gasto no cartão for de R$ 4.000 por mês ou mais** (condição inventada).
@@ -264,11 +265,13 @@ Para comparar formas diferentes, use o **retorno por real gasto**. Primeiro, cal
 O **valor estimado do milheiro** é uma **estimativa sua**, baseada no uso que você realmente fará dos pontos (Capítulo 2).
 
 > **[Exemplo fictício]** Dois cartões, com valores **inventados**:
+>
 > - **Cartão A:** **cashback de 1%**, sem anuidade.
 > - **Cartão B:** **1,2 ponto por real**, anuidade de **R$ 480 por ano**. O Rafael estima o uso dos pontos em **R$ 18 por milheiro**.
 > **Retorno de B:** 1,2 × 18 ÷ 1.000 = R$ 0,0216 por real; × 100 = **2,16%**.
 > Em R$ 1.000 gastos: A devolve **R$ 10**; B devolve **R$ 21,60**.
 > Com **R$ 24.000 por ano** de gastos:
+>
 > - **A:** 24 × R$ 10 = **R$ 240**, sem anuidade. Resultado: **R$ 240**.
 > - **B:** 24 × R$ 21,60 = R$ 518,40, menos R$ 480 de anuidade. Resultado: **R$ 38,40**.
 > Neste exemplo, **o cartão com maior retorno por real (B) rende menos** do que o cashback (A), por causa da anuidade.
@@ -439,11 +442,13 @@ Para cada opção, aplique:
 > **Perfil da Marina (fictícia):** gasta **R$ 3.000 por mês** no cartão e paga a fatura integralmente. Desse valor, **R$ 600** são contas que **não pontuam** em nenhuma opção. **Gasto elegível: R$ 2.400 por mês, ou R$ 28.800 por ano.** Ela viaja de avião **duas vezes por ano** e aceita acompanhar regras. **A Marina considera R$ 18 por milheiro uma hipótese de comparação, mas ainda não identificou um resgate concreto que sustente essa estimativa. Por isso, não conta com esse retorno como benefício garantido.**
 >
 > **Premissas da simulação:**
+>
 > - Os **R$ 600 mensais excluídos não geram pontos nem cashback** em nenhuma das três opções.
 > - **Não há outros custos, limites ou bônus promocionais.**
 > - O **valor por milheiro é comparável entre B e C**, já considerando eventual conversão e os custos para usar os pontos. Sem essa condição, dois programas podem produzir valores diferentes por milheiro.
 >
 > **Opções (todas fictícias):**
+>
 > - **A:** cashback de **1%**, **sem anuidade**. Benefícios que ela usaria: nenhum.
 > - **B:** **1,2 ponto por real**, anuidade de **R$ 480**. Pontos **com opção de transferência**. Benefício que ela usaria: **seguro viagem**, que ela **pagaria R$ 120 por ano** para ter. **Só se atribui valor ao seguro porque ele substituiria uma contratação que ela faria, com cobertura adequada, e ela não tem esse benefício por outro meio.**
 > - **C:** **2 pontos por real**, anuidade de **R$ 960, isenta se o gasto for de R$ 4.000 por mês ou mais**. Ela **não cumpre** essa condição, então pagaria R$ 960. Benefício que ela usaria: **acesso a sala VIP duas vezes por ano**, que ela **pagaria R$ 100 por acesso, ou R$ 200 por ano**.
@@ -468,11 +473,13 @@ Para cada opção, aplique:
 > | R$ 25 | R$ 288,00 | R$ 504,00 | R$ 680,00 |
 >
 > **O que isso mostra:**
+>
 > - Com o milheiro em **R$ 18**, as três opções ficam **muito próximas** (de R$ 262 a R$ 288 por ano). A diferença é pequena diante da incerteza das estimativas.
 > - O cashback (A) **não depende da estimativa do valor do milheiro**. Cada opção de pontos tem o **seu próprio limite**: **C empata com A em aproximadamente R$ 18,19 por milheiro**, e **B empata com A em aproximadamente R$ 18,75**. Abaixo do limite de cada uma, A rende mais do que ela; acima, ela passa à frente.
 > - Com o milheiro em **R$ 25**, B (R$ 504) e C (R$ 680) ficam acima de A (R$ 288), mas **só se ela usar os pontos nesse valor**.
 >
 > **Outros pontos que os números não mostram:**
+>
 > - A Marina **tem um resgate concreto** para os pontos? Se não, tanto os R$ 18 quanto os R$ 25 são **apenas hipóteses**.
 > - **B tem pontos transferíveis**; ela precisa saber se compensa comparar com **resgates diretos** (Capítulo 6).
 > - Ela **aceita** acompanhar prazos e validade? Mais pontos **exigem mais atenção**.
@@ -483,6 +490,7 @@ Para cada opção, aplique:
 Feita a comparação, **escolha e justifique**. Uma decisão boa **explica o porquê**, com números, e **diz o que a mudaria**.
 
 > **[Exemplo fictício]** A Marina escolheu o **cartão A (cashback, sem anuidade)**.
+>
 > - **Por quê:** (1) com a **hipótese** de R$ 18 por milheiro, as três opções ficam muito próximas, e **a diferença não justifica a complexidade**; (2) o cashback **não depende da estimativa do valor do milheiro** (o resultado anual dele ainda depende dos gastos elegíveis e das condições do cartão); (3) ela **não tem hoje um resgate concreto** para usar os pontos.
 > - **O que a faria mudar de ideia:** identificar **um resgate concreto** que sustente um valor por milheiro **acima de cerca de R$ 18,19 (para C) ou de R$ 18,75 (para B)**; ou o emissor oferecer **isenção de anuidade** que ela cumpra sem gasto adicional.
 > - **O que ela confirma com o emissor antes de contratar:** critérios de aprovação, forma de recebimento do cashback e **limites ou exclusões**.
@@ -545,7 +553,7 @@ Monte uma planilha simples, com uma linha por fatura. Ela é o seu painel.
 
 Para calcular os **pontos esperados**, use a taxa de pontuação do seu cartão e as exclusões (Capítulo 2).
 
-> **[Exemplo fictício]** O Rafael tem um cartão que dá **1,5 ponto por real** (valor inventado). O Rafael considerou inicialmente **R$ 2.000** como gastos que pontuariam e esperava **3.000 pontos**. Foram creditados **2.820**. A diferença é de **180 pontos**.
+> **[Exemplo fictício]** O Rafael tem um cartão que dá **1,5 ponto por real** (valor inventado). Ele considerou inicialmente **R$ 2.000** como gastos que pontuariam e esperava **3.000 pontos**. Foram creditados **2.820**. A diferença é de **180 pontos**.
 > Antes de reclamar, ele **conferiu**: (1) se alguma compra estava **entre as exclusões** do regulamento; (2) se o **prazo de crédito** já havia passado; (3) se havia **compras ainda não contabilizadas** (por exemplo, de fechamento próximo). Após conferir as exclusões, identificou **R$ 120 que não pontuavam** pela regra do cartão, o que explica **180 pontos** (R$ 120 × 1,5 = 180). **O gasto elegível correto era R$ 1.880** (R$ 2.000 − R$ 120), correspondente aos **2.820 pontos creditados** (R$ 1.880 × 1,5 = 2.820). A diferença, portanto, **não era um erro**.
 
 ### Se os pontos não chegarem ou vierem a menos
@@ -647,6 +655,7 @@ Uma vez por ano, **antes de a anuidade ser cobrada ou renovada**, vale rever se 
 > **[Exemplo fictício]** A Paula tem um cartão com **1,2 ponto por real** e **anuidade de R$ 480** (valores inventados). No ano, o gasto elegível foi de **R$ 20.000**, e ela recebeu **24.000 pontos**.
 >
 > **Etapa A — avaliação do ano que passou**
+>
 > - Ela **usou 10.000 pontos** em um benefício que custaria **R$ 280 em dinheiro**, sem pagamento adicional: **R$ 28 por milheiro** (Capítulo 2). **Valor obtido: R$ 280.**
 > - Restaram **14.000 pontos sem uso**. Eles **não entram nesse resultado**, mas **não são necessariamente sem valor**.
 > - Ela usou o **seguro viagem** do cartão, que **pagaria R$ 120** para ter: **R$ 120**.
@@ -656,6 +665,7 @@ Uma vez por ano, **antes de a anuidade ser cobrada ou renovada**, vale rever se 
 > - **Alternativa, nos mesmos termos:** um cartão de **cashback de 1%** sobre os **mesmos R$ 20.000** de gasto elegível, **sem anuidade**, **sem limites, exclusões ou outros custos** (hipótese que ela precisaria confirmar com o emissor) teria devolvido **R$ 200**.
 >
 > **Etapa B — decisão para o próximo ano**
+>
 > - Ela **espera gastar de forma parecida** (R$ 20.000) e **não tem hoje um resgate previsto** para usar os 14.000 pontos que sobraram.
 > - Com os dados do ano e essa expectativa, **trocar para a opção sem anuidade** parece mais adequado. **Mas o resultado do ano passado não garante o do próximo**: ela revisará a decisão se os gastos, os objetivos ou as condições mudarem.
 > - **Antes de trocar**, ela vai checar o que fazer com os **14.000 pontos** (se vencem, se podem ser transferidos ou usados) e **registrou a data da próxima revisão**.
