@@ -31,7 +31,7 @@ Os `.docx` não são listados porque o Word gerado não é idêntico bit a bit a
 | `entrega-diagramacao/ebook-2-cartoes-e-pontos/01-texto-consolidado.md` | `4af5077e8a4fe38e68962b50b068f5976078d64f1de117369737ddc4a1ad894d` | 56124 |
 | `entrega-diagramacao/ebook-2-cartoes-e-pontos/01-texto-consolidado.txt` | `cb6ce5e41549d4891fac498b172c58962bf5f50587a39400d7d946411466e141` | 63024 |
 | `entrega-diagramacao/ebook-2-cartoes-e-pontos/02-planilha-de-fontes.md` | `e3ee9a26640d0eabd55bbe601fecb5b3a16c1bbc568ae3303e439b3c6283b9d4` | 18630 |
-| `entrega-diagramacao/ebook-2-cartoes-e-pontos/03-relatorio-de-revisao.md` | `4d6cf9b34238e66e23a8470ffa7837ed4d42f039f019c012b29707c46970867b` | 4631 |
+| `entrega-diagramacao/ebook-2-cartoes-e-pontos/03-relatorio-de-revisao.md` | `14fa46f43b511ca3bb089a8d97737b37db3593e3834130b7b017817a25c4a36c` | 4627 |
 | `entrega-diagramacao/ebook-2-cartoes-e-pontos/04-apoio-auditoria-remissoes.md` | `f71f579bfe2e7d569e6f5dee8e20a8ae70eedcf6f5a520a9624fe03f0f9c66ed` | 15404 |
 | `entrega-diagramacao/metodo-de-verificacao.md` | `ccf3972105872eafa4e89f00c12f476fb0064354451965d96046815b21134e34` | 1413 |
 | `entrega-diagramacao/registro-de-reconferencia-de-fontes.md` | `b0cdf55fdca54790f46a634f67da18458480a9578c430a8ea504c71878289e5b` | 3250 |
