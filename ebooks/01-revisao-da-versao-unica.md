@@ -12,7 +12,7 @@ Data: 16/11/2026. Arquivo revisado: `ebooks/01-milhas-do-zero-versao-unica.md` (
 - Os avisos por parte (banners de rascunho) foram removidos; os avisos essenciais foram para a abertura.
 
 ## Marcadores
-- Restou **1** marcador [A CONFIRMAR] no texto, no quadro da ANAC do capítulo 14. É o único item que bloqueia a publicação.
+- **Nenhum** marcador [A CONFIRMAR] resta no texto. O quadro da ANAC (capítulo 14) agora cita o texto compilado da Resolução 400, confirmado em 16/11/2026 pela revisão editorial e por Claude.
 - Os marcadores sobre programas e dados específicos que não aparecem no texto final foram retirados ou convertidos em frases genéricas, sem afirmação de regra (ver painel C da planilha).
 
 ## Pontos corrigidos nesta rodada que mudam o conteúdo
@@ -27,6 +27,11 @@ Data: 16/11/2026. Arquivo revisado: `ebooks/01-milhas-do-zero-versao-unica.md` (
 - As tabelas (planilhas para preencher, simulação, validade da Smiles) usam tabelas simples.
 
 ## O que ainda depende de pessoa
-- Ler a página da ANAC e confirmar as duas regras ou retirá-las (a página abre com teste de verificação humana).
 - Reconfirmar os dados datados na publicação (painel B da planilha).
 - Alterar a redação da seção "Fontes e atualização" depois dessas etapas (item F da planilha).
+
+## Ajustes da rodada de 16/11/2026 (aprovação do conteúdo do e-book 1)
+- Abertura: subtítulo agora diz "com segurança e usando os gastos que você já tem".
+- Capítulo 13: a simulação separa a tarifa (R$ 1.680) das taxas de embarque (R$ 280). O reembolso de 80% incide só sobre a tarifa (R$ 1.344), e as taxas voltam integralmente: R$ 1.624 de R$ 1.960; a perda em dinheiro é de R$ 336. Cita o art. 9º, parágrafo único, da Resolução ANAC 400.
+- Capítulo 14: quadro da ANAC reescrito a partir do texto compilado (arts. 9º p.ú., 11 e 19 p.ú.), com a ressalva de que são regras gerais e não análise de uma operação específica. Capítulo 15 passa a citar o art. 19.
+- Capítulo 17: sinais ">" retirados das fórmulas.

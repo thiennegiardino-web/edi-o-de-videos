@@ -1,6 +1,6 @@
 # Milhas do zero
 
-*Título de trabalho. Como entender, acumular, acompanhar e usar pontos e milhas, com segurança e sem gastar a mais.*
+*Título de trabalho. Como entender, acumular, acompanhar e usar pontos e milhas, com segurança e usando os gastos que você já tem.*
 
 ---
 
@@ -549,10 +549,10 @@ Nas duas opções (dinheiro e milhas), a **bagagem despachada não está incluí
 
 | | Dinheiro | Milhas |
 |---|---|---|
-| Passagens | R$ 1.960 | 72.000 milhas |
-| Taxas de embarque | incluídas no preço | R$ 280 |
+| Tarifa (sem as taxas de embarque) | R$ 1.680 | 72.000 milhas |
+| Taxas de embarque | R$ 280 (já somadas no total de R$ 1.960) | R$ 280 |
 | Bagagem (4 × R$ 90) | R$ 360 | R$ 360 |
-| **Pago em dinheiro** | **R$ 2.320** | **R$ 640** |
+| **Pago em dinheiro** | **R$ 2.320** (R$ 1.680 + R$ 280 + R$ 360) | **R$ 640** (R$ 280 + R$ 360) |
 
 ### Passo 4 — Comparação com dinheiro
 Aplicando o método do Capítulo 4, **comparando opções equivalentes** (a bagagem entra dos dois lados e se cancela):
@@ -564,23 +564,25 @@ A Marina tem flexibilidade de datas. Procurando outras datas, ela acha a mesma v
 
 > (R$ 1.490 − R$ 280) ÷ 72 = R$ 1.210 ÷ 72 ≈ **R$ 16,81 por milheiro**
 
-(Aqui usamos só passagens e taxas, pois a bagagem é igual nos dois lados.)
+(Aqui usamos só passagens e taxas de embarque, pois a bagagem é igual nos dois lados. Considera-se que os R$ 1.490 já incluem as taxas de embarque.)
 
 **O que isso mostra:** o resultado por milheiro **caiu** de R$ 23,33 para R$ 16,81 quando a Marina trocou a comparação por uma alternativa mais barata em dinheiro. O mesmo resgate parece mais ou menos vantajoso conforme **com o quê** você compara. Por isso o Capítulo 12 manda procurar a melhor alternativa em dinheiro.
 
 ### Passo 6 — Condições de alteração e cancelamento (simuladas)
-Neste exemplo **fictício**, as condições são estas (todas inventadas, para permitir a comparação). **Elas valem para a opção em dinheiro de R$ 1.960 e para o resgate de 72.000 milhas.** As condições da alternativa de R$ 1.490 (Passo 5) **não foram definidas** nesta simulação.
+Neste exemplo **fictício**, as condições são estas (todas inventadas, para permitir a comparação). **Elas valem para a opção em dinheiro de R$ 1.960 (tarifa de R$ 1.680 mais R$ 280 de taxas de embarque) e para o resgate de 72.000 milhas.** As condições da alternativa de R$ 1.490 (Passo 5) **não foram definidas** nesta simulação.
 
 | | Dinheiro | Milhas |
 |---|---|---|
 | **Alteração** (2 pessoas) | Taxa de R$ 150 por pessoa, **R$ 300 no total**, mais a diferença de tarifa, se houver | Taxa de R$ 100 por pessoa, **R$ 200 no total, paga em dinheiro**. Se a nova data pedir **mais milhas**, paga-se a **diferença em milhas**; se pedir menos, **não há devolução** da diferença |
-| **Cancelamento antes do embarque** | Devolução de **80% do valor das passagens**: R$ 1.568 de R$ 1.960. Valor devolvido **em dinheiro** | Devolução de **100% das 72.000 milhas**, mais as **taxas de embarque (R$ 280)**, devolvidas integralmente. Taxa de cancelamento de R$ 150 por pessoa, **R$ 300 no total, paga em dinheiro** |
+| **Cancelamento antes do embarque** | Devolução de **80% da tarifa** (R$ 1.344 de R$ 1.680) **mais a devolução integral das taxas de embarque** (R$ 280): **R$ 1.624 de R$ 1.960**. Valor devolvido **em dinheiro** | Devolução de **100% das 72.000 milhas**, mais as **taxas de embarque (R$ 280)**, devolvidas integralmente. Taxa de cancelamento de R$ 150 por pessoa, **R$ 300 no total, paga em dinheiro** |
 | **Bagagem não usada** | Devolvida, se o cancelamento ocorrer antes do check-in | Devolvida, se o cancelamento ocorrer antes do check-in |
 
 **Leitura rápida do cancelamento (fictício):**
 
-- Em dinheiro, a Marina perde **R$ 392** (R$ 1.960 − R$ 1.568).
+- Em dinheiro, a Marina perde **R$ 336** (R$ 1.960 − R$ 1.624). A perda incide sobre a **tarifa** (20% de R$ 1.680); as taxas de embarque voltam integralmente, como acontece com as taxas na opção em milhas.
 - Com milhas, ela perde **R$ 300** (a taxa de cancelamento) e **recupera as 72.000 milhas**. Mas aquelas milhas voltam para a conta e **precisam ser usadas de novo dentro da validade do lote** (Capítulo 10).
+
+**Por que separamos tarifa e taxas:** a Resolução ANAC nº 400, art. 9º, parágrafo único, determina que as tarifas aeroportuárias pagas pelo passageiro e os valores devidos a entes governamentais **não integrem a base de cálculo de eventuais multas**. Na simulação, por isso, a perda de 20% é calculada só sobre a tarifa. (Texto compilado consultado em 16/11/2026; veja o quadro do Capítulo 14.)
 
 Se a Marina tem **certeza das datas**, essas diferenças pesam pouco. Se há **risco de mudar**, pesam muito. **Na vida real, as regras mudam por programa, companhia e tipo de tarifa. Leia as condições da sua opção antes de confirmar.**
 
@@ -635,12 +637,13 @@ Para mostrar **como essas condições costumam aparecer**, veja alguns trechos d
 - Antes de resgatar, o participante deve seguir **os termos e condições específicos** exibidos no site na hora da escolha.
 
 ### Condições do programa e direitos do passageiro são coisas diferentes
-Os trechos acima são **condições contratuais de um programa**. Além delas, existem **direitos do passageiro** previstos em norma e divulgados pela **ANAC** (Agência Nacional de Aviação Civil). Segundo a orientação da ANAC sobre alterações da viagem e reembolso:
+Os trechos acima são **condições contratuais de um programa**. Além delas, existem **direitos do passageiro** previstos em norma. A Agência Nacional de Aviação Civil (ANAC) regula o transporte aéreo na **Resolução nº 400**. Segundo o texto compilado dessa resolução (consultado em 16/11/2026):
 
-- **Desistência sem custo:** é possível desistir da compra **sem custo em até 24 horas** do recebimento do comprovante, **quando a compra é feita com antecedência mínima de sete dias do voo**.
-- **No-show em voo doméstico de ida e volta:** o passageiro pode **manter a volta sem custo adicional**, desde que **comunique a intenção à companhia até o horário originalmente previsto para a ida**.
+- **Desistência sem ônus (art. 11):** o usuário pode desistir da passagem aérea adquirida **sem qualquer ônus**, desde que o faça **em até 24 horas, a contar do recebimento do comprovante**. Essa regra **só se aplica às compras feitas com antecedência igual ou superior a 7 dias** em relação à data de embarque.
+- **Volta em voo doméstico (art. 19 e parágrafo único):** se o passageiro não usa o trecho inicial de uma passagem de ida e volta, o transportador pode cancelar a volta. **Não se aplica essa regra** se o passageiro informar, **até o horário originalmente contratado para o trecho de ida do voo doméstico**, que deseja usar o trecho de volta, e **é vedada a cobrança de multa contratual para essa finalidade**.
+- **Multas (art. 9º, parágrafo único):** as tarifas aeroportuárias pagas pelo passageiro e os valores devidos a entes governamentais **não podem integrar a base de cálculo de eventuais multas**.
 
-**Cuidados:** essas regras são da ANAC e **precisam ser verificadas quanto à aplicação à sua operação** (por exemplo, se a passagem foi comprada com milhas, em qual canal e com quanta antecedência). Não presuma que um resgate com milhas se enquadra, nem que não se enquadra: **confirme na página da ANAC e com a companhia**. **[A CONFIRMAR: ler a página da ANAC (www.gov.br/anac, "Alterações da viagem e reembolso") na data da publicação. A página não pôde ser aberta por nós nesta etapa: ela exige um teste de verificação humana; as regras acima foram transcritas da orientação indicada na revisão editorial, e não lidas por nós na fonte.]**
+**Cuidados:** essas são **regras gerais da norma**, e este e-book **não analisa uma operação específica de resgate**. Não presuma que um resgate com milhas se enquadra, nem que não se enquadra: **confirme com a companhia e com o programa**, considerando como e quando a passagem foi adquirida. A norma pode ser atualizada: **confira o texto vigente no site da ANAC**.
 
 **Lição:** as condições variam, e **você só as conhece lendo antes de confirmar**. Não presuma que seu programa funciona assim.
 
@@ -669,7 +672,7 @@ Confira o e-mail cadastrado (inclusive spam). Se não chegar no prazo informado,
 No exemplo da Livelo, se o pedido não for processado pelo parceiro, os pontos são **devolvidos automaticamente**, em até **60 dias** (e até 90 dias em operações com Pontos+Dinheiro), com a **validade original**. Fique atento a esse prazo e ao **vencimento** do lote.
 
 ### 5. Você não vai conseguir embarcar (no-show)
-Em muitos casos, **não comparecer** significa **perder o bilhete**, e o trecho de volta pode ser cancelado. No exemplo da Livelo, a volta de um voo doméstico só é mantida se o participante informar que quer usá-la **até o horário originalmente contratado para a ida**. A orientação da ANAC para voos domésticos de ida e volta também fala em comunicar a intenção à companhia **até o horário originalmente previsto para a ida** (veja o quadro do Capítulo 14). Se perceber que não vai conseguir embarcar, **avise a companhia antes do horário do voo**, sempre que possível, e **leia a regra** da sua tarifa.
+Em muitos casos, **não comparecer** significa **perder o bilhete**, e o trecho de volta pode ser cancelado. No exemplo da Livelo, a volta de um voo doméstico só é mantida se o participante informar que quer usá-la **até o horário originalmente contratado para a ida**. A Resolução ANAC nº 400 (art. 19, parágrafo único) também prevê, para voos domésticos de ida e volta, que o passageiro informe a intenção de usar a volta **até o horário originalmente contratado para a ida** (veja o quadro do Capítulo 14). Se perceber que não vai conseguir embarcar, **avise a companhia antes do horário do voo**, sempre que possível, e **leia a regra** da sua tarifa.
 
 ### 6. Voo cancelado, atrasado ou alterado pela companhia
 As regras de assistência e de reacomodação dependem da companhia, do tipo de bilhete e do que está previsto na lei. **Procure os canais oficiais da companhia e do programa** e guarde todas as comunicações. Em caso de dúvida sobre seus direitos como consumidor, **procure um órgão de defesa do consumidor**. 
@@ -761,8 +764,7 @@ A validade dos pontos de um clube **depende do programa e do plano**. Exemplos r
 Alguns programas vendem pontos ou milhas. **Comprar é pagar por uma moeda cujo valor depende do que você faz com ela.** Antes de comprar:
 
 1. **Tenha o uso definido.** Compre para um resgate concreto, não "para ter".
-2. **Calcule o custo por milheiro de compra**, **incluindo tudo o que for pago** (taxas, parcelas com juros, se houver):
-> **Custo por milheiro = valor total pago ÷ (milhas recebidas ÷ 1.000)**
+2. **Calcule o custo por milheiro de compra**, **incluindo tudo o que for pago** (taxas, parcelas com juros, se houver). **Custo por milheiro = valor total pago ÷ (milhas recebidas ÷ 1.000).**
 3. **Compare com o valor que você obtém** no resgate (Capítulo 4 e Capítulo 13). Só compensa se o valor obtido for **maior** do que o custo, **considerando também a economia que você teria pagando em dinheiro**.
 4. **Confira a validade** dessas milhas.
 5. **Confira o limite** de compra e o prazo de crédito.
@@ -779,9 +781,7 @@ Alguns programas vendem pontos ou milhas. **Comprar é pagar por uma moeda cujo 
 1. **Quantos pontos eu transfiro?** (X)
 2. **Qual a conversão e o bônus?** Alguns programas convertem **1 para 1**; outros não. O bônus é um **percentual** sobre o valor transferido.
 3. **Quantas milhas chegam?** Milhas = X × conversão × (1 + bônus).
-4. **Qual o custo por milheiro?**
-> **Custo por milheiro = custo total ÷ (milhas recebidas ÷ 1.000)**
-> No **custo total**, inclua o que pagou pelos pontos de origem e **eventuais taxas e gastos adicionais necessários para participar da oferta**.
+4. **Qual o custo por milheiro?** **Custo por milheiro = custo total ÷ (milhas recebidas ÷ 1.000).** No **custo total**, inclua o que pagou pelos pontos de origem e **eventuais taxas e gastos adicionais necessários para participar da oferta**.
 
 > **[Exemplo fictício]** Os pontos de origem custaram **R$ 600** para **20.000 pontos** (R$ 30 por milheiro). A conversão é **1 para 1**.
 > **Promoção com bônus de 30%:** 20.000 × 1,30 = **26.000 milhas**. Custo: R$ 600 ÷ 26 = **R$ 23,08 por milheiro**.

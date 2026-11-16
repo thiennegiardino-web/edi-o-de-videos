@@ -143,14 +143,20 @@ Regras de resgates de viagens feitos no Site Livelo. Usadas no texto apenas como
 **Duas perguntas diferentes:** (1) *A fonte diz isso?* (2) *Esta orientação está pronta para publicação?* A coluna "Tratamento" aplica a regra da revisão editorial: só bloqueia a publicação o que **está no texto final** e ainda não foi confirmado.
 
 ## A. Bloqueia a publicação (regra usada no texto final, ainda não confirmada)
-| Item | Onde no texto | Situação | Saída possível |
+**Nenhum item.** O item da ANAC foi confirmado em 16/11/2026 (ver registro abaixo) e passou para o painel B.
+
+### Registro da confirmação da ANAC (quem consultou, o quê e quando)
+| Consulta | Quem | Fonte | O que confirmou |
 |---|---|---|---|
-| ANAC: desistência sem custo em até 24 horas do recebimento do comprovante, com compra feita com no mínimo 7 dias de antecedência do voo | Cap. 14, quadro "Condições do programa e direitos do passageiro" | A página (www.gov.br/anac/pt-br/assuntos/passageiros/anac_passageiro/alteracoes-da-viagem-e-reembolso) abre com teste de verificação humana, nas nossas tentativas e na do revisor. Não lida na fonte | Ler a página e confirmar; ou retirar a regra do quadro |
-| ANAC: no-show em voo doméstico de ida e volta, mantendo a volta sem custo adicional se a intenção for comunicada à companhia até o horário originalmente previsto para a ida | Cap. 14 (quadro) e cap. 15 (item 5) | Idem | Idem |
+| 1 | Revisão editorial (pessoa responsável pela revisão), 16/11/2026 | Resolução ANAC nº 400 — texto compilado: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2016/resolucao-no-400-13-12-2016 | Art. 11 (desistência sem ônus em até 24 horas do recebimento do comprovante, para compras com antecedência mínima de sete dias do embarque) e art. 19, parágrafo único (manutenção da volta em voo doméstico, com a intenção informada até o horário originalmente contratado para a ida, sem multa contratual para essa finalidade) |
+| 2 | Claude (esta sessão), 16/11/2026, mesma URL, aberta sem verificação humana | Mesmo texto compilado | Art. 9º, parágrafo único (tarifas aeroportuárias e valores devidos a entes governamentais não integram a base de cálculo de multas); art. 11 e parágrafo único; art. 19 e parágrafo único. Texto lido literalmente |
+
+**Alcance:** confirma as regras gerais da norma. **Não é análise de uma operação específica de resgate com milhas.** O texto do e-book diz isso. A página anterior (www.gov.br/anac/pt-br/assuntos/passageiros/anac_passageiro/alteracoes-da-viagem-e-reembolso), que apresentou verificação humana, **não foi lida** e deixa de ser a fonte.
 
 ## B. Reconfirmar na data da publicação (dados datados usados como exemplo; já lidos na fonte)
 | Fonte | Linhas usadas no texto | Data da leitura |
 |---|---|---|
+| Resolução ANAC nº 400, texto compilado (www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2016/resolucao-no-400-13-12-2016) | art. 9º p.ú. (base de multas), art. 11 e p.ú. (24 horas e 7 dias), art. 19 e p.ú. (volta em voo doméstico) | 16/11/2026 (revisão editorial e Claude) |
 | Regulamento Livelo (www3.livelo.com.br/regulamentos/programa-pontos-livelo) | cl. 1.9, 2.1, 2.5, 3.1 a 3.4, 3.6, 4.2.x, 4.3.4 (60 dias), 4.3.6, 4.3.8, 4.4.4, 4.5.1, 4.5.2, 6.8.x, 6.9.x | 12/11/2026 e 16/11/2026 |
 | Smiles, validade (www.smiles.com.br/portal/validade-de-milhas) | voos GOL por categoria; bônus de transferência de pontos do cartão (6 meses); compradas (12 meses); reativadas (12 meses); planos do Clube; bônus do diferencial por plano (6 meses) | 16/11/2026 |
 | Smiles, "juntar e usar milhas" (www.smiles.com.br/juntar-e-usar-milhas) | compra de milhas: a partir de 1.000, validade 12 meses, limite 100.000 a cada 12 meses, cartão de crédito, até 10x sem juros, crédito em até 72 horas | 12/11/2026 |
@@ -176,8 +182,8 @@ Regras de resgates de viagens feitos no Site Livelo. Usadas no texto apenas como
 - Interpretação "comunicação do acúmulo + requisitos" para os 60 dias: ERRADA, substituída.
 
 ## F. Para fazer na publicação (checklist editorial)
-1. Resolver o item A (ler a ANAC ou retirar as duas regras).
+1. Item A resolvido em 16/11/2026 (ANAC confirmada). Reconfirmar, na publicação, se a Resolução 400 continua vigente na redação compilada.
 2. Reconfirmar o item B, linha a linha, e registrar a data da consulta.
-3. Trocar, na seção "Fontes e atualização", "são verificadas" por "foram confirmadas" **somente** depois de concluídas as etapas 1 e 2.
+3. Trocar, na seção "Fontes e atualização", "são verificadas" por "foram confirmadas" **somente** depois de concluída a etapa 2.
 4. Inserir na seção "Fontes e atualização" a lista final de fontes (endereço e data), extraída desta planilha, e a data da revisão da edição.
 5. Conferir a diagramação das tabelas e dos checklists no PDF final.
