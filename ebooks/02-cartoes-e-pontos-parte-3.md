@@ -44,14 +44,19 @@ Para cada opção, aplique:
 > ### Exemplo completo (SIMULAÇÃO com valores fictícios)
 > **Não é uma busca real**, não representa nenhum emissor e **não vale como referência de preço**. Serve só para mostrar o raciocínio.
 >
-> **Perfil da Marina (fictícia):** gasta **R$ 3.000 por mês** no cartão e paga a fatura integralmente. Desse valor, **R$ 600** são contas que **não pontuam** em nenhuma opção. **Gasto elegível: R$ 2.400 por mês, ou R$ 28.800 por ano.** Ela viaja de avião **duas vezes por ano** e aceita acompanhar regras.
+> **Perfil da Marina (fictícia):** gasta **R$ 3.000 por mês** no cartão e paga a fatura integralmente. Desse valor, **R$ 600** são contas que **não pontuam** em nenhuma opção. **Gasto elegível: R$ 2.400 por mês, ou R$ 28.800 por ano.** Ela viaja de avião **duas vezes por ano** e aceita acompanhar regras. **A Marina considera R$ 18 por milheiro uma hipótese de comparação, mas ainda não identificou um resgate concreto que sustente essa estimativa. Por isso, não conta com esse retorno como benefício garantido.**
+>
+> **Premissas da simulação:**
+> - Os **R$ 600 mensais excluídos não geram pontos nem cashback** em nenhuma das três opções.
+> - **Não há outros custos, limites ou bônus promocionais.**
+> - O **valor por milheiro é comparável entre B e C**, já considerando eventual conversão e os custos para usar os pontos. Sem essa condição, dois programas podem produzir valores diferentes por milheiro.
 >
 > **Opções (todas fictícias):**
 > - **A:** cashback de **1%**, **sem anuidade**. Benefícios que ela usaria: nenhum.
-> - **B:** **1,2 ponto por real**, anuidade de **R$ 480**. Pontos **com opção de transferência**. Benefício que ela usaria: **seguro viagem**, que ela **pagaria R$ 120 por ano** para ter.
+> - **B:** **1,2 ponto por real**, anuidade de **R$ 480**. Pontos **com opção de transferência**. Benefício que ela usaria: **seguro viagem**, que ela **pagaria R$ 120 por ano** para ter. **Só se atribui valor ao seguro porque ele substituiria uma contratação que ela faria, com cobertura adequada, e ela não tem esse benefício por outro meio.**
 > - **C:** **2 pontos por real**, anuidade de **R$ 960, isenta se o gasto for de R$ 4.000 por mês ou mais**. Ela **não cumpre** essa condição, então pagaria R$ 960. Benefício que ela usaria: **acesso a sala VIP duas vezes por ano**, que ela **pagaria R$ 100 por acesso, ou R$ 200 por ano**.
 >
-> **Resultado anual estimado**, com o valor do milheiro em **R$ 18** (estimativa dela, baseada no uso que pretende):
+> **Resultado anual estimado**, com o valor do milheiro em **R$ 18** (hipótese de comparação):
 >
 > | | A | B | C |
 > |---|---|---|---|
@@ -59,6 +64,8 @@ Para cada opção, aplique:
 > | Anuidade | R$ 0 | − R$ 480,00 | − R$ 960,00 |
 > | Benefícios que ela realmente usaria | R$ 0 | + R$ 120,00 | + R$ 200,00 |
 > | **Resultado anual estimado** | **R$ 288,00** | **R$ 262,08** | **R$ 276,80** |
+>
+> **O resultado combina o retorno das recompensas com o valor atribuído aos benefícios utilizados. Não representa necessariamente dinheiro recebido ou disponível na conta.** Ao somar benefícios, **evite contar de novo** um benefício que você já tenha por outro meio.
 >
 > **Teste de sensibilidade:** e se o valor do milheiro for outro?
 >
@@ -70,11 +77,11 @@ Para cada opção, aplique:
 >
 > **O que isso mostra:**
 > - Com o milheiro em **R$ 18**, as três opções ficam **muito próximas** (de R$ 262 a R$ 288 por ano). A diferença é pequena diante da incerteza das estimativas.
-> - O cashback (A) **não depende** do valor do milheiro. Com o milheiro **abaixo de cerca de R$ 18 a R$ 19**, nesta simulação, ele rende mais do que B e C.
-> - Com o milheiro em **R$ 25**, C passa à frente, mas **só se ela usar os pontos nesse valor**.
+> - O cashback (A) **não depende da estimativa do valor do milheiro**. Cada opção de pontos tem o **seu próprio limite**: **C empata com A em aproximadamente R$ 18,19 por milheiro**, e **B empata com A em aproximadamente R$ 18,75**. Abaixo do limite de cada uma, A rende mais do que ela; acima, ela passa à frente.
+> - Com o milheiro em **R$ 25**, B (R$ 504) e C (R$ 680) ficam acima de A (R$ 288), mas **só se ela usar os pontos nesse valor**.
 >
 > **Outros pontos que os números não mostram:**
-> - A Marina **tem um uso concreto** para os pontos? Se não, o valor de R$ 25 é **apenas uma esperança**.
+> - A Marina **tem um resgate concreto** para os pontos? Se não, tanto os R$ 18 quanto os R$ 25 são **apenas hipóteses**.
 > - **B tem pontos transferíveis**; ela precisa saber se compensa comparar com **resgates diretos** (Capítulo 6).
 > - Ela **aceita** acompanhar prazos e validade? Mais pontos **exigem mais atenção**.
 > - As estimativas dos benefícios (seguro e sala VIP) **dependem de condições** que ela ainda precisa confirmar com o emissor (Capítulo 7).
@@ -84,10 +91,10 @@ Para cada opção, aplique:
 Feita a comparação, **escolha e justifique**. Uma decisão boa **explica o porquê**, com números, e **diz o que a mudaria**.
 
 > **[Exemplo fictício]** A Marina escolheu o **cartão A (cashback, sem anuidade)**.
-> - **Por quê:** (1) com o valor de milheiro que ela consegue **sustentar com um uso concreto** (R$ 18), as três opções ficam muito próximas, e **a diferença não justifica a complexidade**; (2) o cashback **não depende de estimativa**; (3) ela **não tem hoje uma viagem planejada** para usar os pontos.
-> - **O que a faria mudar de ideia:** surgir **uma viagem concreta** em que ela estime o milheiro **acima de R$ 19**; ou o emissor oferecer **isenção de anuidade** que ela cumpra sem gasto adicional.
+> - **Por quê:** (1) com a **hipótese** de R$ 18 por milheiro, as três opções ficam muito próximas, e **a diferença não justifica a complexidade**; (2) o cashback **não depende da estimativa do valor do milheiro** (o resultado anual dele ainda depende dos gastos elegíveis e das condições do cartão); (3) ela **não tem hoje um resgate concreto** para usar os pontos.
+> - **O que a faria mudar de ideia:** identificar **um resgate concreto** que sustente um valor por milheiro **acima de cerca de R$ 18,19 (para C) ou de R$ 18,75 (para B)**; ou o emissor oferecer **isenção de anuidade** que ela cumpra sem gasto adicional.
 > - **O que ela confirma com o emissor antes de contratar:** critérios de aprovação, forma de recebimento do cashback e **limites ou exclusões**.
-> - **Quando revisa:** em **12 meses**, junto com o vencimento da anuidade.
+> - **Quando revisa:** em **12 meses, ou antes, se mudarem os gastos dela, os objetivos dela ou as condições do cartão**.
 
 **Agora é com você. Preencha:**
 

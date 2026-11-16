@@ -76,3 +76,32 @@ Consulta em 16/11/2026. Mesma regra do e-book 1: **A fonte diz isso?** e **Está
 ## Observações
 - Cada capítulo da Parte 3 retoma as fórmulas por referência, sem repeti-las, como pediu a revisão.
 - Estrutura do índice atualizada (ver `02-cartoes-e-pontos-indice.md`).
+
+
+---
+
+# Revisão da Parte 3 (parecer do Codex — revisão assistida por IA, 16/11/2026) e Parte 4 (rascunho)
+
+## Ajustes da Parte 3 (cap. 8)
+- Premissa da Marina: R$ 18 por milheiro é "hipótese de comparação"; ela ainda não identificou um resgate concreto; não conta com esse retorno como benefício garantido (corrige a contradição com "não tem viagem planejada").
+- O resultado agora diz que combina retorno das recompensas com o valor atribuído aos benefícios utilizados e que não representa necessariamente dinheiro recebido ou disponível na conta; o seguro só entra porque substituiria uma contratação que ela faria, com cobertura adequada, e ela não o tem por outro meio.
+- Limiares do milheiro explícitos: C × A ≈ R$ 18,19 e B × A ≈ R$ 18,75 (conferidos: (288 + 960 − 200) ÷ 57,6 = 18,19; (288 + 480 − 120) ÷ 34,56 = 18,75). Em R$ 25, B (R$ 504) e C (R$ 680) ficam acima de A (R$ 288).
+- Premissas declaradas: R$ 600 mensais excluídos não geram pontos nem cashback nas três opções; sem outros custos, limites ou bônus; valor por milheiro comparável entre B e C (já com conversão e custos para usar os pontos).
+- Revisão da decisão: "em 12 meses, ou antes, se mudarem os gastos dela, os objetivos dela ou as condições do cartão". "O cashback não depende da estimativa do valor do milheiro", com a ressalva de que o resultado anual depende dos gastos elegíveis e das condições.
+
+## Parte 4 — itens com fonte lida
+| Cap. | Afirmação no texto | Fonte | A fonte diz isso? | Pronta para publicação? |
+|---|---|---|---|---|
+| 9 | Reclamações sobre pontos não creditados são aceitas para análise em até 30 dias corridos após o prazo final de crédito; o programa pode pedir documentos como identificação, data da transação e número do pedido ou da transação | Regulamento Livelo, cl. 4.3.8 e 4.3.6 (www3.livelo.com.br/regulamentos/programa-pontos-livelo), 12/11/2026 | Sim | Sim, como exemplo datado, com a ressalva de conferir o prazo do emissor e do programa do leitor. Reconfirmar na publicação |
+
+## Parte 4 — conteúdo sem fonte externa (método próprio, conhecimento geral ou retomada de capítulos anteriores)
+- Cap. 9: controle mensal de créditos; exemplo do Rafael (valores fictícios; conferido: R$ 2.000 × 1,5 = 3.000 esperados; 3.000 − 2.820 = 180; R$ 120 × 1,5 = 180).
+- Cap. 10: quantos cartões ter, segurança e sinais de golpes (conhecimento geral, sem estatísticas e sem afirmações sobre bancos específicos).
+- Cap. 11: roteiro de revisão; exemplo da Paula (valores fictícios; conferido: 1,2 × 20.000 = 24.000 pontos; 24.000 − 10.000 = 14.000; R$ 280 ÷ 10 milheiros = R$ 28 por milheiro; R$ 280 + R$ 120 = R$ 400; R$ 400 − R$ 480 = −R$ 80; cashback de 1% sobre R$ 20.000 = R$ 200). O texto traz a ressalva de que o resultado combina valor obtido com valor atribuído e não é necessariamente dinheiro recebido.
+- Cap. 12 e fim: plano, checklist, glossário e perguntas frequentes; sem dados de fonte externa.
+- O cap. 11 pede ao leitor que pergunte ao emissor sobre alternativas (isenção, troca) e sobre o destino dos pontos em caso de cancelamento: **o texto não afirma nenhuma regra** sobre isso.
+
+## Pendências para publicação do e-book 2
+1. Reconfirmar, na publicação, os exemplos datados (Livelo, Smiles, Esfera) e a consulta do Banco Central (Codex, 16/11/2026).
+2. Inserir a lista final de fontes e trocar "são verificadas" por "foram confirmadas" só depois da reconferência.
+3. Revisão visual das tabelas e dos checklists no arquivo diagramado.
