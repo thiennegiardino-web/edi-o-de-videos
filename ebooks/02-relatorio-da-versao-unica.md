@@ -1,0 +1,26 @@
+# Relatório da versão única — Cartões e pontos: como escolher
+
+Data: 16/11/2026. Arquivo: `ebooks/02-cartoes-e-pontos-versao-unica.md` (Partes 1 a 4 consolidadas; 12 capítulos; cerca de 9.200 palavras). As partes avulsas ficam como histórico.
+
+## Ajustes pedidos
+1. **Cap. 9, prazo de 30 dias da Livelo:** agora diz que a contagem é a partir do prazo final para crédito (fim do prazo que o programa tinha para creditar), e não da data da compra.
+2. **Cap. 11, avaliação separada da decisão:** o roteiro tem duas etapas. **A:** avaliação do ano que passou; **B:** decisão para o próximo ano. Pontos ainda não usados não entram no resultado do ano, mas "não são necessariamente sem valor". O texto afirma que o resultado do ano passado não garante o do próximo. O exemplo da Paula foi refeito nas duas etapas.
+3. **Comparação com cashback:** no cap. 11, a alternativa usa os mesmos gastos elegíveis (R$ 20.000) e declara custos e condições (1%, sem anuidade, sem limites, exclusões ou outros custos, hipótese a confirmar com o emissor). Nos caps. 5 e 8 as premissas já estavam declaradas (gastos elegíveis iguais).
+4. **Fontes:** lista própria do e-book 2, vinculada às afirmações finais (F1 a F7), na planilha.
+5. **Índice e remissões:** sumário atualizado para 4 partes e 12 capítulos. Retirados todos os vestígios do índice anterior (remissão ao e-book 1, "Parte 5", "Próxima parte", capítulos 8 a 10 antigos, avisos de rascunho).
+
+## Referências e repetições
+- 111 remissões a capítulos conferidas: nenhuma aponta para capítulo inexistente.
+- Três remissões vagas foram trocadas por números de capítulo ("próximo capítulo" duas vezes e "Parte 1").
+- Nenhum parágrafo idêntico. As repetições que sobram são de reforço e ligadas ao tema (fatura integral, comparação com opção sem anuidade e cashback, ressalva de que o resultado combina valores, avisos de que as regras mudam).
+- Os exemplos fictícios usam Marina (caps. 2, 4 e 8), Rafael (caps. 1, 5, 7 e 9), Carlos (caps. 3 e 6) e Paula (caps. 6 e 11), sem contradição de valores entre eles. No cap. 2, a Marina passou a ter a premissa "para simplificar, todos os gastos pontuam", porque no cap. 8 parte dos gastos dela não pontua.
+
+## Contas
+30 contas dos exemplos recalculadas, sem divergências (juros, milheiro, retorno, equilíbrio, simulação do cap. 8 com limiares R$ 18,19 e R$ 18,75, controle do cap. 9 e revisão do cap. 11).
+
+## Marcadores e formatação
+- Nenhum marcador [A CONFIRMAR] no texto.
+- Tabelas, checklists e blocos de exemplo foram montados para saírem como elementos reais no Word (verificado no arquivo gerado).
+
+## O que falta para fechar
+Reconfirmar F1 a F7 na publicação, inserir a lista final de fontes e trocar "são verificadas" por "foram confirmadas" só depois da reconferência, e fazer a revisão visual do arquivo diagramado.

@@ -105,3 +105,35 @@ Consulta em 16/11/2026. Mesma regra do e-book 1: **A fonte diz isso?** e **Está
 1. Reconfirmar, na publicação, os exemplos datados (Livelo, Smiles, Esfera) e a consulta do Banco Central (Codex, 16/11/2026).
 2. Inserir a lista final de fontes e trocar "são verificadas" por "foram confirmadas" só depois da reconferência.
 3. Revisão visual das tabelas e dos checklists no arquivo diagramado.
+
+
+---
+
+# Versão única — lista de fontes do e-book 2, vinculada às afirmações finais (16/11/2026)
+
+**Como ler:** cada linha liga uma fonte às afirmações que **permanecem** na versão única. *A fonte diz isso?* e *Pronta para publicação?* são perguntas separadas. Quem consultou está indicado.
+
+## Fontes e afirmações vinculadas
+| Ref. | Fonte (endereço) | Consulta | Onde no texto (capítulo) | Afirmação que permanece | A fonte diz isso? | Pronta para publicação? |
+|---|---|---|---|---|---|---|
+| F1 | Regulamento Livelo, cl. 4.3.4 (www3.livelo.com.br/regulamentos/programa-pontos-livelo) | Claude, 12/11/2026; relido em 16/11/2026 (nota de rodapé conferida no HTML) | Cap. 2 | Para pontos vindos de dois programas de bancos, prazos de 5 e de 10 dias úteis, contados após a comunicação do acúmulo pelo parceiro | Sim | Sim, exemplo datado; reconfirmar na publicação |
+| F2 | Regulamento Livelo, cl. 1.11 e 6.8.1 a 6.8.6 | Claude, 12/11/2026 | Cap. 3 e cap. 6 | Parceiros de acúmulo e programas parceiros; transferência com cadastro prévio no destino, mínimo/máximo/múltiplo alteráveis sem aviso, fatores de conversão definidos e divulgados pelo programa, crédito em até 7 dias úteis salvo prazo anunciado, confirmação do crédito por conta do participante | Sim | Sim, exemplo datado; reconfirmar |
+| F3 | Regulamento Livelo, cl. 4.3.6 e 4.3.8 | Claude, 12/11/2026 | Cap. 9 | Reclamações por pontos não creditados aceitas em até 30 dias corridos contados do prazo final para crédito (não da compra); programa pode pedir identificação, data da transação e número do pedido ou da transação | Sim | Sim, exemplo datado, com a ressalva de que o leitor confira o prazo do seu emissor e programa |
+| F4 | Smiles, página de validade (www.smiles.com.br/portal/validade-de-milhas) | Claude, 16/11/2026 | Caps. 2, 3 e 6 | A página lista, como origens de milhas, "milhas acumuladas com o Cartão de Crédito GOL Smiles" e "milhas resgatáveis transferidas do banco", com validades por origem; tem "Transferir pontos do cartão" no menu; milhas bônus de promoções de transferência de pontos do cartão de crédito têm validade de 6 meses | Sim | Sim, exemplo datado; reconfirmar na publicação |
+| F5 | Esfera, página de loja parceira (www.esfera.com.vc/p/multi/e000100435) | Claude, 12/11/2026 | Caps. 3 e 6 | O rodapé traz o nome do Banco Santander (Brasil) S.A. (sem afirmar controle); o menu lista formas de usar pontos, entre elas "pagar fatura com pontos" | Sim (rodapé e menu) | Sim, só nesses termos. Condições não lidas e não citadas |
+| F6 | Livelo, página "Pontos Viram Dinheiro" (www.livelo.com.br/carteira/pontos-viram-dinheiro/institucional) | Claude, 12/11/2026 | Cap. 6 | Os menus listam "pagar com pontos via Pix" e "Pontos Viram Dinheiro" | Sim (menu) | Sim, só como existência. Condições não lidas e não citadas |
+| F7 | Banco Central, perguntas frequentes sobre cartão, item 10 (www.bcb.gov.br/meubc/faqs/s/cartao) | **Codex — revisão assistida por IA, 16/11/2026** (não atribuída ao Claude: as tentativas do Claude voltaram sem conteúdo) | Cap. 1 e glossário | Distinção entre parcelamento da fatura, pagamento parcial sem parcelamento (que leva ao crédito rotativo) e inadimplência | Sim, segundo a leitura do Codex | Sim; reconfirmar na publicação |
+
+## Conteúdo sem fonte externa (método próprio, conhecimento geral ou exemplos fictícios)
+- Definições gerais (limite, fatura, fechamento, vencimento, anuidade, bandeira, emissor, cashback, co-branded), fórmulas, tabelas e checklists: **método próprio**.
+- Todos os exemplos marcados como **[Exemplo fictício]** (juros, milheiro, Marina, Rafael, Carlos, Paula, cartões A, B e C): valores inventados. **30 contas recalculadas em 16/11/2026, sem divergências.**
+- Boas práticas de segurança e sinais de golpes (cap. 10): conhecimento geral, sem estatísticas e sem afirmações sobre bancos específicos.
+- Perguntas ao emissor sobre alternativas, isenção e destino dos pontos (cap. 11): o texto **não afirma regra alguma** sobre isso.
+
+## Painel de status do e-book 2
+**A. Bloqueia a publicação:** nenhum item.
+**B. Reconfirmar na data da publicação:** F1 a F7.
+**C. Não bloqueia (sem afirmação no texto final):** condições de "Pontos Viram Dinheiro" e do pagamento da fatura com pontos; qualquer regra de cancelamento de cartão e de destino dos pontos; benefícios específicos de cartões, bandeiras ou categorias.
+**D. Decisões encerradas:** estrutura em 4 partes e 12 capítulos; exemplos fictícios mantidos e identificados.
+**E. Histórico (retirado):** remissão ao e-book 1; "pontos presos"; "custo de oportunidade" como sinônimo de gasto adicional; "pagamento mínimo"; exemplo do cap. 5 com a Marina (passou ao Rafael).
+**F. Para fazer na publicação:** (1) reconfirmar F1 a F7 e registrar a data; (2) inserir a lista de fontes no e-book e trocar "são verificadas" por "foram confirmadas" só depois disso; (3) revisão visual do arquivo diagramado.
