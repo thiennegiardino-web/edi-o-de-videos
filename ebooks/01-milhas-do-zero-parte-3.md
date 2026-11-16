@@ -33,22 +33,24 @@ Dentro de um mesmo programa, pontos que vieram de lugares diferentes podem ter v
 - Pontos de campanhas administradas pela Livelo: em geral **24 meses**, contados do lançamento na conta, **ou conforme a regra da própria campanha**.
 - Pontos acumulados por Pontos+Dinheiro: só valem para o resgate ligado àquela compra, com validade imediata.
 - Pontos do Clube Livelo e das Conveniências: seguem as regras próprias de cada um.
-- O vencimento ocorre às **23h59 (horário de Brasília)** da data definida no acúmulo. O regulamento diz que **não há prorrogação** e que pontos vencidos **não são reembolsados**.
+- O vencimento ocorre às **23h59 (horário de Brasília)** da data definida no acúmulo. O regulamento diz que **não há período de prorrogação** para a perda de validade (ou seja, o prazo não é estendido automaticamente) e que pontos vencidos **não são reembolsados**. Isso é diferente de eventuais **serviços opcionais de renovação**, que o regulamento cita como uma das "Conveniências" do programa e que têm condições próprias. **[A CONFIRMAR: se esse serviço existe hoje, para quais pontos vale e quanto custa.]**
 
-**Smiles (página oficial de milhas, www.smiles.com.br, consultada em 12/11/2026)**
+**Smiles (página oficial de validade, www.smiles.com.br/portal/validade-de-milhas, consultada em 16/11/2026)**
 
-Cada regra abaixo vale **apenas para a origem das milhas indicada**. Não generalize a validade de uma modalidade para as demais.
+A própria página diz que **o prazo varia de acordo com a forma como as milhas foram acumuladas**. Cada linha abaixo vale **apenas para a origem indicada**. Escolhemos alguns exemplos e **não cobrimos todas as origens** da página: para as demais, consulte a página oficial.
 
 | Origem das milhas | Validade informada na página |
 |---|---|
-| Milhas **compradas** no site ou app | 12 meses |
-| Milhas **recebidas por transferência entre contas Smiles** | 12 meses |
-| Milhas **reativadas** (milhas que venceram nos últimos 12 meses e foram recuperadas) | 12 meses |
-| Milhas dos **planos do Clube Smiles** | Conforme o plano: alguns planos dão milhas válidas por **10 anos** e outros dão milhas que **não expiram** |
+| Milhas acumuladas em **voos da GOL** | Varia por categoria do cliente: 6 anos (categorias Smiles e Prata), 8 anos (Ouro) e 20 anos (Diamante) |
+| Milhas **bônus de promoções de transferência de pontos do cartão de crédito** | 6 meses |
+| Milhas **compradas** (Compra de Milhas) | 12 meses |
+| Milhas **reativadas** | 12 meses |
+| Milhas **mensais dos planos do Clube Smiles** | Conforme o plano: 10 anos (planos 1.000, 2.000 e 5.000) ou milhas que não expiram (planos 7.000, 10.000 e 20.000) |
 
-- A página oferece a consulta "tem milhas a expirar" e os serviços **Estender milhas** e **Reativar milhas**.
-- **A página consultada não informa a validade das milhas de outras origens**, como milhas acumuladas em voos, por parceiros ou por cartões. Por isso, **não afirmamos nada sobre elas**.
-- **[A CONFIRMAR: validade das milhas de outras origens e condições atuais de cada plano do Clube, que mudam.]**
+- A página também mostra como **consultar a validade** (login, "Minha Conta") e traz respostas para "falta pouco para minhas milhas vencerem" e "minhas milhas venceram": os serviços **Estender milhas** e **Reativar milhas**.
+- **Atenção a um exemplo de bônus:** milhas bônus de uma promoção podem ter prazo **bem menor** do que as milhas "normais". Por isso, olhe a validade de cada lote.
+- **Milhas recebidas por transferência entre contas Smiles:** **não informamos a validade**. Duas páginas oficiais da Smiles consultadas (a de validade e a de "juntar e usar milhas") trazem prazos diferentes para essa origem. **[A CONFIRMAR: qual vale hoje.]**
+- **[A CONFIRMAR: conferir, na data da publicação, cada linha da tabela acima, pois as condições e os valores mudam.]**
 
 **LATAM Pass e Azul**
 - **[A CONFIRMAR: validade, categorias e condições especiais, nos sites oficiais. Os sites bloquearam o acesso automático e as fontes de terceiros se contradizem. Por isso, nenhuma regra desses programas aparece aqui.]**
@@ -63,7 +65,7 @@ Alguns programas permitem **estender a validade** ou **reativar** milhas vencida
 > **[Exemplo fictício]** O Rafael tem 10.000 milhas vencidas. A reativação custaria R$ 300, e as milhas reativadas valeriam por 12 meses. Ele não tem viagem planejada nesse período e não achou nenhuma passagem em que as usaria. Pagar R$ 300 sem uso à vista significaria arriscar perder as milhas de novo, então ele decidiu **não reativar**. Se tivesse uma passagem concreta e a conta mostrasse economia maior do que os R$ 300, a decisão poderia ser outra.
 
 ### Como acompanhar na prática
-Complete a planilha do Capítulo 6 com uma coluna para **cada lote** e sua data de vencimento. Depois:
+Complete a planilha do Capítulo 6 com **uma linha por lote**, indicando **programa, quantidade, origem e vencimento**. Depois:
 1. **Pontos a vencer:** consulte a seção de saldo e extrato da conta, que costuma mostrar o que vence.
 2. **Lembretes (sugestão de organização, não são prazos oficiais):** crie avisos no calendário, por exemplo, **90, 60 e 30 dias antes** de cada vencimento relevante. Esses intervalos são uma sugestão nossa para você ter tempo de decidir; o prazo que vale é sempre o do programa.
 3. **Plano de uso:** decida, para cada lote próximo do vencimento, se vai **usar**, **estender**, **reativar** ou **deixar vencer**, sempre fazendo a conta.
@@ -77,10 +79,10 @@ Complete a planilha do Capítulo 6 com uma coluna para **cada lote** e sua data 
 
 ## Capítulo 11 — Erros que fazem as pessoas perder milhas
 
-Quase sempre, a perda de milhas não vem de um grande golpe. Vem de pequenos descuidos repetidos. Veja os mais comuns e como evitar cada um.
+Estes descuidos podem causar perdas de pontos e milhas. Veja os mais comuns e como evitar cada um.
 
 **1. Olhar só o saldo, e não as datas de vencimento.**
-Dois lotes no mesmo programa podem vencer em datas diferentes. *Como evitar:* use a planilha do Capítulo 10 com um lote por linha.
+Dois lotes no mesmo programa podem vencer em datas diferentes. *Como evitar:* use a planilha do Capítulo 10, com **uma linha por lote** (programa, quantidade, origem e vencimento).
 
 **2. Achar que entrar na conta renova os pontos.**
 Em regras como a de inatividade da Livelo, o que conta é **acúmulo ou resgate**, não login (Capítulo 6). *Como evitar:* confira a regra do programa e não faça compras desnecessárias só para manter a conta.
@@ -92,7 +94,7 @@ Os prazos mudam e as fontes se contradizem. *Como evitar:* confirme **no site of
 Sem o número do pedido, a data e o comprovante, fica difícil reclamar pontos que não entraram. E há prazos: na regra da Livelo citada na Parte 2, são 30 dias corridos após o prazo final de crédito. *Como evitar:* use o controle de compras do Capítulo 7.
 
 **5. Esquecer pontos pequenos espalhados em vários programas.**
-Saldos baixos parecem não valer nada, mas somados podem render, e pode haver regras de inatividade. *Como evitar:* liste todos na planilha e decida, a cada trimestre, se vale usar, juntar ou abandonar cada um.
+Saldos baixos parecem não valer nada, e pode haver regras de inatividade. **Saldos de programas diferentes não são necessariamente combináveis:** cada um só vale dentro do seu programa, e a possibilidade de transferir ou juntar depende das regras de cada um. *Como evitar:* liste todos na planilha e decida, a cada trimestre, se vale usar, juntar ou abandonar cada um.
 
 **6. Transferir sem ler as condições.**
 Transferir pontos entre programas pode ter **quantidade mínima, máxima, múltiplos**, prazo de crédito e outras condições, que o programa pode alterar. No regulamento da Livelo (12/11/2026), por exemplo, o participante precisa estar **previamente cadastrado no programa de destino**, e **confirmar o crédito é responsabilidade dele**. *Como evitar:* leia as condições da transferência **antes** de pedir; trataremos do assunto com calma na Parte 5. **[A CONFIRMAR: regras equivalentes de cada programa de destino citado.]**
@@ -109,7 +111,7 @@ Se o programa avisa por e-mail ou telefone e você mudou, pode perder avisos imp
 **10. Dar acesso a quem não deve.**
 Já falamos disso na Parte 2: **não compartilhe senhas ou códigos**.
 
-### Checklist mensal (15 minutos)
+### Checklist mensal (reserve cerca de 15 minutos, ajustando ao número de contas)
 - [ ] Abri cada conta da planilha e anotei saldo e vencimentos.
 - [ ] Atualizei a coluna de último acúmulo ou resgate.
 - [ ] Conferi se há pontos a vencer nos próximos 90 dias e defini o que fazer com eles.
@@ -123,6 +125,6 @@ Já falamos disso na Parte 2: **não compartilhe senhas ou códigos**.
 - Cada regra vale para a **origem** das milhas a que se refere: não generalize.
 - Confirme as regras no site oficial e registre a data.
 - Guarde comprovantes e respeite os prazos de reclamação.
-- Um checklist mensal de 15 minutos evita a maior parte das perdas.
+- Um checklist mensal ajuda a perceber problemas a tempo. Reserve cerca de 15 minutos, ajustando ao número de contas.
 
 *Próxima parte: seu primeiro resgate.*

@@ -24,7 +24,7 @@ Se você as comprou ou acumulou com custo, o resgate precisa compensar. Se as re
 Guardar para uma viagem mais cara ou mais importante pode render mais do que gastar agora.
 
 **5. O saldo vence em breve?**
-Confira o vencimento do lote (Capítulo 10). Se vai vencer e você tem um uso concreto, isso pesa a favor de usar agora.
+Confira o vencimento do lote (Capítulo 10). Se vai vencer e você tem um uso concreto, isso pesa a favor de usar agora. Lembre que **a validade das milhas** (se o saldo está disponível para concluir o resgate) é uma coisa, e **a validade do bilhete** emitido é outra: a data da viagem não depende do vencimento do lote que foi usado.
 
 **6. As condições de alteração e cancelamento servem para o meu caso?**
 Passagens pagas em dinheiro e passagens resgatadas com milhas costumam ter **regras diferentes**. Compare com o que você precisa: sua data é firme ou pode mudar?
@@ -42,7 +42,7 @@ Mesmo com milhas, costumam existir **valores adicionais** (taxas, bagagem, servi
 > Os números, as regras e as opções abaixo **foram inventados** para ensinar o raciocínio. **Não são uma busca real**, não representam nenhum programa nem companhia e **não valem como referência de preço**. Na vida real, preços e disponibilidade mudam o tempo todo. Antes de usar, substitua pelos números que aparecem para você, **na data da sua busca**.
 > **[A CONFIRMAR antes da publicação: substituir esta simulação por uma busca real, com data, rota e programa, ou manter a simulação com o aviso.]**
 
-**Situação:** a Marina (nosso exemplo desde a Parte 1) quer viajar de **Campinas para Salvador**, **ida e volta**, com **2 pessoas**, daqui a 10 meses. Ela tem **72.000 milhas** em um programa fictício, cujo saldo vence em 14 meses.
+**Situação:** a Marina (nosso exemplo desde a Parte 1) quer viajar de **Campinas para Salvador**, **ida e volta**, com **2 pessoas**, daqui a 10 meses. Ela tem **72.000 milhas** em um programa fictício, com saldo disponível e válido para concluir o resgate.
 
 ### Passo 1 — Busca e disponibilidade
 Ela pesquisa as datas desejadas, para 2 passageiros, no site do programa e no site da companhia.
@@ -81,23 +81,28 @@ A Marina tem flexibilidade de datas. Procurando outras datas, ela acha a mesma v
 **O que isso mostra:** o resultado por milheiro **caiu** de R$ 23,33 para R$ 16,81 quando a Marina trocou a comparação por uma alternativa mais barata em dinheiro. O mesmo resgate parece mais ou menos vantajoso conforme **com o quê** você compara. Por isso o Capítulo 12 manda procurar a melhor alternativa em dinheiro.
 
 ### Passo 6 — Condições de alteração e cancelamento (simuladas)
-Neste exemplo fictício:
+Neste exemplo **fictício**, as condições são estas (todas inventadas, para permitir a comparação):
 
 | | Dinheiro | Milhas |
 |---|---|---|
-| Alteração | Taxa de R$ 150 por pessoa mais diferença de tarifa | Taxa de R$ 100 por pessoa, sujeita à disponibilidade |
-| Cancelamento | Reembolso parcial | Milhas devolvidas, descontada uma taxa de R$ 150 por pessoa |
+| **Alteração** (2 pessoas) | Taxa de R$ 150 por pessoa, **R$ 300 no total**, mais a diferença de tarifa, se houver | Taxa de R$ 100 por pessoa, **R$ 200 no total, paga em dinheiro**. Se a nova data pedir **mais milhas**, paga-se a **diferença em milhas**; se pedir menos, **não há devolução** da diferença |
+| **Cancelamento antes do embarque** | Devolução de **80% do valor das passagens**: R$ 1.568 de R$ 1.960. Valor devolvido **em dinheiro**, em até 30 dias | Devolução de **100% das 72.000 milhas**, mais as **taxas de embarque (R$ 280)**, devolvidas integralmente. Taxa de cancelamento de R$ 150 por pessoa, **R$ 300 no total, paga em dinheiro** |
+| **Bagagem não usada** | Devolvida, se o cancelamento ocorrer antes do check-in | Devolvida, se o cancelamento ocorrer antes do check-in |
 
-Se a Marina tem **certeza das datas**, essa diferença pesa pouco. Se há **risco de mudar**, pesa muito. **Na vida real, as regras mudam por programa, companhia e tipo de tarifa. Leia as condições da sua opção antes de confirmar.**
+**Leitura rápida do cancelamento (fictício):**
+- Em dinheiro, a Marina perde **R$ 392** (R$ 1.960 − R$ 1.568).
+- Com milhas, ela perde **R$ 300** (a taxa de cancelamento) e **recupera as 72.000 milhas**. Mas aquelas milhas voltam para a conta e **precisam ser usadas de novo dentro da validade do lote** (Capítulo 10).
+
+Se a Marina tem **certeza das datas**, essas diferenças pesam pouco. Se há **risco de mudar**, pesam muito. **Na vida real, as regras mudam por programa, companhia e tipo de tarifa. Leia as condições da sua opção antes de confirmar.**
 
 ### Passo 7 — A decisão
 A Marina olha tudo junto:
 - Economia por milheiro na comparação principal: R$ 23,33. Com a alternativa mais barata: R$ 16,81.
-- Ela **tem as milhas sem custo direto**, e o saldo **vence em 14 meses**, depois da viagem.
+- Ela **tem as milhas sem custo direto**.
 - Ela **não tem outro uso concreto** para as 72.000 milhas nos próximos meses.
 - Ela **pode viajar nas datas mais baratas**.
 
-**Decisão possível:** como não tem outro uso à vista e o saldo não vence antes, ela pode (a) resgatar com milhas e economizar o dinheiro da passagem, ou (b) pagar em dinheiro as datas mais baratas e guardar as milhas. **Não há resposta única.** O que importa é ter feito a conta com as alternativas e conhecer as condições.
+**Decisão possível:** como não tem outro uso à vista, ela pode (a) resgatar com milhas e economizar o dinheiro da passagem, ou (b) pagar em dinheiro as datas mais baratas e guardar as milhas. **Não há resposta única.** O que importa é ter feito a conta com as alternativas e conhecer as condições.
 
 ---
 
@@ -113,7 +118,7 @@ Cada programa tem seu caminho, mas a lógica é parecida.
 5. **Confira os dados dos passageiros** (veja a lista abaixo).
 6. **Confirme o resgate** e guarde o comprovante.
 7. **Cheque o e-mail de confirmação** e anote o código da reserva.
-8. **Acompanhe a emissão do bilhete** e confira no site da companhia, quando possível.
+8. **Acompanhe a emissão do bilhete logo após o resgate.** Se o prazo informado passar sem o bilhete, **procure o atendimento oficial imediatamente**, sem esperar chegar perto da viagem.
 
 ### Lista de checagem antes de confirmar
 - [ ] As **datas e os horários** estão certos (incluindo fuso e horário de partida).
@@ -121,7 +126,7 @@ Cada programa tem seu caminho, mas a lógica é parecida.
 - [ ] O **nome de cada passageiro** está **igual ao do documento** que será usado no embarque. **[A CONFIRMAR: regra de cada programa e companhia sobre nome e correções.]**
 - [ ] Você sabe o **total de pontos ou milhas** e **tudo o que ainda será pago em dinheiro** (taxas, bagagem, serviços).
 - [ ] Você leu as **regras de alteração e cancelamento**, e se a tarifa é **não reembolsável**.
-- [ ] O **saldo** é suficiente e o **vencimento** do lote não passa antes da viagem.
+- [ ] O **saldo está disponível e válido para concluir o resgate**. Conferi **separadamente** a **validade do bilhete** e as **condições de eventual devolução das milhas**.
 - [ ] Você sabe **como e quando** receberá a confirmação e o bilhete.
 
 ### Exemplo real de condições de um programa (Livelo, 12/11/2026)
@@ -129,12 +134,20 @@ Para mostrar **como essas condições costumam aparecer**, veja alguns trechos d
 
 - Alguns hotéis e companhias aéreas cobram **taxas de serviço, impostos ou suplementos que não estão incluídos no resgate**, pagos diretamente à companhia ou ao hotel.
 - A **confirmação da reserva** é enviada ao e-mail cadastrado; se não chegar em **12 horas**, o participante pode pedir o reenvio.
-- Os **e-tickets** são emitidos pelo parceiro; se não chegarem até **48 horas antes do embarque**, pode-se pedir o reenvio.
-- Após a confirmação do resgate, **em geral não se permite o cancelamento**, e os pontos não são restituídos, **salvo** exceções (como o direito de arrependimento previsto no regulamento, em até 7 dias corridos após o resgate, que deve ser exercido com antecedência mínima de **48 horas** do embarque, e alguns casos previstos, como falecimento ou doenças infectocontagiosas com comprovação).
-- **Não há direito de arrependimento** em serviços descritos como "**tarifa não reembolsável**" no momento do resgate.
-- **No-show** (não comparecer ao voo): o bilhete não pode ser alterado nem reembolsado, e o trecho de volta pode ser cancelado automaticamente, salvo exceção prevista.
+- Os **e-tickets** são emitidos pelo parceiro. O regulamento prevê que, se não chegarem até **48 horas antes do embarque**, pode-se pedir o reenvio. **Isso é um limite máximo, não um prazo para esperar:** acompanhe a emissão logo após o resgate e procure atendimento assim que o prazo informado passar.
+- Após a confirmação do resgate, **o regulamento não permite o cancelamento pelo participante**, e os pontos não são restituídos, **salvo** nas exceções que ele próprio prevê, como o **direito de arrependimento** do regulamento (até 7 dias corridos após o resgate, exercido com antecedência mínima de **48 horas** do embarque) e casos específicos como falecimento ou doenças infectocontagiosas, com comprovação.
+- O regulamento da Livelo diz que **esse direito de arrependimento do regulamento não é garantido em serviços descritos como "tarifa não reembolsável"** no momento do resgate. **É uma condição comercial do programa**, e ela **não substitui os direitos do passageiro previstos em norma** (veja o quadro abaixo).
+- **No-show** (não comparecer ao voo): o bilhete não pode ser alterado nem reembolsado, e **o trecho de volta é cancelado automaticamente**, **exceto** se o participante **informar, até o horário originalmente contratado para o trecho de ida do voo doméstico, que deseja utilizar o trecho de volta**.
 - **Correção de nome** (apenas erro de preenchimento): precisa ser pedida com pelo menos **72 horas** de antecedência do check-in; depois disso, o pedido é feito direto à companhia, no check-in.
 - Antes de resgatar, o participante deve seguir **os termos e condições específicos** exibidos no site na hora da escolha.
+
+### Condições do programa e direitos do passageiro são coisas diferentes
+Os trechos acima são **condições contratuais de um programa**. Além delas, existem **direitos do passageiro** previstos em norma e divulgados pela **ANAC** (Agência Nacional de Aviação Civil). Segundo a orientação da ANAC sobre alterações da viagem e reembolso:
+
+- **Desistência sem custo:** é possível desistir da compra **sem custo em até 24 horas** do recebimento do comprovante, **quando a compra é feita com antecedência mínima de sete dias do voo**.
+- **No-show em voo doméstico de ida e volta:** o passageiro pode **manter a volta sem custo adicional**, desde que **comunique a intenção à companhia até o horário originalmente previsto para a ida**.
+
+**Cuidados:** essas regras são da ANAC e **precisam ser verificadas quanto à aplicação à sua operação** (por exemplo, se a passagem foi comprada com milhas, em qual canal e com quanta antecedência). Não presuma que um resgate com milhas se enquadra, nem que não se enquadra: **confirme na página da ANAC e com a companhia**. **[A CONFIRMAR: ler a página da ANAC (www.gov.br/anac, "Alterações da viagem e reembolso") na data da publicação. A página não pôde ser aberta por nós nesta etapa: ela exige um teste de verificação humana; as regras acima foram transcritas da orientação indicada na revisão editorial, e não lidas por nós na fonte.]**
 
 **Lição:** as condições variam, e **você só as conhece lendo antes de confirmar**. Não presuma que seu programa funciona assim.
 
@@ -156,13 +169,13 @@ Mesmo com tudo certo, imprevistos acontecem. Saber o que fazer reduz o prejuízo
 Veja primeiro **quanto tempo falta para o embarque** e **quem faz a correção** (o programa ou a companhia). No exemplo da Livelo, a correção de erro de preenchimento precisa ser pedida com **72 horas de antecedência do check-in**; depois, o pedido é feito direto à companhia. **Confirme a regra do seu programa e da sua companhia.**
 
 ### 3. A confirmação ou o bilhete não chegou
-Confira o e-mail cadastrado (inclusive spam). Se não chegar no prazo informado, **peça o reenvio pelos canais oficiais**. No exemplo da Livelo, os prazos são **12 horas** para a confirmação da reserva e **48 horas antes do embarque** para os e-tickets.
+Confira o e-mail cadastrado (inclusive spam). Se não chegar no prazo informado, **peça o reenvio pelos canais oficiais**. No exemplo da Livelo, os prazos de reenvio são **12 horas** para a confirmação da reserva e **48 horas antes do embarque** para os e-tickets. **Não espere até perto da viagem para descobrir que o bilhete não foi emitido:** acompanhe a emissão logo após o resgate e procure atendimento assim que o prazo informado passar.
 
 ### 4. O pedido foi rejeitado
 No exemplo da Livelo, se o pedido não for processado pelo parceiro, os pontos são **devolvidos automaticamente**, em até **60 dias** (e até 90 dias em operações com Pontos+Dinheiro), com a **validade original**. Fique atento a esse prazo e ao **vencimento** do lote.
 
 ### 5. Você não vai conseguir embarcar (no-show)
-Em muitos casos, **não comparecer** significa **perder o bilhete**, e o trecho de volta pode ser cancelado. Avise o programa ou a companhia **antes do voo**, sempre que possível, e **leia a regra** da sua tarifa.
+Em muitos casos, **não comparecer** significa **perder o bilhete**, e o trecho de volta pode ser cancelado. No exemplo da Livelo, a volta de um voo doméstico só é mantida se o participante informar que quer usá-la **até o horário originalmente contratado para a ida**. A orientação da ANAC para voos domésticos de ida e volta também fala em comunicar a intenção à companhia **até o horário originalmente previsto para a ida** (veja o quadro do Capítulo 14, **[A CONFIRMAR]**). Se perceber que não vai conseguir embarcar, **avise a companhia antes do horário do voo**, sempre que possível, e **leia a regra** da sua tarifa.
 
 ### 6. Voo cancelado, atrasado ou alterado pela companhia
 As regras de assistência e de reacomodação dependem da companhia, do tipo de bilhete e do que está previsto na lei. **Procure os canais oficiais da companhia e do programa** e guarde todas as comunicações. Em caso de dúvida sobre seus direitos como consumidor, **procure um órgão de defesa do consumidor**. **[A CONFIRMAR: orientações oficiais de cada companhia citada na versão final.]**
