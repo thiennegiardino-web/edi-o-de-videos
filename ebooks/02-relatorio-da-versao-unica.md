@@ -10,7 +10,7 @@ Data: 16/11/2026. Arquivo: `ebooks/02-cartoes-e-pontos-versao-unica.md` (Partes 
 5. **Índice e remissões:** sumário atualizado para 4 partes e 12 capítulos. Retirados todos os vestígios do índice anterior (remissão ao e-book 1, "Parte 5", "Próxima parte", capítulos 8 a 10 antigos, avisos de rascunho).
 
 ## Referências e repetições
-- 111 remissões a capítulos conferidas: nenhuma aponta para capítulo inexistente.
+- Remissões a capítulos conferidas: nenhuma aponta para capítulo inexistente. **Correção de registro (16/11/2026):** o número 111 citado antes incluía o sumário da abertura e os títulos dos capítulos; as remissões dentro dos capítulos são **90** (lista de trabalho em `04-apoio-auditoria-remissoes.md`).
 - Três remissões vagas foram trocadas por números de capítulo ("próximo capítulo" duas vezes e "Parte 1").
 - Nenhum parágrafo idêntico. As repetições que sobram são de reforço e ligadas ao tema (fatura integral, comparação com opção sem anuidade e cashback, ressalva de que o resultado combina valores, avisos de que as regras mudam).
 - Os exemplos fictícios usam Marina (caps. 2, 4 e 8), Rafael (caps. 1, 5, 7 e 9), Carlos (caps. 3 e 6) e Paula (caps. 6 e 11), sem contradição de valores entre eles. No cap. 2, a Marina passou a ter a premissa "para simplificar, todos os gastos pontuam", porque no cap. 8 parte dos gastos dela não pontua.
