@@ -24,3 +24,8 @@ Data: 16/11/2026. Arquivo: `ebooks/02-cartoes-e-pontos-versao-unica.md` (Partes 
 
 ## O que falta para fechar
 Reconfirmar F1 a F7 na publicação, inserir a lista final de fontes e trocar "são verificadas" por "foram confirmadas" só depois da reconferência, e fazer a revisão visual do arquivo diagramado.
+
+## Ajustes finais (aprovação do conteúdo para a diagramação)
+- **Cap. 9, exemplo do Rafael:** a descrição agora diz que ele considerou inicialmente R$ 2.000 como gastos que pontuariam e esperava 3.000 pontos; após conferir as exclusões, identificou R$ 120 que não pontuavam; o gasto elegível correto era R$ 1.880, correspondente aos 2.820 pontos creditados (conferido: 1.880 × 1,5 = 2.820; 120 × 1,5 = 180; 3.000 − 2.820 = 180).
+- **Cap. 11, exemplo da Paula:** "resultado do ano" virou "resultado considerando apenas os benefícios já utilizados" (− R$ 80). Entrou a frase: "Esse recorte não mede todo o valor gerado pelo cartão no período, pois não atribui valor aos pontos ainda disponíveis. Ele deve ser lido junto do saldo restante e da perspectiva de uso." Os 14.000 pontos restantes seguem como "não necessariamente sem valor".
+- **Limite da verificação:** a leitura do Codex confirma as mudanças centrais, mas não equivale a uma auditoria independente das 111 remissões nem à revisão visual das páginas.

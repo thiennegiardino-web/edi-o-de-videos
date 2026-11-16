@@ -137,3 +137,8 @@ Consulta em 16/11/2026. Mesma regra do e-book 1: **A fonte diz isso?** e **Está
 **D. Decisões encerradas:** estrutura em 4 partes e 12 capítulos; exemplos fictícios mantidos e identificados.
 **E. Histórico (retirado):** remissão ao e-book 1; "pontos presos"; "custo de oportunidade" como sinônimo de gasto adicional; "pagamento mínimo"; exemplo do cap. 5 com a Marina (passou ao Rafael).
 **F. Para fazer na publicação:** (1) reconfirmar F1 a F7 e registrar a data; (2) inserir a lista de fontes no e-book e trocar "são verificadas" por "foram confirmadas" só depois disso; (3) revisão visual do arquivo diagramado.
+
+## Ajustes finais de 16/11/2026 (sem alteração de fontes)
+- Cap. 9: exemplo do Rafael alinhado (gasto elegível correto R$ 1.880 = R$ 2.000 − R$ 120; 1.880 × 1,5 = 2.820 pontos creditados).
+- Cap. 11: exemplo da Paula qualificado ("resultado considerando apenas os benefícios já utilizados", com a ressalva sobre os pontos ainda disponíveis).
+- Nenhuma fonte (F1 a F7) foi acrescentada ou retirada.

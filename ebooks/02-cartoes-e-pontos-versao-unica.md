@@ -545,8 +545,8 @@ Monte uma planilha simples, com uma linha por fatura. Ela é o seu painel.
 
 Para calcular os **pontos esperados**, use a taxa de pontuação do seu cartão e as exclusões (Capítulo 2).
 
-> **[Exemplo fictício]** O Rafael tem um cartão que dá **1,5 ponto por real** (valor inventado). Em um mês, o gasto elegível foi de **R$ 2.000**, então ele esperava **3.000 pontos**. Foram creditados **2.820**. A diferença é de **180 pontos**.
-> Antes de reclamar, ele **conferiu**: (1) se alguma compra estava **entre as exclusões** do regulamento; (2) se o **prazo de crédito** já havia passado; (3) se havia **compras ainda não contabilizadas** (por exemplo, de fechamento próximo). Encontrou uma compra de **R$ 120 que não pontua** pela regra do cartão, o que explica **180 pontos** (R$ 120 × 1,5 = 180). A diferença, portanto, **não era um erro**.
+> **[Exemplo fictício]** O Rafael tem um cartão que dá **1,5 ponto por real** (valor inventado). O Rafael considerou inicialmente **R$ 2.000** como gastos que pontuariam e esperava **3.000 pontos**. Foram creditados **2.820**. A diferença é de **180 pontos**.
+> Antes de reclamar, ele **conferiu**: (1) se alguma compra estava **entre as exclusões** do regulamento; (2) se o **prazo de crédito** já havia passado; (3) se havia **compras ainda não contabilizadas** (por exemplo, de fechamento próximo). Após conferir as exclusões, identificou **R$ 120 que não pontuavam** pela regra do cartão, o que explica **180 pontos** (R$ 120 × 1,5 = 180). **O gasto elegível correto era R$ 1.880** (R$ 2.000 − R$ 120), correspondente aos **2.820 pontos creditados** (R$ 1.880 × 1,5 = 2.820). A diferença, portanto, **não era um erro**.
 
 ### Se os pontos não chegarem ou vierem a menos
 
@@ -632,7 +632,7 @@ Uma vez por ano, **antes de a anuidade ser cobrada ou renovada**, vale rever se 
 | Pontos **ainda sem uso** | |
 | Benefícios do cartão que você **realmente usou** e o valor que você pagaria por eles | |
 
-**2. Valore o que você usou.** Para os pontos já usados, use o valor que você de fato obteve (Capítulo 2). **Pontos ainda não usados não entram no resultado do ano passado, mas não são necessariamente sem valor:** o valor deles depende de um uso futuro, da validade e das regras.
+**2. Valore o que você usou.** Para os pontos já usados, use o valor que você de fato obteve (Capítulo 2). **Pontos ainda não usados não entram nesse resultado, que considera apenas os benefícios já utilizados, mas não são necessariamente sem valor:** o valor deles depende de um uso futuro, da validade e das regras.
 
 **3. Compare com uma alternativa nos mesmos termos.** Use **os mesmos gastos elegíveis** e **declare os custos e as condições da alternativa**: anuidade, limites, exclusões, forma de recebimento e eventuais outros custos (Capítulos 4, 5 e 7). Compare também com **uma opção sem anuidade**.
 
@@ -648,10 +648,11 @@ Uma vez por ano, **antes de a anuidade ser cobrada ou renovada**, vale rever se 
 >
 > **Etapa A — avaliação do ano que passou**
 > - Ela **usou 10.000 pontos** em um benefício que custaria **R$ 280 em dinheiro**, sem pagamento adicional: **R$ 28 por milheiro** (Capítulo 2). **Valor obtido: R$ 280.**
-> - Restaram **14.000 pontos sem uso**. Eles **não entram no resultado do ano**, mas **não são necessariamente sem valor**.
+> - Restaram **14.000 pontos sem uso**. Eles **não entram nesse resultado**, mas **não são necessariamente sem valor**.
 > - Ela usou o **seguro viagem** do cartão, que **pagaria R$ 120** para ter: **R$ 120**.
-> - **Total do que ela realmente usou:** R$ 280 + R$ 120 = **R$ 400**. **Anuidade:** R$ 480. **Resultado do ano: − R$ 80.**
+> - **Total do que ela realmente usou:** R$ 280 + R$ 120 = **R$ 400**. **Anuidade:** R$ 480. **Resultado considerando apenas os benefícios já utilizados: − R$ 80.**
 > - **O resultado combina o valor obtido nos pontos com o valor atribuído a um benefício. Não representa necessariamente dinheiro recebido ou disponível na conta.**
+> - **Esse recorte não mede todo o valor gerado pelo cartão no período, pois não atribui valor aos pontos ainda disponíveis. Ele deve ser lido junto do saldo restante e da perspectiva de uso.**
 > - **Alternativa, nos mesmos termos:** um cartão de **cashback de 1%** sobre os **mesmos R$ 20.000** de gasto elegível, **sem anuidade**, **sem limites, exclusões ou outros custos** (hipótese que ela precisaria confirmar com o emissor) teria devolvido **R$ 200**.
 >
 > **Etapa B — decisão para o próximo ano**
