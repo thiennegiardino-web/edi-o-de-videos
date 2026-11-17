@@ -1,0 +1,1570 @@
+[
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.01",
+  "descricao": "Cap. 13: tarifa = R$ 1.960 − R$ 280",
+  "esperado": 1680,
+  "obtido": 1680,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.02",
+  "descricao": "Cap. 13: alternativa R$ 1.490 − R$ 280 de taxas",
+  "esperado": 1210,
+  "obtido": 1210,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.03",
+  "descricao": "Cap. 13: pago em dinheiro (opção em dinheiro) = R$ 1.680 + R$ 280 + R$ 360",
+  "esperado": 2320,
+  "obtido": 2320,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.04",
+  "descricao": "Cap. 13: pago em dinheiro (milhas) = R$ 280 + R$ 360",
+  "esperado": 640,
+  "obtido": 640,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.05",
+  "descricao": "Cap. 13: economia calculada",
+  "esperado": 1680,
+  "obtido": 1680,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.06",
+  "descricao": "Cap. 13: valor por milheiro contra a opção em dinheiro (R$ 23,33)",
+  "esperado": 23.3333333,
+  "obtido": 23.3333333333333,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.07",
+  "descricao": "Cap. 13: valor por milheiro contra a alternativa (R$ 16,81)",
+  "esperado": 16.8055556,
+  "obtido": 16.8055555555556,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.08",
+  "descricao": "Cap. 4, exemplo A: R$ 55 por milheiro",
+  "esperado": 55,
+  "obtido": 55,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.09",
+  "descricao": "Cap. 4, exemplo B: ≈ R$ 34,67",
+  "esperado": 34.6666667,
+  "obtido": 34.6666666666667,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.10",
+  "descricao": "Cap. 4, exemplo C (base A)",
+  "esperado": 55,
+  "obtido": 55,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.11",
+  "descricao": "Cap. 4, exemplo C: contra a alternativa de R$ 700 (derivado da mesma fórmula)",
+  "esperado": 30,
+  "obtido": 30,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.12",
+  "descricao": "Cap. 13 (Passo 6): total antes da bagagem R$ 1.960",
+  "esperado": 1960,
+  "obtido": 1960,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.13",
+  "descricao": "Cap. 13: 80% da tarifa (R$ 1.344) + taxas devolvidas (R$ 280) = R$ 1.624",
+  "esperado": 1624,
+  "obtido": 1624,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.14",
+  "descricao": "Cap. 13: perda em dinheiro R$ 336",
+  "esperado": 336,
+  "obtido": 336,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.15",
+  "descricao": "Cap. 13: perda em dinheiro com milhas R$ 300 (taxa de cancelamento)",
+  "esperado": 300,
+  "obtido": 300,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.16",
+  "descricao": "Cap. 13: nenhuma milha perdida (72.000 devolvidas)",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.17",
+  "descricao": "Cap. 13: taxa de alteração R$ 300 (2 pessoas)",
+  "esperado": 300,
+  "obtido": 300,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.18",
+  "descricao": "Cap. 13: taxa de alteração R$ 200 (2 pessoas)",
+  "esperado": 200,
+  "obtido": 200,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.19",
+  "descricao": "Cap. 16: R$ 42 por milheiro",
+  "esperado": 42,
+  "obtido": 42,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.20",
+  "descricao": "Cap. 17: R$ 600 por 20.000 pontos = R$ 30 por milheiro",
+  "esperado": 30,
+  "obtido": 30,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.21",
+  "descricao": "Cap. 17: 20.000 × 1,30 = 26.000 milhas",
+  "esperado": 26000,
+  "obtido": 26000,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.22",
+  "descricao": "Cap. 17: R$ 23,08 por milheiro",
+  "esperado": 23.0769231,
+  "obtido": 23.0769230769231,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.23",
+  "descricao": "Cap. 17: 20.000 × 2 = 40.000 milhas",
+  "esperado": 40000,
+  "obtido": 40000,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.24",
+  "descricao": "Cap. 17: R$ 15,00 por milheiro",
+  "esperado": 15,
+  "obtido": 15,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.25",
+  "descricao": "Cap. 17: diferença de cerca de R$ 1,81 contra os R$ 16,81",
+  "esperado": 1.81,
+  "obtido": 1.81,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.26",
+  "descricao": "Cap. 10: saldo = 8.000 + 12.000 (soma dos lotes)",
+  "esperado": 20000,
+  "obtido": 20000,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.27",
+  "descricao": "Renovação (adicional): R$ 150 + R$ 80",
+  "esperado": 230,
+  "obtido": 230,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.28",
+  "descricao": "Renovação (adicional): R$ 600 − R$ 230",
+  "esperado": 370,
+  "obtido": 370,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.29",
+  "descricao": "Lote de 16/03/2027: 120 dias após a referência",
+  "esperado": 120,
+  "obtido": 120,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.30",
+  "descricao": "Plano: 14 atividades concluídas no exemplo",
+  "esperado": 14,
+  "obtido": 14,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.31",
+  "descricao": "Plano: 19 aplicáveis (2 \"Não se aplica\")",
+  "esperado": 19,
+  "obtido": 19,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.32",
+  "descricao": "Aba 04: situação do lote na linha 7",
+  "esperado": "Mais de 90 dias",
+  "obtido": "Mais de 90 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.33",
+  "descricao": "Aba 04: situação do lote na linha 9",
+  "esperado": "Vencido",
+  "obtido": "Vencido",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.34",
+  "descricao": "Aba 04: situação do lote na linha 10",
+  "esperado": "Vence hoje",
+  "obtido": "Vence hoje",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.35",
+  "descricao": "Aba 04: situação do lote na linha 11",
+  "esperado": "Vence em até 30 dias",
+  "obtido": "Vence em até 30 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.36",
+  "descricao": "Aba 04: situação do lote na linha 12",
+  "esperado": "Vence em até 60 dias",
+  "obtido": "Vence em até 60 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.37",
+  "descricao": "Aba 04: situação do lote na linha 13",
+  "esperado": "Vence em até 90 dias",
+  "obtido": "Vence em até 90 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.38",
+  "descricao": "Aba 04: situação do lote na linha 14",
+  "esperado": "Data não informada",
+  "obtido": "Data não informada",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.39",
+  "descricao": "Aba 04: situação do lote na linha 15",
+  "esperado": "Sem expiração confirmada",
+  "obtido": "Sem expiração confirmada",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.40",
+  "descricao": "Aba 06: 60 dias corridos após 03/11/2026",
+  "esperado": "2027-01-02",
+  "obtido": "2027-01-02",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.41",
+  "descricao": "Aba 06: 30 dias corridos após a data prevista de crédito",
+  "esperado": "2027-02-01",
+  "obtido": "2027-02-01",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.42",
+  "descricao": "Aba 06: 10 dias úteis após 12/11/2026 com feriado em 20/11/2026",
+  "esperado": "2026-11-27",
+  "obtido": "2026-11-27",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.43",
+  "descricao": "Aba 06: diferença creditado − esperado",
+  "esperado": -20,
+  "obtido": -20,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.44",
+  "descricao": "Aba 06: alerta de divergência",
+  "esperado": "Divergência: creditado diferente do esperado.",
+  "obtido": "Divergência: creditado diferente do esperado.",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.45",
+  "descricao": "Aba 06: prazo de crédito passou sem crédito",
+  "esperado": "O prazo previsto de crédito passou sem crédito registrado.",
+  "obtido": "O prazo previsto de crédito passou sem crédito registrado.",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.46",
+  "descricao": "Aba 01: lotes vencidos",
+  "esperado": 1,
+  "obtido": 1,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.47",
+  "descricao": "Aba 01: lotes que vencem hoje",
+  "esperado": 1,
+  "obtido": 1,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.48",
+  "descricao": "Aba 01: plano",
+  "esperado": "14 de 19",
+  "obtido": "14 de 19",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.49",
+  "descricao": "Aba 01: compras divergentes ou em contestação",
+  "esperado": 1,
+  "obtido": 1,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.50",
+  "descricao": "Aba 03: alerta de inatividade (prazo atingido)",
+  "esperado": "Prazo informado atingido ou ultrapassado: confira com o programa.",
+  "obtido": "Prazo informado atingido ou ultrapassado: confira com o programa.",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.51",
+  "descricao": "Aba 03: alerta de inatividade (a menos de 3 meses)",
+  "esperado": "Atenção: a menos de 3 meses do prazo informado (sugestão de organização).",
+  "obtido": "Atenção: a menos de 3 meses do prazo informado (sugestão de organização).",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.52",
+  "descricao": "Aba 05: diferença de preço do liquidificador (R$ 220 − R$ 200)",
+  "esperado": 20,
+  "obtido": 20,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.53",
+  "descricao": "Aba 02: resumo montado (Marina)",
+  "esperado": "Quero viajar de Campinas para Salvador, com 2 pessoa(s), daqui a 10 meses. Já tenho cadastro em Programa da farmácia (exemplo), Programa do supermercado (exemplo). Meu primeiro passo é Ver o saldo e a validade desses dois programas.",
+  "obtido": "Quero viajar de Campinas para Salvador, com 2 pessoa(s), daqui a 10 meses. Já tenho cadastro em Programa da farmácia (exemplo), Programa do supermercado (exemplo). Meu primeiro passo é Ver o saldo e a validade desses dois programas.",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.54",
+  "descricao": "Valores em cache do arquivo de exemplos = valores recalculados pelo LibreOffice (1567 células comparadas)",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G2 Arquivo do aluno (vazio)",
+  "id": "2.01",
+  "descricao": "Nenhuma fórmula resulta em erro (#DIV/0!, #VALUE!, #REF!, #NAME?, Err:)",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G2 Arquivo do aluno (vazio)",
+  "id": "2.02",
+  "descricao": "Sem dados, as fórmulas ficam em branco (exceto contagens, datas de referência, resumos e textos-modelo); células fora dessa lista com conteúdo:",
+  "esperado": [],
+  "obtido": [],
+  "ok": true
+ },
+ {
+  "grupo": "G2 Arquivo do aluno (vazio)",
+  "id": "2.03",
+  "descricao": "Aba 01: data usada nos cálculos = data de hoje (sem data de referência)",
+  "esperado": "2026-11-17",
+  "obtido": "2026-11-17",
+  "ok": true
+ },
+ {
+  "grupo": "G2 Arquivo do aluno (vazio)",
+  "id": "2.04",
+  "descricao": "Aba 01: contagens zeradas",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G2 Arquivo do aluno (vazio)",
+  "id": "2.05",
+  "descricao": "Aba 01: checklists \"0 de 49\"",
+  "esperado": "0 de 49",
+  "obtido": "0 de 49",
+  "ok": true
+ },
+ {
+  "grupo": "G2 Arquivo do aluno (vazio)",
+  "id": "2.06",
+  "descricao": "Aba 02: resumo montado com sublinhados",
+  "esperado": "Quero viajar de __________ para __________, com ____ pessoa(s), daqui a ____ meses. Já tenho cadastro em __________. Meu primeiro passo é __________.",
+  "obtido": "Quero viajar de __________ para __________, com ____ pessoa(s), daqui a ____ meses. Já tenho cadastro em __________. Meu primeiro passo é __________.",
+  "ok": true
+ },
+ {
+  "grupo": "G2 Arquivo do aluno (vazio)",
+  "id": "2.07",
+  "descricao": "Aba 12: plano com 21 atividades, sem concluídas",
+  "esperado": "0 de 21",
+  "obtido": "0 de 21",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.01",
+  "descricao": "Aba 07 preenchida no arquivo do aluno reproduz R$ 23,33",
+  "esperado": 23.3333333,
+  "obtido": 23.3333333333333,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.02",
+  "descricao": "… e R$ 16,81 contra a alternativa",
+  "esperado": 16.8055556,
+  "obtido": 16.8055555555556,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.03",
+  "descricao": "Pontos = 0: sem divisão por zero (valor por milheiro em branco)",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.04",
+  "descricao": "… e aviso para informar os pontos",
+  "esperado": "Informe os pontos ou milhas utilizados (maior que zero) para calcular o valor por milheiro.",
+  "obtido": "Informe os pontos ou milhas utilizados (maior que zero) para calcular o valor por milheiro.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.05",
+  "descricao": "Texto no lugar dos pontos: sem erro; resultado em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.06",
+  "descricao": "… e aviso",
+  "esperado": "Informe os pontos ou milhas utilizados (maior que zero) para calcular o valor por milheiro.",
+  "obtido": "Informe os pontos ou milhas utilizados (maior que zero) para calcular o valor por milheiro.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.07",
+  "descricao": "Taxa de embarque maior que o preço total: aviso para não contar a taxa duas vezes",
+  "esperado": "A taxa de embarque informada é maior que o preço total em dinheiro: confira para não contar a taxa duas vezes.",
+  "obtido": "A taxa de embarque informada é maior que o preço total em dinheiro: confira para não contar a taxa duas vezes.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.08",
+  "descricao": "Sem alternativa em dinheiro: resultado contra a alternativa em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.09",
+  "descricao": "… e aviso",
+  "esperado": "Informe a melhor alternativa em dinheiro para ver o resultado contra ela (Capítulo 12).",
+  "obtido": "Informe a melhor alternativa em dinheiro para ver o resultado contra ela (Capítulo 12).",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.10",
+  "descricao": "Sem os pagamentos adicionais do resgate: não calcula (não assume zero)",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.11",
+  "descricao": "… e aviso para digitar 0",
+  "esperado": "Informe os pagamentos adicionais do resgate (digite 0 se não houver).",
+  "obtido": "Informe os pagamentos adicionais do resgate (digite 0 se não houver).",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.12",
+  "descricao": "Exercício do Cap. 4 com pontos = 0: sem erro",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.13",
+  "descricao": "Exercício do Cap. 4 sem pagamento adicional (em branco = 0): R$ 100 por milheiro",
+  "esperado": 100,
+  "obtido": 100,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.14",
+  "descricao": "Transferência sem limite: 26.000 milhas",
+  "esperado": 26000,
+  "obtido": 26000,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.15",
+  "descricao": "… custo por milheiro R$ 23,08",
+  "esperado": 23.0769231,
+  "obtido": 23.0769230769231,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.16",
+  "descricao": "… e aviso de que nenhum limite foi informado",
+  "esperado": "Nenhum limite informado: o cálculo assume que todos os pontos transferidos recebem bônus. Confira o regulamento da promoção.",
+  "obtido": "Nenhum limite informado: o cálculo assume que todos os pontos transferidos recebem bônus. Confira o regulamento da promoção.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.17",
+  "descricao": "Limite de bônus de 10.000 pontos: bônus = 3.000",
+  "esperado": 3000,
+  "obtido": 3000,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.18",
+  "descricao": "… total recebido 23.000",
+  "esperado": 23000,
+  "obtido": 23000,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.19",
+  "descricao": "… custo por milheiro R$ 26,09",
+  "esperado": 26.0869565,
+  "obtido": 26.0869565217391,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.20",
+  "descricao": "… aviso do limite",
+  "esperado": "O limite informado é menor que os pontos transferidos: o bônus foi calculado só sobre o limite.",
+  "obtido": "O limite informado é menor que os pontos transferidos: o bônus foi calculado só sobre o limite.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.21",
+  "descricao": "Limite maior que os pontos: bônus integral (6.000)",
+  "esperado": 6000,
+  "obtido": 6000,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.22",
+  "descricao": "Fator de conversão 0: sem divisão por zero",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.23",
+  "descricao": "… aviso",
+  "esperado": "O fator de conversão precisa ser maior que zero.",
+  "obtido": "O fator de conversão precisa ser maior que zero.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.24",
+  "descricao": "Fator 0,5 (2 pontos de origem para 1): base = 10.000",
+  "esperado": 10000,
+  "obtido": 10000,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.25",
+  "descricao": "… bônus de 30% sobre a base = 3.000",
+  "esperado": 3000,
+  "obtido": 3000,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.26",
+  "descricao": "Bônus 0%: apenas a conversão",
+  "esperado": 20000,
+  "obtido": 20000,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.27",
+  "descricao": "… aviso",
+  "esperado": "Sem bônus informado: só a conversão foi considerada.",
+  "obtido": "Sem bônus informado: só a conversão foi considerada.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.28",
+  "descricao": "Bônus em texto: tratado como zero, sem erro",
+  "esperado": 20000,
+  "obtido": 20000,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.29",
+  "descricao": "Lote com vencimento em -1 dia(s) da data de referência",
+  "esperado": "Vencido",
+  "obtido": "Vencido",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.30",
+  "descricao": "Lote com vencimento em +0 dia(s) da data de referência",
+  "esperado": "Vence hoje",
+  "obtido": "Vence hoje",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.31",
+  "descricao": "Lote com vencimento em +1 dia(s) da data de referência",
+  "esperado": "Vence em até 30 dias",
+  "obtido": "Vence em até 30 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.32",
+  "descricao": "Lote com vencimento em +30 dia(s) da data de referência",
+  "esperado": "Vence em até 30 dias",
+  "obtido": "Vence em até 30 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.33",
+  "descricao": "Lote com vencimento em +31 dia(s) da data de referência",
+  "esperado": "Vence em até 60 dias",
+  "obtido": "Vence em até 60 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.34",
+  "descricao": "Lote com vencimento em +60 dia(s) da data de referência",
+  "esperado": "Vence em até 60 dias",
+  "obtido": "Vence em até 60 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.35",
+  "descricao": "Lote com vencimento em +61 dia(s) da data de referência",
+  "esperado": "Vence em até 90 dias",
+  "obtido": "Vence em até 90 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.36",
+  "descricao": "Lote com vencimento em +90 dia(s) da data de referência",
+  "esperado": "Vence em até 90 dias",
+  "obtido": "Vence em até 90 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.37",
+  "descricao": "Lote com vencimento em +91 dia(s) da data de referência",
+  "esperado": "Mais de 90 dias",
+  "obtido": "Mais de 90 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.38",
+  "descricao": "Data em texto: \"Data inválida\"",
+  "esperado": "Data inválida",
+  "obtido": "Data inválida",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.39",
+  "descricao": "Sem data informada (não é o mesmo que sem expiração)",
+  "esperado": "Data não informada",
+  "obtido": "Data não informada",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.40",
+  "descricao": "Sem expiração confirmada",
+  "esperado": "Sem expiração confirmada",
+  "obtido": "Sem expiração confirmada",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.41",
+  "descricao": "Sem expiração confirmada, mas com data preenchida: pede conferência",
+  "esperado": "Conferir: sem expiração e data preenchidas",
+  "obtido": "Conferir: sem expiração e data preenchidas",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.42",
+  "descricao": "Linha vazia: situação em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.43",
+  "descricao": "Dias até o vencimento de lote sem expiração: em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.44",
+  "descricao": "Conta com lotes: saldo vem da soma dos lotes (13 lotes × 100 = 1.300 nas linhas preenchidas com \"P\")",
+  "esperado": 1300,
+  "obtido": 1300,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.45",
+  "descricao": "… o saldo manual divergente é ignorado e isso é informado",
+  "esperado": "Soma dos lotes (o saldo manual foi ignorado)",
+  "obtido": "Soma dos lotes (o saldo manual foi ignorado)",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.46",
+  "descricao": "Conta sem lotes: vale o saldo manual",
+  "esperado": 500,
+  "obtido": 500,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.47",
+  "descricao": "… e a origem do saldo é \"Informado manualmente\"",
+  "esperado": "Informado manualmente",
+  "obtido": "Informado manualmente",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.48",
+  "descricao": "Pontos a vencer em até 90 dias (7 lotes de 100, de +0 a +90 dias; sem expiração e vencidos ficam de fora)",
+  "esperado": 700,
+  "obtido": 700,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.49",
+  "descricao": "Próximo vencimento = a própria data de referência (lote que vence hoje)",
+  "esperado": "2026-11-16",
+  "obtido": "2026-11-16",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.50",
+  "descricao": "Inatividade: 25 meses sem movimentação, prazo 24",
+  "esperado": "Prazo informado atingido ou ultrapassado: confira com o programa.",
+  "obtido": "Prazo informado atingido ou ultrapassado: confira com o programa.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.51",
+  "descricao": "Inatividade: 23 meses, prazo 24 (menos de 3 meses do limite)",
+  "esperado": "Atenção: a menos de 3 meses do prazo informado (sugestão de organização).",
+  "obtido": "Atenção: a menos de 3 meses do prazo informado (sugestão de organização).",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.52",
+  "descricao": "Inatividade: 6 meses, prazo 24",
+  "esperado": "Dentro do prazo informado.",
+  "obtido": "Dentro do prazo informado.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.53",
+  "descricao": "Último acúmulo ou resgate no futuro: meses em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.54",
+  "descricao": "Só o último acesso foi informado (recente): o alerta pede a data do último acúmulo ou resgate",
+  "esperado": "Informe a data do último acúmulo ou resgate.",
+  "obtido": "Informe a data do último acúmulo ou resgate.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.55",
+  "descricao": "Sem prazo de inatividade informado: nenhum alerta é inventado",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.56",
+  "descricao": "10 dias úteis após quinta 12/11/2026, sem feriados",
+  "esperado": "2026-11-26",
+  "obtido": "2026-11-26",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.57",
+  "descricao": "10 dias corridos após 12/11/2026",
+  "esperado": "2026-11-22",
+  "obtido": "2026-11-22",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.58",
+  "descricao": "Sem prazo informado: sem data prevista (não assume prazo)",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.59",
+  "descricao": "Sem tipo de dias: sem data prevista",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.60",
+  "descricao": "Prazo para reclamar com base \"Outra data\" sem a data: não calcula",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.61",
+  "descricao": "Prazo para reclamar: 5 dias úteis após 01/12/2026 (terça) = 08/12/2026",
+  "esperado": "2026-12-08",
+  "obtido": "2026-12-08",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.62",
+  "descricao": "Data-limite de reclamação já passou (aguardando)",
+  "esperado": "Data-limite de reclamação já passou.",
+  "obtido": "Data-limite de reclamação já passou.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.63",
+  "descricao": "Linha com pouco dado: pede o preenchimento (sem inventar datas)",
+  "esperado": "Preencha o evento, a data, o prazo e o tipo de dias para calcular as datas.",
+  "obtido": "Preencha o evento, a data, o prazo e o tipo de dias para calcular as datas.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.64",
+  "descricao": "10 dias úteis após 12/11/2026 com feriado em 20/11/2026 na lista configurável",
+  "esperado": "2026-11-27",
+  "obtido": "2026-11-27",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.65",
+  "descricao": "Clube: período menor que a permanência mínima gera alerta",
+  "esperado": "O período analisado é menor que a permanência mínima: analise o período completo do compromisso.",
+  "obtido": "O período analisado é menor que a permanência mínima: analise o período completo do compromisso.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.66",
+  "descricao": "Clube com 0 mês analisado: sem divisão por zero",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.67",
+  "descricao": "Clube: custo total em 12 meses = 42 × 12 + 60 de outros custos",
+  "esperado": 564,
+  "obtido": 564,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.68",
+  "descricao": "Clube: pontos recebidos = 1.000 × 12 + 1.000 (bônus contado uma vez no período)",
+  "esperado": 13000,
+  "obtido": 13000,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.69",
+  "descricao": "Clube: custo por milheiro no período completo = 564 ÷ 13",
+  "esperado": 43.3846154,
+  "obtido": 43.3846153846154,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.70",
+  "descricao": "Compra com tudo em zero: sem divisão por zero",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.71",
+  "descricao": "Renovação: pontos necessários maiores que a quantidade elegível: aviso",
+  "esperado": "Os pontos necessários superam a quantidade elegível: o resgate não cabe só neste lote.",
+  "obtido": "Os pontos necessários superam a quantidade elegível: o resgate não cabe só neste lote.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.72",
+  "descricao": "Renovação: nova validade não posterior à referência: aviso",
+  "esperado": "A nova validade informada não é posterior à data de referência.",
+  "obtido": "A nova validade informada não é posterior à data de referência.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.73",
+  "descricao": "Renovação sem a alternativa em dinheiro: não compara e avisa",
+  "esperado": "Sem uso concreto com valor em dinheiro informado: não há o que comparar. Pagar sem perspectiva de uso pode gerar outra perda.",
+  "obtido": "Sem uso concreto com valor em dinheiro informado: não há o que comparar. Pagar sem perspectiva de uso pode gerar outra perda.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.74",
+  "descricao": "Renovação sem comparação: desembolsos em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.75",
+  "descricao": "Mapa de acúmulo: preço pelo programa R$ 20 mais caro",
+  "esperado": 20,
+  "obtido": 20,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.76",
+  "descricao": "… leitura: não chama os pontos de gratuitos (o separador decimal segue a localidade do programa que abre o arquivo)",
+  "esperado": "Pelo caminho do programa você paga R$ 20.00 a mais. Os pontos não são gratuitos: o benefício precisa valer mais do que essa diferença.",
+  "obtido": "Pelo caminho do programa você paga R$ 20.00 a mais. Os pontos não são gratuitos: o benefício precisa valer mais do que essa diferença.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.77",
+  "descricao": "Mapa de acúmulo: preço pelo programa mais barato",
+  "esperado": "O caminho do programa tem preço final R$ 20.00 menor que a alternativa.",
+  "obtido": "O caminho do programa tem preço final R$ 20.00 menor que a alternativa.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.78",
+  "descricao": "Mapa de acúmulo: preços iguais",
+  "esperado": "Mesmo preço final nas duas opções.",
+  "obtido": "Mesmo preço final nas duas opções.",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.79",
+  "descricao": "Mapa de acúmulo: sem a alternativa, sem diferença",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.80",
+  "descricao": "Data de referência informada substitui a data de hoje",
+  "esperado": "2030-01-15",
+  "obtido": "2030-01-15",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.81",
+  "descricao": "Plano: semana 1 com 5 de 5",
+  "esperado": 5,
+  "obtido": 5,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.82",
+  "descricao": "Plano: \"Não se aplica\" sai do total aplicável da semana 2",
+  "esperado": 4,
+  "obtido": 4,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.83",
+  "descricao": "Plano: início sugerido da semana 3 = início + 14 dias",
+  "esperado": "2026-11-16",
+  "obtido": "2026-11-16",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.84",
+  "descricao": "Checklists: 5 itens do grupo mensal concluídos",
+  "esperado": 5,
+  "obtido": 5,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.85",
+  "descricao": "Checklists: progresso do grupo mensal",
+  "esperado": 1,
+  "obtido": 1,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.86",
+  "descricao": "Checklists: total de itens por grupo somam 49",
+  "esperado": 49,
+  "obtido": 49,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.87",
+  "descricao": "Aba 08 preenchida no arquivo do aluno: perda em dinheiro R$ 336",
+  "esperado": 336,
+  "obtido": 336,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.88",
+  "descricao": "… e R$ 300 com milhas",
+  "esperado": 300,
+  "obtido": 300,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.89",
+  "descricao": "Bagagem parcialmente devolvida (R$ 100 de R$ 360): a diferença entra na perda (336 + 260)",
+  "esperado": 596,
+  "obtido": 596,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.90",
+  "descricao": "Aba 08 sem dados da aba 07: resultados em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G4 Inserção de linhas (as faixas das fórmulas acompanham)",
+  "id": "4.01",
+  "descricao": "Inserir linha na aba 04: a soma de lotes da aba 03 inclui a nova linha (777)",
+  "esperado": 777,
+  "obtido": 777.0,
+  "ok": true
+ },
+ {
+  "grupo": "G4 Inserção de linhas (as faixas das fórmulas acompanham)",
+  "id": "4.02",
+  "descricao": "… a faixa da fórmula cresceu de 156 para 157",
+  "esperado": [
+   true,
+   true
+  ],
+  "obtido": [
+   true,
+   true
+  ],
+  "ok": true
+ },
+ {
+  "grupo": "G4 Inserção de linhas (as faixas das fórmulas acompanham)",
+  "id": "4.03",
+  "descricao": "… copiando as colunas calculadas da linha de cima, a situação do lote novo é calculada (vence em até 30 dias)",
+  "esperado": "Vence em até 30 dias",
+  "obtido": "Vence em até 30 dias",
+  "ok": true
+ },
+ {
+  "grupo": "G4 Inserção de linhas (as faixas das fórmulas acompanham)",
+  "id": "4.04",
+  "descricao": "… e a contagem da aba 01 acompanha",
+  "esperado": 1,
+  "obtido": 1.0,
+  "ok": true
+ },
+ {
+  "grupo": "G4 Inserção de linhas (as faixas das fórmulas acompanham)",
+  "id": "4.05",
+  "descricao": "Última linha de capacidade da aba 04 entra na soma (777 + 23)",
+  "esperado": 800,
+  "obtido": 800.0,
+  "ok": true
+ },
+ {
+  "grupo": "G4 Inserção de linhas (as faixas das fórmulas acompanham)",
+  "id": "4.06",
+  "descricao": "Inserir linha na aba 06: a contagem de compras aguardando (aba 01) conta a linha nova",
+  "esperado": 1,
+  "obtido": 1.0,
+  "ok": true
+ },
+ {
+  "grupo": "G4 Inserção de linhas (as faixas das fórmulas acompanham)",
+  "id": "4.07",
+  "descricao": "… e a faixa da fórmula passou de 106 para 107",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.01",
+  "descricao": "Quatorze abas, na ordem do plano, com nomes até 31 caracteres",
+  "esperado": [
+   "01 Comece aqui",
+   "02 Diagnóstico",
+   "03 Contas",
+   "04 Lotes",
+   "05 Acúmulo",
+   "06 Compras",
+   "07 Comparar",
+   "08 Alterar",
+   "09 Clubes e compra",
+   "10 Transferências",
+   "11 Renovar",
+   "12 Plano 30 dias",
+   "13 Checklists",
+   "14 Referências"
+  ],
+  "obtido": [
+   "01 Comece aqui",
+   "02 Diagnóstico",
+   "03 Contas",
+   "04 Lotes",
+   "05 Acúmulo",
+   "06 Compras",
+   "07 Comparar",
+   "08 Alterar",
+   "09 Clubes e compra",
+   "10 Transferências",
+   "11 Renovar",
+   "12 Plano 30 dias",
+   "13 Checklists",
+   "14 Referências"
+  ],
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.02",
+  "descricao": "Nenhuma célula mesclada (aluno e exemplos)",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.03",
+  "descricao": "Todas as abas protegidas, sem senha",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.04",
+  "descricao": "Todas as células com fórmula estão bloqueadas (1423 fórmulas)",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.05",
+  "descricao": "Há células editáveis (desbloqueadas) para o preenchimento (5715 células)",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.06",
+  "descricao": "As duas versões têm exatamente as mesmas fórmulas (1423)",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.07",
+  "descricao": "Versão do aluno: nenhum campo editável preenchido (sem dados fictícios)",
+  "esperado": [],
+  "obtido": [],
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.08",
+  "descricao": "Versão do aluno: nenhum texto \"[Exemplo\" nem \"fictício\" fora de instruções",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.09 Milhas-do-zero-Plani",
+  "descricao": "Sem macros (vbaProject) nem conexões externas (externalLinks, connections)",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.10 Milhas-do-zero-Plani",
+  "descricao": "Hiperlinks apenas internos (nenhum \"TargetMode=External\")",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.11 Milhas-do-zero-Plani",
+  "descricao": "Intervalos nomeados DataRef e Feriados presentes",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.09 Milhas-do-zero-Exemp",
+  "descricao": "Sem macros (vbaProject) nem conexões externas (externalLinks, connections)",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.10 Milhas-do-zero-Exemp",
+  "descricao": "Hiperlinks apenas internos (nenhum \"TargetMode=External\")",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.11 Milhas-do-zero-Exemp",
+  "descricao": "Intervalos nomeados DataRef e Feriados presentes",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.12",
+  "descricao": "Checklists (aba 13) + plano (aba 12) = 70 itens, na ordem e com o texto do livro",
+  "esperado": 70,
+  "obtido": 70,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.13",
+  "descricao": "… textos idênticos aos do texto aprovado (sem omissão nem duplicação)",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.14",
+  "descricao": "Tabela do livro representada: Cap. 1: Programa | Saldo | Validade",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.15",
+  "descricao": "Tabela do livro representada: Cap. 6: organização das contas",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.16",
+  "descricao": "Tabela do livro representada: Cap. 7: controle de compras",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.17",
+  "descricao": "Tabela do livro representada: Cap. 7: mapa de acúmulo",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.18",
+  "descricao": "Tabela do livro representada: Cap. 10: vencimento, inatividade e extensão/reativação",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.19",
+  "descricao": "Tabela do livro representada: Cap. 10: validade da Smiles por origem",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.20",
+  "descricao": "Tabela do livro representada: Cap. 13: comparação dinheiro × milhas",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.21",
+  "descricao": "Tabela do livro representada: Cap. 13: alteração, cancelamento e bagagem",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.22",
+  "descricao": "Cap. 13 (Passo 6): as condições da versão de exemplos são idênticas ao texto do livro",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.23",
+  "descricao": "Cap. 10: as cinco linhas da Smiles correspondem ao texto aprovado (origem)",
+  "esperado": [
+   "Milhas acumuladas em voos da GOL",
+   "Milhas bônus de promoções de transferência de pontos do cartão de crédito",
+   "Milhas compradas (Compra de Milhas)",
+   "Milhas reativadas",
+   "Milhas mensais dos planos do Clube Smiles"
+  ],
+  "obtido": [
+   "Milhas acumuladas em voos da GOL",
+   "Milhas bônus de promoções de transferência de pontos do cartão de crédito",
+   "Milhas compradas (Compra de Milhas)",
+   "Milhas reativadas",
+   "Milhas mensais dos planos do Clube Smiles"
+  ],
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.24",
+  "descricao": "Aba 14: nenhuma linha da Smiles além das cinco do texto aprovado",
+  "esperado": null,
+  "obtido": null,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.25",
+  "descricao": "Aba 07: as sete perguntas do Capítulo 12 reproduzidas, na ordem",
+  "esperado": [
+   "Quanto valor eu obtenho?",
+   "Qual é a melhor alternativa em dinheiro?",
+   "Quanto custou acumular essas milhas?",
+   "Existe outro uso melhor para elas?",
+   "O saldo vence em breve?",
+   "As condições de alteração e cancelamento servem para o meu caso?",
+   "O meu orçamento comporta o que ainda é pago em dinheiro?"
+  ],
+  "obtido": [
+   "Quanto valor eu obtenho?",
+   "Qual é a melhor alternativa em dinheiro?",
+   "Quanto custou acumular essas milhas?",
+   "Existe outro uso melhor para elas?",
+   "O saldo vence em breve?",
+   "As condições de alteração e cancelamento servem para o meu caso?",
+   "O meu orçamento comporta o que ainda é pago em dinheiro?"
+  ],
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.26",
+  "descricao": "Aba 08: registro de contatos e protocolos (Capítulo 15) presente",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G5 Estrutura, proteção e conformidade",
+  "id": "5.27",
+  "descricao": "Aba 07: decisão do Capítulo 13/18 presente, com lista de opções",
+  "esperado": "Esperar",
+  "obtido": "Esperar",
+  "ok": true
+ }
+]
