@@ -89,12 +89,16 @@ add(g, '1.40', 'Aba 06: 60 dias corridos após 03/11/2026', D(2027, 1, 2), v(we,
 add(g, '1.41', 'Aba 06: 30 dias corridos após a data prevista de crédito', D(2027, 2, 1), v(we, S[6], 'Q7'))
 add(g, '1.42', 'Aba 06: 10 dias úteis após 12/11/2026 com feriado em 20/11/2026', D(2026, 11, 27), v(we, S[6], 'L8'))
 add(g, '1.43', 'Aba 06: diferença creditado − esperado', -20, v(we, S[6], 'T9'))
-add(g, '1.44', 'Aba 06: alerta de divergência', 'Divergência: creditado diferente do esperado.', v(we, S[6], 'V9'))
+add(g, '1.44', 'Aba 06: divergência E prazo de reclamação próximo aparecem juntos (nada fica escondido)', 'Divergência: creditado diferente do esperado. Data-limite de reclamação em até 7 dias.', v(we, S[6], 'V9'))
+add(g, '1.44b', 'Aba 06: data-limite de reclamação da linha divergente', D(2026, 11, 19), v(we, S[6], 'Q9'))
 add(g, '1.45', 'Aba 06: prazo de crédito passou sem crédito', 'O prazo previsto de crédito passou sem crédito registrado.', v(we, S[6], 'V10'))
 add(g, '1.46', 'Aba 01: lotes vencidos', 1, v(we, S[1], 'B52')); add(g, '1.47', 'Aba 01: lotes que vencem hoje', 1, v(we, S[1], 'B53'))
 add(g, '1.48', 'Aba 01: plano', '14 de 19', v(we, S[1], 'B61')); add(g, '1.49', 'Aba 01: compras divergentes ou em contestação', 1, v(we, S[1], 'B59'))
 add(g, '1.50', 'Aba 03: alerta de inatividade (prazo atingido)', 'Prazo informado atingido ou ultrapassado: confira com o programa.', v(we, S[3], 'M8'))
 add(g, '1.51', 'Aba 03: alerta de inatividade (a menos de 3 meses)', 'Atenção: a menos de 3 meses do prazo informado (sugestão de organização).', v(we, S[3], 'M9'))
+add(g, '1.51b', 'Aba 03: o saldo do Programa B exclui os 3.000 pontos já vencidos (1.000 + 1.500 + 0 não vencidos…)', 2500, v(we, S[3], 'E8'))
+add(g, '1.51c', 'Aba 03: os 3.000 pontos vencidos aparecem na coluna R, fora do saldo', 3000, v(we, S[3], 'R8'))
+add(g, '1.51d', 'Aba 03: a origem do saldo avisa que há pontos vencidos', 'Soma dos lotes não vencidos (aba 04) Há pontos vencidos (coluna R).', v(we, S[3], 'F8'))
 add(g, '1.52', 'Aba 05: diferença de preço do liquidificador (R$ 220 − R$ 200)', 20, v(we, S[5], 'K7'))
 add(g, '1.53', 'Aba 02: resumo montado (Marina)', 'Quero viajar de Campinas para Salvador, com 2 pessoa(s), daqui a 10 meses. Já tenho cadastro em Programa da farmácia (exemplo), Programa do supermercado (exemplo). Meu primeiro passo é Ver o saldo e a validade desses dois programas.', v(we, S[2], 'B56'))
 # valores em cache do arquivo entregue = valores recalculados
@@ -152,9 +156,10 @@ caso('c4', m, [('3.07', 'Taxa de embarque maior que o preço total: aviso para n
 m = dict(base07); m[(S[7], 'D16')] = None
 caso('c5', m, [('3.08', 'Sem alternativa em dinheiro: resultado contra a alternativa em branco', 7, 'B31', ''), ('3.09', '… e aviso', 7, 'A35', 'Informe a melhor alternativa em dinheiro para ver o resultado contra ela (Capítulo 12).')])
 m = dict(base07); m[(S[7], 'C20')] = None; m[(S[7], 'C21')] = None; m[(S[7], 'C22')] = None
-caso('c5b', m, [('3.10', 'Sem os pagamentos adicionais do resgate: não calcula (não assume zero)', 7, 'B29', ''), ('3.11', '… e aviso para digitar 0', 7, 'A34', 'Informe os pagamentos adicionais do resgate (digite 0 se não houver).')])
+caso('c5b', m, [('3.10', 'Sem os pagamentos adicionais do resgate: não calcula (não assume zero)', 7, 'B29', ''), ('3.11', '… e aviso: campo vazio = não informado', 7, 'A34', 'Campo vazio = não informado, não zero: preencha as taxas de embarque, os outros pagamentos e a bagagem do resgate (digite 0 onde não houver).')])
 caso('c6', {(S[7], 'A49'): 'x', (S[7], 'B49'): 100, (S[7], 'D49'): 0}, [('3.12', 'Exercício do Cap. 4 com pontos = 0: sem erro', 7, 'E49', '')])
-caso('c6b', {(S[7], 'B49'): 100, (S[7], 'D49'): 1000}, [('3.13', 'Exercício do Cap. 4 sem pagamento adicional (em branco = 0): R$ 100 por milheiro', 7, 'E49', 100)])
+caso('c6b', {(S[7], 'B49'): 100, (S[7], 'D49'): 1000}, [('3.13', 'Exercício do Cap. 4 com o pagamento adicional em branco: NÃO assume zero (resultado em branco)', 7, 'E49', '')])
+caso('c6c', {(S[7], 'B49'): 100, (S[7], 'C49'): 0, (S[7], 'D49'): 1000}, [('3.13b', 'Exercício do Cap. 4 com pagamento adicional digitado como 0: R$ 100 por milheiro', 7, 'E49', 100)])
 # transferências
 tr = {(S[10], 'A8'): 'O', (S[10], 'B8'): 'D', (S[10], 'C8'): 20000, (S[10], 'D8'): 1, (S[10], 'E8'): 0.3, (S[10], 'G8'): 600, (S[10], 'H8'): 0}
 caso('t1', tr, [('3.14', 'Transferência sem limite: 26.000 milhas', 10, 'M8', 26000), ('3.15', '… custo por milheiro R$ 23,08', 10, 'O8', 23.0769231),
@@ -169,9 +174,9 @@ caso('t4', m, [('3.22', 'Fator de conversão 0: sem divisão por zero', 10, 'O8'
 m = dict(tr); m[(S[10], 'D8')] = 0.5
 caso('t5', m, [('3.24', 'Fator 0,5 (2 pontos de origem para 1): base = 10.000', 10, 'J8', 10000), ('3.25', '… bônus de 30% sobre a base = 3.000', 10, 'L8', 3000)])
 m = dict(tr); m[(S[10], 'E8')] = 0
-caso('t6', m, [('3.26', 'Bônus 0%: apenas a conversão', 10, 'M8', 20000), ('3.27', '… aviso', 10, 'P8', 'Sem bônus informado: só a conversão foi considerada.')])
+caso('t6', m, [('3.26', 'Bônus 0%: apenas a conversão', 10, 'M8', 20000), ('3.27', '… aviso', 10, 'P8', 'Bônus de 0%: só a conversão foi considerada.')])
 m = dict(tr); m[(S[10], 'E8')] = 'abc'
-caso('t7', m, [('3.28', 'Bônus em texto: tratado como zero, sem erro', 10, 'M8', 20000)])
+caso('t7', m, [('3.28', 'Bônus em texto ou vazio: NÃO é zero; sem erro e sem total', 10, 'M8', ''), ('3.28b', '… aviso', 10, 'P8', 'Informe o percentual de bônus (0% se não houver): campo vazio = não informado.')])
 # lotes e datas (referência fixa)
 lt = {(S[1], 'B48'): REF}
 for k, (off, esp) in enumerate([(-1, 'Vencido'), (0, 'Vence hoje'), (1, 'Vence em até 30 dias'), (30, 'Vence em até 30 dias'), (31, 'Vence em até 60 dias'), (60, 'Vence em até 60 dias'), (61, 'Vence em até 90 dias'), (90, 'Vence em até 90 dias'), (91, 'Mais de 90 dias')]):
@@ -194,8 +199,9 @@ add(g, '3.43', 'Dias até o vencimento de lote sem expiração: em branco', '', 
 # contas x lotes
 ct = dict(lt); ct[(S[3], 'A7')] = 'P'; ct[(S[3], 'C7')] = 999; ct[(S[3], 'A8')] = 'Q'; ct[(S[3], 'C8')] = 500
 wc3 = lo_wb(aluno, ct, name='contas')
-add(g, '3.44', 'Conta com lotes: saldo vem da soma dos lotes (13 lotes × 100 = 1.300 nas linhas preenchidas com "P")', 1300, v(wc3, S[3], 'E7'))
-add(g, '3.45', '… o saldo manual divergente é ignorado e isso é informado', 'Soma dos lotes (o saldo manual foi ignorado)', v(wc3, S[3], 'F7'))
+add(g, '3.44', 'Conta com lotes: saldo = soma dos lotes NÃO vencidos (13 lotes × 100 = 1.300, menos 1 vencido)', 1200, v(wc3, S[3], 'E7'))
+add(g, '3.44b', '… e o lote vencido aparece na coluna R', 100, v(wc3, S[3], 'R7'))
+add(g, '3.45', '… o saldo manual divergente é ignorado e isso é informado', 'Soma dos lotes não vencidos (o saldo manual foi ignorado) Há pontos vencidos (coluna R).', v(wc3, S[3], 'F7'))
 add(g, '3.46', 'Conta sem lotes: vale o saldo manual', 500, v(wc3, S[3], 'E8'))
 add(g, '3.47', '… e a origem do saldo é "Informado manualmente"', 'Informado manualmente', v(wc3, S[3], 'F8'))
 add(g, '3.48', 'Pontos a vencer em até 90 dias (7 lotes de 100, de +0 a +90 dias; sem expiração e vencidos ficam de fora)', 700, v(wc3, S[3], 'G7'))
@@ -228,14 +234,15 @@ add(g, '3.58', 'Sem prazo informado: sem data prevista (não assume prazo)', '',
 add(g, '3.59', 'Sem tipo de dias: sem data prevista', '', v(wp, S[6], 'L10'))
 add(g, '3.60', 'Prazo para reclamar com base "Outra data" sem a data: não calcula', '', v(wp, S[6], 'Q11'))
 add(g, '3.61', 'Prazo para reclamar: 5 dias úteis após 01/12/2026 (terça) = 08/12/2026', D(2026, 12, 8), v(wp, S[6], 'Q12'))
-add(g, '3.62', 'Data-limite de reclamação já passou (aguardando)', 'Data-limite de reclamação já passou.', v(wp, S[6], 'V13'))
+add(g, '3.62', 'Data-limite de reclamação já passou E prazo de crédito passou (aguardando): os dois avisos', 'Data-limite de reclamação já passou. O prazo previsto de crédito passou sem crédito registrado.', v(wp, S[6], 'V13'))
 add(g, '3.63', 'Linha com pouco dado: pede o preenchimento (sem inventar datas)', 'Preencha o evento, a data, o prazo e o tipo de dias para calcular as datas.', v(wp, S[6], 'V9'))
 cph = dict(cp); cph[(S[6], 'Z7')] = D(2026, 11, 20)
 wph = lo_wb(aluno, cph, name='compras_feriado')
 add(g, '3.64', '10 dias úteis após 12/11/2026 com feriado em 20/11/2026 na lista configurável', D(2026, 11, 27), v(wph, S[6], 'L7'))
 # clubes e compra
-cl = {(S[9], 'A8'): 'C', (S[9], 'B8'): 42, (S[9], 'C8'): 1, (S[9], 'D8'): 3, (S[9], 'F8'): 1000,
-      (S[9], 'A9'): 'C2', (S[9], 'B9'): 42, (S[9], 'C9'): 0, (S[9], 'F9'): 1000,
+cl = {(S[9], 'A8'): 'C', (S[9], 'B8'): 42, (S[9], 'C8'): 1, (S[9], 'D8'): 3, (S[9], 'E8'): 0, (S[9], 'F8'): 1000, (S[9], 'G8'): 0,
+      (S[9], 'A9'): 'C2', (S[9], 'B9'): 42, (S[9], 'C9'): 0, (S[9], 'E9'): 0, (S[9], 'F9'): 1000, (S[9], 'G9'): 0,
+      (S[9], 'A11'): 'C4', (S[9], 'B11'): 42, (S[9], 'C11'): 12, (S[9], 'F11'): 1000, (S[9], 'A23'): 'P2', (S[9], 'B23'): 20000, (S[9], 'D23'): 600, (S[9], 'E23'): 0,
       (S[9], 'A10'): 'C3', (S[9], 'B10'): 42, (S[9], 'C10'): 12, (S[9], 'D10'): 3, (S[9], 'E10'): 60, (S[9], 'F10'): 1000, (S[9], 'G10'): 1000,
       (S[9], 'A22'): 'P', (S[9], 'B22'): 0, (S[9], 'C22'): 0, (S[9], 'D22'): 0}
 wcl = lo_wb(aluno, cl, name='clubes')
@@ -245,16 +252,22 @@ add(g, '3.67', 'Clube: custo total em 12 meses = 42 × 12 + 60 de outros custos'
 add(g, '3.68', 'Clube: pontos recebidos = 1.000 × 12 + 1.000 (bônus contado uma vez no período)', 13000, v(wcl, S[9], 'I10'))
 add(g, '3.69', 'Clube: custo por milheiro no período completo = 564 ÷ 13', 43.3846154, v(wcl, S[9], 'J10'))
 add(g, '3.70', 'Compra com tudo em zero: sem divisão por zero', '', v(wcl, S[9], 'H22'))
+add(g, '3.70b', 'Clube com outros custos e bônus em branco: NÃO assume zero (sem total) e avisa', 'Campo vazio = não informado, não zero: preencha outros custos, pontos regulares e bônus (digite 0 se não houver).', v(wcl, S[9], 'K11'))
+add(g, '3.70c', '… sem custo total', '', v(wcl, S[9], 'H11'))
+add(g, '3.70d', 'Compra com o bônus em branco: total recebido não é calculado', '', v(wcl, S[9], 'F23'))
 # renovação
 rn = {(S[1], 'B48'): REF,
-      (S[11], 'A7'): 'P', (S[11], 'E7'): 100, (S[11], 'D7'): 5000, (S[11], 'I7'): 400, (S[11], 'J7'): 8000,
-      (S[11], 'A8'): 'P', (S[11], 'E8'): 100, (S[11], 'D8'): 5000, (S[11], 'I8'): 400, (S[11], 'J8'): 3000, (S[11], 'F8'): D(2026, 11, 10),
-      (S[11], 'A9'): 'P', (S[11], 'E9'): 100, (S[11], 'H9'): 'Passagem'}
+      (S[11], 'A7'): 'P', (S[11], 'E7'): 100, (S[11], 'D7'): 5000, (S[11], 'I7'): 400, (S[11], 'J7'): 8000, (S[11], 'K7'): 0, (S[11], 'L7'): 0,
+      (S[11], 'A8'): 'P', (S[11], 'E8'): 100, (S[11], 'D8'): 5000, (S[11], 'I8'): 400, (S[11], 'J8'): 3000, (S[11], 'F8'): D(2026, 11, 10), (S[11], 'K8'): 0, (S[11], 'L8'): 0,
+      (S[11], 'A9'): 'P', (S[11], 'E9'): 100, (S[11], 'H9'): 'Passagem',
+      (S[11], 'A10'): 'P', (S[11], 'E10'): 100, (S[11], 'D10'): 5000, (S[11], 'I10'): 400, (S[11], 'J10'): 3000, (S[11], 'L10'): 0}
 wr = lo_wb(aluno, rn, name='renovar')
 add(g, '3.71', 'Renovação: pontos necessários maiores que a quantidade elegível: aviso', 'Os pontos necessários superam a quantidade elegível: o resgate não cabe só neste lote.', v(wr, S[11], 'Q7'))
 add(g, '3.72', 'Renovação: nova validade não posterior à referência: aviso', 'A nova validade informada não é posterior à data de referência.', v(wr, S[11], 'Q8'))
 add(g, '3.73', 'Renovação sem a alternativa em dinheiro: não compara e avisa', 'Sem uso concreto com valor em dinheiro informado: não há o que comparar. Pagar sem perspectiva de uso pode gerar outra perda.', v(wr, S[11], 'Q9'))
 add(g, '3.74', 'Renovação sem comparação: desembolsos em branco', '', v(wr, S[11], 'N9'))
+add(g, '3.74b', 'Renovação com o pagamento adicional em branco: NÃO assume zero (sem desembolso) e avisa', 'Campo vazio = não informado, não zero: preencha o pagamento adicional e os outros gastos do resgate (digite 0 se não houver).', v(wr, S[11], 'Q10'))
+add(g, '3.74c', '… desembolso em branco', '', v(wr, S[11], 'N10'))
 # mapa de acúmulo e diagnóstico
 ma = {(S[5], 'I7'): 220, (S[5], 'J7'): 200, (S[5], 'I8'): 200, (S[5], 'J8'): 220, (S[5], 'I9'): 100, (S[5], 'J9'): 100, (S[5], 'I10'): 100}
 wm = lo_wb(aluno, ma, name='mapa')
@@ -276,7 +289,7 @@ add(g, '3.84', 'Checklists: 5 itens do grupo mensal concluídos', 5, v(wpl, S[13
 add(g, '3.86', 'Checklists: total de itens por grupo somam 49', 49, v(wpl, S[13], 'J13'))
 # alteração e cancelamento (arquivo do aluno preenchido com os números do livro)
 alt_all = dict(base07); alt_all[(S[7], 'B9')] = 2
-alt_all.update({(S[8], 'B18'): 150, (S[8], 'C18'): 100, (S[8], 'B22'): 0.8, (S[8], 'B23'): 280, (S[8], 'C23'): 280, (S[8], 'C24'): 72000, (S[8], 'C25'): 150, (S[8], 'B27'): 360, (S[8], 'C27'): 360})
+alt_all.update({(S[8], 'B18'): 150, (S[8], 'C18'): 100, (S[8], 'B19'): 0, (S[8], 'B21'): 0, (S[8], 'C21'): 0, (S[8], 'B22'): 0.8, (S[8], 'B23'): 280, (S[8], 'C23'): 280, (S[8], 'C24'): 72000, (S[8], 'B25'): 0, (S[8], 'C25'): 150, (S[8], 'B26'): 0, (S[8], 'C26'): 0, (S[8], 'B27'): 360, (S[8], 'C27'): 360})
 walt = lo_wb(aluno, alt_all, name='alterar')
 add(g, '3.87', 'Aba 08 preenchida no arquivo do aluno: perda em dinheiro R$ 336', 336, v(walt, S[8], 'B43')); add(g, '3.88', '… e R$ 300 com milhas', 300, v(walt, S[8], 'C43'))
 m2 = dict(alt_all); m2[(S[8], 'B27')] = 100
@@ -294,6 +307,61 @@ if os.path.exists(uno_out):
     for cid, desc, esp, obt in u['checks']: add(g, cid, desc, esp, obt)
 else:
     add(g, '4.00', 'Teste de inserção de linhas executado', True, False)
+
+
+# ---------------------------------------------------------------- G6 correções do parecer (v1.1)
+g = 'G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero'
+# 1) saldo
+sv = {(S[1], 'B48'): REF, (S[3], 'A7'): 'X', (S[3], 'A8'): 'Y', (S[3], 'A9'): 'Z', (S[3], 'A10'): 'W',
+      (S[4], 'A7'): 'X', (S[4], 'D7'): 100, (S[4], 'F7'): REF - datetime.timedelta(days=10),
+      (S[4], 'A8'): 'X', (S[4], 'D8'): 200, (S[4], 'F8'): REF - datetime.timedelta(days=1),
+      (S[4], 'A9'): 'Y', (S[4], 'D9'): 50, (S[4], 'F9'): REF,
+      (S[4], 'A10'): 'Y', (S[4], 'D10'): 70,
+      (S[4], 'A11'): 'Y', (S[4], 'D11'): 30, (S[4], 'G11'): 'Sim, confirmado',
+      (S[4], 'A12'): 'Z', (S[4], 'D12'): 10, (S[4], 'F12'): 'abc', (S[3], 'C10'): 500}
+wsv = lo_wb(aluno, sv, name='saldo')
+add(g, '6.01', 'Programa só com lotes vencidos: saldo considerado = 0 (não 300)', 0, v(wsv, S[3], 'E7'))
+add(g, '6.02', '… e os 300 pontos vencidos aparecem na coluna R', 300, v(wsv, S[3], 'R7'))
+add(g, '6.03', 'Lote que vence hoje, sem data e sem expiração entram no saldo (50 + 70 + 30)', 150, v(wsv, S[3], 'E8'))
+add(g, '6.04', '… sem pontos vencidos', 0, v(wsv, S[3], 'R8'))
+add(g, '6.05', 'Data em texto não é tratada como vencida (10 no saldo)', 10, v(wsv, S[3], 'E9'))
+# 2) reclamação
+rc = {(S[1], 'B48'): REF}
+def linha(r, **kw):
+    base = {'A': D(2026, 9, 1), 'B': 'L', 'I': D(2026, 9, 1), 'J': 10, 'K': 'Corridos', 'M': 30, 'N': 'Corridos', 'O': 'Data prevista de crédito', 'F': 200}
+    base.update(kw)
+    for col, val in base.items(): rc[(S[6], '%s%d' % (col, r))] = val
+linha(7, R=180, U='Divergente')                                   # divergência + data-limite vencida
+linha(8, R=180, U='Divergente', M=None)                            # divergência sem prazo de reclamação
+linha(9, R=200, U='Creditado')                                      # creditado certo, data-limite vencida: sem alerta de reclamação
+linha(10, R=180, U='Creditado')                                     # creditado com divergência e data-limite vencida
+linha(11, R=180, U='Em contestação', I=D(2026, 11, 1), A=D(2026, 11, 1))   # divergência, prazo de reclamação a 25 dias
+wrc = lo_wb(aluno, rc, name='reclama')
+add(g, '6.06', 'Divergência + data-limite vencida: os dois avisos', 'Divergência: creditado diferente do esperado. Data-limite de reclamação já passou.', v(wrc, S[6], 'V7'))
+add(g, '6.07', 'Divergência sem prazo de reclamação informado: avisa que não há data-limite', 'Divergência: creditado diferente do esperado. Sem data-limite de reclamação calculada: informe o prazo, o tipo de dias e a base.', v(wrc, S[6], 'V8'))
+add(g, '6.08', 'Creditado certo: nenhum alerta de reclamação', 'Acompanhando.', v(wrc, S[6], 'V9'))
+add(g, '6.09', 'Creditado, mas com divergência e prazo vencido: os dois avisos', 'Divergência: creditado diferente do esperado. Data-limite de reclamação já passou.', v(wrc, S[6], 'V10'))
+add(g, '6.10', 'Divergência com a data-limite ainda longe: só a divergência', 'Divergência: creditado diferente do esperado.', v(wrc, S[6], 'V11'))
+add(g, '6.11', 'Aba 01 conta cada compra com alerta uma vez (4 das 5 têm alerta)', 4, v(wrc, S[1], 'B60'))
+# 3) campo vazio != zero
+mm = dict(alt_all); mm[(S[8], 'C25')] = None
+w3 = lo_wb(aluno, mm, name='vazio_taxa')
+add(g, '6.12', 'Aba 08: taxa de cancelamento (milhas) apagada: a perda NÃO cai para R$ 0; fica em branco', '', v(w3, S[8], 'C43'))
+add(g, '6.13', '… a taxa total de cancelamento também fica em branco', '', v(w3, S[8], 'C39'))
+add(g, '6.14', '… e o aviso lista o campo pendente', True, 'taxa de cancelamento (milhas)' in str(v(w3, S[8], 'A45')))
+add(g, '6.15', '… a perda em dinheiro (opção em dinheiro), que não depende desse campo, continua R$ 336', 336, v(w3, S[8], 'B43'))
+w3b = lo_wb(aluno, dict(alt_all, **{}) if False else alt_all, name='vazio_taxa_ok')
+add(g, '6.16', 'Com todos os campos (zeros digitados), a perda é calculada e o aviso some', '', v(w3b, S[8], 'A45'))
+mm2 = dict(alt_all); mm2[(S[8], 'B26')] = None
+add(g, '6.17', 'Aba 08: "outros custos" (dinheiro) apagado: perda em branco (não R$ 336)', '', v(lo_wb(aluno, mm2, name='vazio_outros'), S[8], 'B43'))
+mm3 = dict(alt_all); mm3[(S[8], 'B19')] = None
+add(g, '6.18', 'Aba 08: "diferença de tarifa" apagada: custo de alteração em branco (não R$ 300)', '', v(lo_wb(aluno, mm3, name='vazio_dif'), S[8], 'B36'))
+mm4 = dict(base07); mm4[(S[7], 'B22')] = None
+w4 = lo_wb(aluno, mm4, name='vazio_bag')
+add(g, '6.19', 'Aba 07: bagagem apagada na opção em dinheiro: total em branco (não "sem bagagem")', '', v(w4, S[7], 'B23'))
+add(g, '6.20', '… e o aviso pede para informar a bagagem', 'Informe a bagagem e os serviços das opções em dinheiro (digite 0 se não houver) para calcular os totais.', v(w4, S[7], 'A35'))
+mm5 = dict(base07); mm5[(S[7], 'C21')] = None
+add(g, '6.21', 'Aba 07: "outros pagamentos adicionais" apagado: total do resgate em branco', '', v(lo_wb(aluno, mm5, name='vazio_outros07'), S[7], 'C23'))
 
 # ---------------------------------------------------------------- G5 estrutura, proteção e conformidade
 g = 'G5 Estrutura, proteção e conformidade'

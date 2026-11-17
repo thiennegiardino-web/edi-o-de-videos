@@ -85,7 +85,7 @@ def sheet01(book):
              ('Lotes sem data informada', '=COUNTIF(%s,"Data não informada")' % I, 'int', 'Aba 04. Procure a data no site oficial do programa.'),
              ('Compras aguardando crédito', '=COUNTIF(%s,"Aguardando")' % rng(6, 'U', *COMPRAS), 'int', 'Aba 06.'),
              ('Compras divergentes ou em contestação', '=COUNTIF(%s,"Divergente")+COUNTIF(%s,"Em contestação")' % (rng(6, 'U', *COMPRAS), rng(6, 'U', *COMPRAS)), 'int', 'Aba 06.'),
-             ('Compras com alerta de prazo ou divergência', '=COUNTIF(%s,"*passou*")+COUNTIF(%s,"Divergência*")+COUNTIF(%s,"*em até 7 dias*")' % ((rng(6, 'V', *COMPRAS),) * 3), 'int', 'Aba 06.'),
+             ('Compras com alerta de prazo ou divergência', '=SUMPRODUCT((%s<>"")*(%s<>"Acompanhando.")*(LEFT(%s,8)<>"Preencha"))' % ((rng(6, 'V', *COMPRAS),) * 3), 'int', 'Aba 06. Cada compra conta uma vez, mesmo com mais de um alerta.'),
              ('Atividades do plano de 30 dias concluídas', '=COUNTIF(%s,"Concluído")&" de "&(COUNTA(%s)-COUNTIF(%s,"Não se aplica"))' % (rng(12, 'G', 8, 28), rng(12, 'C', 8, 28), rng(12, 'G', 8, 28)), 'text', 'Aba 12. Não conta atividades marcadas como "Não se aplica".'),
              ('Itens de checklist concluídos', '=COUNTIF(%s,"Concluído")&" de "&COUNTA(%s)' % (rng(13, 'D', 8, 56), rng(13, 'B', 8, 56)), 'text', 'Aba 13 (49 itens). Somados às 21 atividades do plano, formam os 70 itens do livro.')]
     for i, (lb, fm, kd, ds) in enumerate(items):
@@ -175,17 +175,17 @@ def sheet02(book):
 # ===================================================================== 03
 def sheet03(book):
     s = book.sheet(3); ws = s.ws
-    widths = {'A': 30, 'B': 24, 'C': 18, 'D': 16, 'E': 16, 'F': 24, 'G': 18, 'H': 15, 'I': 14, 'J': 16, 'K': 16, 'L': 15, 'M': 34, 'N': 34, 'O': 34, 'P': 14, 'Q': 34}
+    widths = {'A': 30, 'B': 24, 'C': 18, 'D': 16, 'E': 16, 'F': 24, 'G': 18, 'H': 15, 'I': 14, 'J': 16, 'K': 16, 'L': 15, 'M': 34, 'N': 34, 'O': 34, 'P': 14, 'Q': 34, 'R': 20}
     for c, w in widths.items(): ws.set_column('%s:%s' % (c, c), w)
     s.title('Organização das contas', 'Capítulos 6 e 9 — Seu painel de controle, uma linha por programa',
             'Não registre senhas, códigos de verificação, CPF nem número completo de cartão. Último acesso NÃO é o mesmo que último acúmulo ou resgate: anote os dois separadamente.')
     s.back_link('A4')
-    s.t('A5', 'Saldo: quando há lotes na aba 04 para o programa, o saldo vem da SOMA DOS LOTES (calculado). O saldo manual só vale se ainda não houver lotes; assim não existem duas entradas conflitantes.', italic=True, font_color=GRAY)
-    hdr = ['Programa', 'Login (e-mail ou identificador, opcional; nunca senha)', 'Saldo manual (use só se ainda não detalhou os lotes)', 'Saldo dos lotes (aba 04)', 'Saldo considerado',
+    s.t('A5', 'Saldo: quando há lotes na aba 04 para o programa, o saldo vem da SOMA DOS LOTES NÃO VENCIDOS (calculado); lotes vencidos aparecem na coluna R e não entram no saldo. O saldo manual só vale se ainda não houver lotes.', italic=True, font_color=GRAY)
+    hdr = ['Programa', 'Login (e-mail ou identificador, opcional; nunca senha)', 'Saldo manual (use só se ainda não detalhou os lotes)', 'Saldo dos lotes NÃO vencidos (aba 04)', 'Saldo considerado',
            'Origem do saldo', 'Pontos a vencer em até 90 dias (aba 04)', 'Próximo vencimento (aba 04)', 'Último acesso', 'Último acúmulo ou resgate',
            'Prazo de inatividade informado pelo programa (meses)', 'Meses desde o último acúmulo ou resgate', 'Alerta de inatividade',
-           'Canal oficial de atendimento', 'Link do regulamento', 'Data da consulta', 'Observações']
-    s.head(6, hdr, height=62, calc_cols=(3, 4, 5, 6, 7, 11, 12))
+           'Canal oficial de atendimento', 'Link do regulamento', 'Data da consulta', 'Observações', 'Pontos em lotes já vencidos (aba 04; não entram no saldo)']
+    s.head(6, hdr, height=62, calc_cols=(3, 4, 5, 6, 7, 11, 12, 17))
     r0, r1 = CONTAS
     LA = rng(4, 'A', *LOTES); LD = rng(4, 'D', *LOTES); LF = rng(4, 'F', *LOTES); LG = rng(4, 'G', *LOTES)
     ex = {
@@ -200,9 +200,10 @@ def sheet03(book):
         e = ex.get(r) if book.ex else None
         e = e or (None,) * 11
         s.inp('A%d' % r, 'text', ex=e[0]); s.inp('B%d' % r, 'text', ex=e[1]); s.inp('C%d' % r, 'pts', ex=e[2])
-        s.calc('D%d' % r, '=IF($A{r}="","",SUMIFS({D},{A},$A{r}))'.format(r=r, D=LD, A=LA), 'pts')
+        s.calc('D%d' % r, '=IF($A{r}="","",SUMIFS({D},{A},$A{r})-$R{r})'.format(r=r, D=LD, A=LA), 'pts')
+        s.calc('R%d' % r, '=IF($A{r}="","",SUMIFS({D},{A},$A{r},{F},"<"&DataRef,{G},"<>Sim, confirmado"))'.format(r=r, D=LD, A=LA, F=LF, G=LG), 'pts')
         s.calc('E%d' % r, '=IF($A{r}="","",IF(COUNTIFS({A},$A{r})>0,$D{r},IF(ISNUMBER($C{r}),$C{r},"")))'.format(r=r, A=LA), 'pts', bold=True)
-        s.calc('F%d' % r, '=IF($A{r}="","",IF(COUNTIFS({A},$A{r})>0,IF(AND(ISNUMBER($C{r}),$C{r}<>$D{r}),"Soma dos lotes (o saldo manual foi ignorado)","Soma dos lotes (aba 04)"),IF(ISNUMBER($C{r}),"Informado manualmente","Sem saldo informado")))'.format(r=r, A=LA), 'text')
+        s.calc('F%d' % r, '=IF($A{r}="","",IF(COUNTIFS({A},$A{r})>0,IF(AND(ISNUMBER($C{r}),$C{r}<>$D{r}),"Soma dos lotes não vencidos (o saldo manual foi ignorado)","Soma dos lotes não vencidos (aba 04)")&IF(N($R{r})>0," Há pontos vencidos (coluna R).",""),IF(ISNUMBER($C{r}),"Informado manualmente","Sem saldo informado")))'.format(r=r, A=LA), 'text')
         s.calc('G%d' % r, '=IF($A{r}="","",SUMIFS({D},{A},$A{r},{F},">="&DataRef,{F},"<="&(DataRef+90),{G},"<>Sim, confirmado"))'.format(r=r, D=LD, A=LA, F=LF, G=LG), 'pts')
         s.calc('H%d' % r, '=IF($A{r}="","",IFERROR(AGGREGATE(15,6,{F}/(({A}=$A{r})*({F}>=DataRef)*({G}<>"Sim, confirmado")),1),""))'.format(r=r, A=LA, F=LF, G=LG), 'date')
         s.inp('I%d' % r, 'date', ex=e[4]); s.inp('J%d' % r, 'date', ex=e[5]); s.inp('K%d' % r, 'mes', ex=e[6])
@@ -219,7 +220,7 @@ def sheet03(book):
     s.cf('M%d:M%d' % (r0, r1), '=LEFT($M%d,7)="Atenção"' % r0, {'bg_color': ORANGE_L})
     s.cf('F%d:F%d' % (r0, r1), '=ISNUMBER(SEARCH("ignorado",$F%d))' % r0, {'bg_color': YELLOW_L})
     ws.set_default_row(30)
-    s.finish(header_row=6, freeze=(6, 1), autofilter='A6:Q%d' % r1, area='A1:Q%d' % r1)
+    s.finish(header_row=6, freeze=(6, 1), autofilter='A6:R%d' % r1, area='A1:R%d' % r1)
     return s
 
 # ===================================================================== 04
@@ -351,11 +352,13 @@ def sheet06(book):
         s.inp('R%d' % r, 'pts', ex=e[15]); s.inp('S%d' % r, 'date', ex=e[16])
         s.calc('T%d' % r, '=IF(OR(NOT(ISNUMBER($R{r})),NOT(ISNUMBER($F{r}))),"",$R{r}-$F{r})'.format(r=r), 'pts')
         s.inp('U%d' % r, 'text', ex=e[17]); 
-        s.calc('V%d' % r, ('=IF(AND($B{r}="",$D{r}="",$A{r}=""),"",IF(AND(ISNUMBER($T{r}),$T{r}<>0),"Divergência: creditado diferente do esperado.",'
-                           'IF(AND($U{r}<>"Creditado",ISNUMBER($Q{r}),DataRef>$Q{r}),"Data-limite de reclamação já passou.",'
-                           'IF(AND($U{r}<>"Creditado",NOT(ISNUMBER($R{r})),ISNUMBER($L{r}),DataRef>$L{r}),"O prazo previsto de crédito passou sem crédito registrado.",'
-                           'IF(AND($U{r}<>"Creditado",ISNUMBER($Q{r}),DataRef>=N($Q{r})-7),"Data-limite de reclamação em até 7 dias.",'
-                           'IF(ISNUMBER($L{r}),"Acompanhando.","Preencha o evento, a data, o prazo e o tipo de dias para calcular as datas."))))))').format(r=r), 'text')
+        DIV = 'AND(ISNUMBER($T{r}),$T{r}<>0)'
+        LIM = 'AND(ISNUMBER($Q{r}),OR($U{r}<>"Creditado",AND(ISNUMBER($T{r}),$T{r}<>0)))'
+        MSG = ('IF(AND(ISNUMBER($T{r}),$T{r}<>0),"Divergência: creditado diferente do esperado. ","")'
+               '&IF(AND(ISNUMBER($Q{r}),OR($U{r}<>"Creditado",AND(ISNUMBER($T{r}),$T{r}<>0)),DataRef>$Q{r}),"Data-limite de reclamação já passou. ",IF(AND(ISNUMBER($Q{r}),OR($U{r}<>"Creditado",AND(ISNUMBER($T{r}),$T{r}<>0)),DataRef>=N($Q{r})-7),"Data-limite de reclamação em até 7 dias. ",""))'
+               '&IF(AND(ISNUMBER($T{r}),$T{r}<>0,NOT(ISNUMBER($Q{r}))),"Sem data-limite de reclamação calculada: informe o prazo, o tipo de dias e a base. ","")'
+               '&IF(AND($U{r}<>"Creditado",NOT(ISNUMBER($R{r})),ISNUMBER($L{r}),DataRef>$L{r}),"O prazo previsto de crédito passou sem crédito registrado. ","")')
+        s.calc('V%d' % r, ('=IF(AND($B{r}="",$D{r}="",$A{r}=""),"",IF(LEN(' + MSG + ')=0,IF(ISNUMBER($L{r}),"Acompanhando.","Preencha o evento, a data, o prazo e o tipo de dias para calcular as datas."),TRIM(' + MSG + ')))').format(r=r), 'long')
         s.inp('W%d' % r, 'text', ex=e[18]); s.inp('X%d' % r, 'long', ex=e[19])
     s.validate_list('H%d:H%d' % (r0, r1), items=EVENTOS, strict=False, msg='Escolha o evento que o regulamento ou a campanha indica. Se for outro, escolha "Outro" e descreva em Observações.')
     s.validate_list('K%d:K%d' % (r0, r1), items=['Corridos', 'Úteis']); s.validate_list('N%d:N%d' % (r0, r1), items=['Corridos', 'Úteis'])
@@ -364,7 +367,7 @@ def sheet06(book):
     s.validate_date('A%d:A%d' % (r0, r1)); s.validate_date('I%d:I%d' % (r0, r1)); s.validate_date('P%d:P%d' % (r0, r1)); s.validate_date('S%d:S%d' % (r0, r1))
     s.validate_num('E%d:F%d' % (r0, r1), 0); s.validate_num('R%d:R%d' % (r0, r1), 0)
     s.validate_num('J%d:J%d' % (r0, r1), 0, 3650, integer=True, msg='Prazo em número de dias. Use o que o regulamento informar.'); s.validate_num('M%d:M%d' % (r0, r1), 0, 3650, integer=True)
-    s.cf('V%d:V%d' % (r0, r1), '=OR(LEFT($V%d,10)="Divergênci",ISNUMBER(SEARCH("passou",$V%d)))' % (r0, r0), {'bg_color': RED_L, 'bold': True})
+    s.cf('V%d:V%d' % (r0, r1), '=OR(ISNUMBER(SEARCH("Divergência",$V%d)),ISNUMBER(SEARCH("passou",$V%d)),ISNUMBER(SEARCH("Sem data-limite",$V%d)))' % (r0, r0, r0), {'bg_color': RED_L, 'bold': True})
     s.cf('V%d:V%d' % (r0, r1), '=ISNUMBER(SEARCH("em até 7 dias",$V%d))' % r0, {'bg_color': ORANGE_L})
     s.cf('U%d:U%d' % (r0, r1), '=$U%d="Creditado"' % r0, {'bg_color': GREEN_L}); s.cf('U%d:U%d' % (r0, r1), '=OR($U%d="Divergente",$U%d="Em contestação")' % (r0, r0), {'bg_color': ORANGE_L})
     ws.set_default_row(30)

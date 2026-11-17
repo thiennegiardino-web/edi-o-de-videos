@@ -6,7 +6,7 @@ from common import *
 import openpyxl, xlsxwriter
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-SAIDA = os.path.join(BASE, 'saida'); PAC = os.path.join(BASE, 'pacote')
+SAIDA = os.path.join(BASE, 'saida'); PAC = os.path.join(BASE, 'pacote-v1.1')
 ALUNO = 'Milhas-do-zero-Planilha-do-aluno.xlsx'; EXEM = 'Milhas-do-zero-Exemplos-preenchidos.xlsx'
 res = json.load(open(os.path.join(BASE, 'testes', 'resultado-testes.json'), encoding='utf-8'))
 
@@ -27,7 +27,7 @@ items = parse_checklists()
 
 # ------------------------------------------------------------------ LEIA-ME
 tabs = [(2, 'Capítulo 1', 'Diagnóstico inicial, programas com saldo e validade, resumo do ponto de partida.'),
-        (3, 'Capítulos 6 e 9', 'Uma linha por programa; saldo vem dos lotes; último acesso separado de último acúmulo ou resgate.'),
+        (3, 'Capítulos 6 e 9', 'Uma linha por programa; saldo vem dos lotes não vencidos (vencidos na coluna R); último acesso separado de último acúmulo ou resgate.'),
         (4, 'Capítulos 10 e 11', 'Uma linha por lote; alertas de vencimento (30, 60 e 90 dias).'),
         (5, 'Capítulo 7', 'Mapa de acúmulo e comparação de preço final.'),
         (6, 'Capítulo 7', 'Controle de compras: datas, prazos, divergência, reclamação.'),
@@ -41,7 +41,7 @@ tabs = [(2, 'Capítulo 1', 'Diagnóstico inicial, programas com saldo e validade
         (14, 'Capítulo 10 e fontes', 'Tabelas explicativas, exemplos datados da Smiles e fontes do material.')]
 leia = f"""# Material complementar em Excel — Milhas do zero (De Malas e Milhas)
 
-**Para revisão pelo Codex.** Pacote gerado em {datetime.date.today().strftime('%d/%m/%Y')}.
+**Versão 1.1** (corrige os três pontos do parecer do Codex sobre a v1.0, commit `6892d31`; ver «Mudanças da v1.1»). **Para revisão pelo Codex.** Pacote gerado em {datetime.date.today().strftime('%d/%m/%Y')}.
 **Base de conteúdo:** e-book 1, versão única v3 (6 partes, 20 capítulos), pacote de referência do commit `ac182ad` (`entrega-diagramacao/ebook-1-milhas-do-zero/01-texto-consolidado.md`). O pacote de diagramação foi preservado; este material está em `material-complementar-excel/`.
 
 ## O que há neste pacote
@@ -56,11 +56,17 @@ leia = f"""# Material complementar em Excel — Milhas do zero (De Malas e Milha
 | `Versoes-e-checksums.md` | Versões e SHA-256. |
 | `previas/` | Imagens das abas principais (renderizadas no LibreOffice). |
 
+## Mudanças da v1.1 (em relação à v1.0, commit `6892d31`, preservada)
+1. **Saldo sem pontos vencidos (aba 03).** O saldo considerado (coluna E) passou a somar só os lotes **não vencidos**. Os pontos de lotes vencidos aparecem na nova coluna **R** ("Pontos vencidos (fora do saldo)"), e a origem do saldo (coluna F) avisa "Há pontos vencidos (coluna R)". Lote com data em branco, em texto ou com «expiração confirmada = Sim, confirmado» continua no saldo; lote que vence **hoje** também continua (vence ao fim do dia).
+2. **Reclamação não é mais escondida (aba 06).** O alerta (coluna V) passou a **somar** as mensagens: divergência, data-limite de reclamação vencida ou em até 7 dias (inclusive quando a situação é «Creditado» mas há divergência), falta de data-limite calculada e prazo de crédito vencido. A aba 01 conta cada compra com alerta uma única vez.
+3. **Campo vazio = «não informado», nunca zero (abas 07 a 11).** Custos, taxas, bônus e outros pagamentos em branco **não** viram R$ 0: o total/perda/valor por milheiro fica em branco e a planilha lista os campos pendentes. Quem não tem o custo deve **digitar 0**. Nos exemplos, os zeros agora estão digitados. Na aba 08, apagar a taxa de cancelamento não reduz mais a perda de R$ 300 para R$ 0: a perda fica em branco até o campo ser preenchido.
+
 ## Como o aluno usa (resumo)
 1. Abra a aba **01 Comece aqui** e siga a ordem das abas, junto com os capítulos indicados.
 2. Preencha só as células **claras com borda** (campos). As células **rosadas** são calculadas e protegidas.
-3. Registre a **fonte e a data da consulta** de cada regra de programa. A planilha **não** infere validade nem prazo pelo nome do programa.
-4. Uma vez por mês, volte à aba 01 (resumo) e faça o checklist mensal (aba 13).
+3. **Campo vazio significa «não informado», não zero.** Se um custo, taxa ou bônus não existe, digite **0**; sem isso, a planilha não calcula o total e avisa o que falta.
+4. Registre a **fonte e a data da consulta** de cada regra de programa. A planilha **não** infere validade nem prazo pelo nome do programa.
+5. Uma vez por mês, volte à aba 01 (resumo) e faça o checklist mensal (aba 13).
 
 ## As 14 abas
 | Aba (nome exato) | Capítulo(s) | O que faz |
@@ -75,7 +81,7 @@ leia = f"""# Material complementar em Excel — Milhas do zero (De Malas e Milha
 - **Exemplo adicional fictício:** aparece escrito em Observações como "[Exemplo adicional fictício]"; "[Exemplo do livro, Cap. N]" indica números ou situações do e-book.
 
 ## Decisões de projeto que o revisor deve conhecer
-- **Saldo sem entrada dupla:** na aba 03, o saldo é a **soma dos lotes** da aba 04. O campo "Saldo manual" só vale para programas sem lotes; se houver lotes e um saldo manual divergente, o manual é ignorado e isso é informado.
+- **Saldo sem entrada dupla:** na aba 03, o saldo é a **soma dos lotes não vencidos** da aba 04 (vencidos ficam na coluna R). O campo "Saldo manual" só vale para programas sem lotes; se houver lotes e um saldo manual divergente, o manual é ignorado e isso é informado.
 - **Pontos de programas diferentes nunca são somados.** Contagens (lotes, compras, atividades) aparecem no resumo; não há "total geral de milhas".
 - **Datas:** a aba 01 tem uma **data de referência** (opcional). Em branco, as abas usam a data de hoje; na versão de exemplos ela é fixa em 16/11/2026 para os resultados serem reproduzíveis.
 - **Dias úteis (aba 06):** usa `WORKDAY` (segunda a sexta), com lista de feriados configurável na coluna Z. A contagem começa no dia seguinte ao evento. Cada programa pode contar de outro jeito: o aluno confirma. A data-limite só é calculada com todos os dados; nenhum prazo é preenchido por padrão e o prazo da Livelo **não** é aplicado a outros programas.
@@ -117,7 +123,7 @@ mapa = ["# Mapa de correspondência — e-book 1 × planilhas Excel\n",
         "## 1. As oito tabelas do livro (conferência explícita)\n",
         "| # | Capítulo | Tabela (trecho do livro) | Aba | Localização | Como foi representada |", "|---|---|---|---|---|---|",
         "| 1 | 1 | \"Programa \\| Saldo \\| Validade\" (pergunta 5) | `02 Diagnóstico` | cabeçalho A29:E29; dados A30:E44 | Programa (A), Saldo (B), Validade (C), mais \"Saldo com vários lotes?\" (D) e aviso calculado (E) que remete à aba 04. Validade não é obrigatória por programa. |",
-        "| 2 | 6 | \"Como organizar suas contas\" (Programa \\| Login \\| Saldo \\| Pontos a vencer e data \\| Último acesso \\| Último acúmulo ou resgate) | `03 Contas` | cabeçalho A6:Q6; dados A7:Q36 | Programa A; Login B; **Saldo** = C (manual), D (soma dos lotes), **E (considerado)**; **Pontos a vencer e data** = G (a vencer em até 90 dias) e H (próximo vencimento), calculados na aba 04; **Último acesso** I; **Último acúmulo ou resgate** J; mais prazo de inatividade (K), alerta (L, M), canal oficial (N), link do regulamento (O), data da consulta (P), observações (Q). |",
+        "| 2 | 6 | \"Como organizar suas contas\" (Programa \\| Login \\| Saldo \\| Pontos a vencer e data \\| Último acesso \\| Último acúmulo ou resgate) | `03 Contas` | cabeçalho A6:R6; dados A7:R36 | Programa A; Login B; **Saldo** = C (manual), D (soma dos lotes), **E (considerado, sem pontos vencidos)**; **Pontos a vencer e data** = G (a vencer em até 90 dias) e H (próximo vencimento), calculados na aba 04; **Último acesso** I; **Último acúmulo ou resgate** J; mais prazo de inatividade (K), alerta (L, M), canal oficial (N), link do regulamento (O), data da consulta (P), observações (Q); **pontos vencidos fora do saldo (R)**. |",
         "| 3 | 7 | \"Controle de compras\" (Data, loja e nº do pedido \\| Pontuação esperada e comprovante da oferta \\| O que inicia a contagem do prazo \\| Data prevista de crédito e prazo para reclamar \\| Situação) | `06 Compras` | cabeçalho A6:X6; dados A7:X106 | Colunas agrupadas separadas: data da compra A; loja B; nº do pedido (texto) C; pontuação esperada F; comprovante G; evento que inicia a contagem H e data I; prazo J e tipo de dias K; **data prevista de crédito L (calculada)**; prazo para reclamar M, tipo N, base O/P; **data-limite Q (calculada)**; pontos creditados R; data do crédito S; diferença T; situação U; alerta V; protocolo W; observações X. Feriados: Z7:Z46. |",
         "| 4 | 7 | \"Tarefa: o seu mapa de acúmulo\" (O que eu já gasto \\| Onde gasto \\| Esse lugar tem programa de pontos? \\| Qual o passo para pontuar?) | `05 Acúmulo` | cabeçalho A6:N6; dados A7:N36 | As quatro colunas do livro em A a D; mais valor habitual (E), programa de destino (F), meio de pagamento (G), ativação ou cadastro (H), preço pelo programa (I), melhor preço alternativo (J), diferença (K), leitura (L), fonte e data (M), observações (N). |",
         "| 5 | 10 | \"Três coisas diferentes, que não devem ser confundidas\" | `14 Referências` | A7:C10 | Texto do livro (conceito, \"O que é\", exemplo de pergunta), sem alteração. |",
@@ -131,7 +137,7 @@ mapa = ["# Mapa de correspondência — e-book 1 × planilhas Excel\n",
         "| 4 | Passo a passo e fórmula \"Valor por mil = (preço em dinheiro − o que você ainda paga em dinheiro) ÷ (milhas necessárias ÷ 1.000)\" | `07 Comparar` | B29 e B31 (calculadora); E49:E58 (exercício) |",
         "| 4 | Exemplos fictícios A, B e C | `07 Comparar` (versão de exemplos) | A49:H51 |",
         "| 4 | \"Tarefa: pegue uma passagem… e faça a conta\" | `07 Comparar` | A48:H58 (dez linhas) |",
-        "| 6 | \"Para preencher já\": listar programas; anotar saldo e validade; anotar separadamente último acesso e último acúmulo ou resgate; lembrete mensal | `03 Contas`, `04 Lotes`, `13 Checklists` | 03 A7:Q36; 04 A7:N156; 13 (checklist mensal) |",
+        "| 6 | \"Para preencher já\": listar programas; anotar saldo e validade; anotar separadamente último acesso e último acúmulo ou resgate; lembrete mensal | `03 Contas`, `04 Lotes`, `13 Checklists` | 03 A7:R36; 04 A7:N156; 13 (checklist mensal) |",
         "| 7 | \"Controle de compras\" e prazos | `06 Compras` | A7:X106 |",
         "| 7 | Exemplo do liquidificador (R$ 220 × R$ 200) | `05 Acúmulo` (versão de exemplos) | linha 7 (I7:K7) |",
         "| 8 | As sete perguntas ao emissor | `13 Checklists` (seção extra) | A59:F67 (não conta nos 70 itens) |",
@@ -183,7 +189,8 @@ rt = [f"# Relatório de testes — material complementar em Excel\n",
       f"**Resultado final:** {ok} de {tot} casos aprovados, {tot - ok} reprovados.\n",
       "## Histórico honesto das execuções\n",
       "- **Primeira execução da bateria:** 169 de 179 aprovados. Os 10 resultados reprovados eram: (1) **erro real das planilhas**: o alerta da aba 06 (`#VALUE!`) quando faltava a data-limite de reclamação; corrigido com `N()`; (2) um **link externo não intencional** criado pelo XlsxWriter na aba 14 (endereço da ANAC convertido em hiperlink); corrigido (`strings_to_urls: False`); (3) uma célula de legenda desbloqueada na aba 01; corrigida; (4) expectativas de teste erradas (soma de 700, em vez de 800; data de teste de reclamação); (5) limites do próprio teste (separador decimal do LibreOffice em inglês; a API não insere linhas em aba protegida; linha inserida nasce sem as fórmulas das colunas calculadas).",
-      "- **Execução final:** todos aprovados, depois das correções acima e da inclusão das abas adicionais.\n",
+      "- **Execução final da v1.0:** 188 de 188 aprovados, depois das correções acima e da inclusão das abas adicionais.",
+      "- **v1.1 (correções do parecer do Codex):** a bateria foi ampliada para cobrir (grupo G6) o saldo sem vencidos, o alerta de reclamação combinado e o campo vazio ≠ zero. Os testes de campo vazio das abas 07 a 11 e de células com valores digitados foram ajustados ao novo comportamento (zero digitado calcula; vazio não calcula). **Execução final da v1.1: todos aprovados (resultado acima).**\n",
       "## Observações sobre o método\n",
       "- Valores esperados dos exemplos vêm do **texto aprovado** (R$ 23,33; R$ 16,81; R$ 55; R$ 34,67; R$ 336; R$ 300; R$ 23,08; R$ 15,00; etc.).",
       "- Casos de borda usam o **arquivo do aluno** com dados de teste inseridos por script (não pela interface).",
@@ -261,7 +268,7 @@ vc = [f"# Versões e checksums\n",
       f"- **Branch:** `{branch}`",
       f"- **Commit base do conteúdo:** `{base_commit}` (pacote de diagramação preservado). Este material entra em **novo commit** (o mais recente da branch), na pasta `material-complementar-excel/`.",
       f"- **Conteúdo usado:** e-book 1, **versão única v3** (6 partes, 20 capítulos). SHA-256 do texto: `{sha(os.path.join(BASE, '..', 'entrega-diagramacao', 'ebook-1-milhas-do-zero', '01-texto-consolidado.md'))}`.",
-      f"- **Versão do material complementar:** 1.0 (planilha do aluno e exemplos preenchidos).",
+      f"- **Versão do material complementar:** 1.1 (planilha do aluno e exemplos preenchidos). A v1.0 (commit `6892d31`, pasta `pacote/`) foi preservada.",
       f"- **Ferramentas:** {lo}; Python {platform.python_version()}; XlsxWriter {xlsxwriter.__version__}; openpyxl {openpyxl.__version__}.",
       f"- **Resultado dos testes:** {ok} de {tot} casos aprovados (LibreOffice). **Não testado em Excel nem em Google Sheets.**\n",
       "## SHA-256 dos arquivos do pacote\n", "O `.zip` não pode listar o próprio checksum; ele é informado na mensagem de entrega. Os arquivos `.xlsx` abaixo são os entregues. O `Versoes-e-checksums.md` não lista o próprio checksum.\n",
@@ -275,7 +282,7 @@ w('Versoes-e-checksums.md', '\n'.join(vc) + '\n')
 
 # ------------------------------------------------------------------ ZIP
 import zipfile
-zp = os.path.join(BASE, 'Milhas-do-zero-Material-complementar-Excel.zip')
+zp = os.path.join(BASE, 'Milhas-do-zero-Material-complementar-Excel-v1.1.zip')
 if os.path.exists(zp): os.remove(zp)
 with zipfile.ZipFile(zp, 'w', zipfile.ZIP_DEFLATED) as z:
     for dp, dn, fn in sorted(os.walk(PAC)):

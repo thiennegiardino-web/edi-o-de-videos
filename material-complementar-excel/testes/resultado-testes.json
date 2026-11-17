@@ -346,9 +346,17 @@
  {
   "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
   "id": "1.44",
-  "descricao": "Aba 06: alerta de divergência",
-  "esperado": "Divergência: creditado diferente do esperado.",
-  "obtido": "Divergência: creditado diferente do esperado.",
+  "descricao": "Aba 06: divergência E prazo de reclamação próximo aparecem juntos (nada fica escondido)",
+  "esperado": "Divergência: creditado diferente do esperado. Data-limite de reclamação em até 7 dias.",
+  "obtido": "Divergência: creditado diferente do esperado. Data-limite de reclamação em até 7 dias.",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.44b",
+  "descricao": "Aba 06: data-limite de reclamação da linha divergente",
+  "esperado": "2026-11-19",
+  "obtido": "2026-11-19",
   "ok": true
  },
  {
@@ -409,6 +417,30 @@
  },
  {
   "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.51b",
+  "descricao": "Aba 03: o saldo do Programa B exclui os 3.000 pontos já vencidos (1.000 + 1.500 + 0 não vencidos…)",
+  "esperado": 2500,
+  "obtido": 2500,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.51c",
+  "descricao": "Aba 03: os 3.000 pontos vencidos aparecem na coluna R, fora do saldo",
+  "esperado": 3000,
+  "obtido": 3000,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.51d",
+  "descricao": "Aba 03: a origem do saldo avisa que há pontos vencidos",
+  "esperado": "Soma dos lotes não vencidos (aba 04) Há pontos vencidos (coluna R).",
+  "obtido": "Soma dos lotes não vencidos (aba 04) Há pontos vencidos (coluna R).",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
   "id": "1.52",
   "descricao": "Aba 05: diferença de preço do liquidificador (R$ 220 − R$ 200)",
   "esperado": 20,
@@ -426,7 +458,7 @@
  {
   "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
   "id": "1.54",
-  "descricao": "Valores em cache do arquivo de exemplos = valores recalculados pelo LibreOffice (1567 células comparadas)",
+  "descricao": "Valores em cache do arquivo de exemplos = valores recalculados pelo LibreOffice (1583 células comparadas)",
   "esperado": 0,
   "obtido": 0,
   "ok": true
@@ -570,9 +602,9 @@
  {
   "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
   "id": "3.11",
-  "descricao": "… e aviso para digitar 0",
-  "esperado": "Informe os pagamentos adicionais do resgate (digite 0 se não houver).",
-  "obtido": "Informe os pagamentos adicionais do resgate (digite 0 se não houver).",
+  "descricao": "… e aviso: campo vazio = não informado",
+  "esperado": "Campo vazio = não informado, não zero: preencha as taxas de embarque, os outros pagamentos e a bagagem do resgate (digite 0 onde não houver).",
+  "obtido": "Campo vazio = não informado, não zero: preencha as taxas de embarque, os outros pagamentos e a bagagem do resgate (digite 0 onde não houver).",
   "ok": true
  },
  {
@@ -586,7 +618,15 @@
  {
   "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
   "id": "3.13",
-  "descricao": "Exercício do Cap. 4 sem pagamento adicional (em branco = 0): R$ 100 por milheiro",
+  "descricao": "Exercício do Cap. 4 com o pagamento adicional em branco: NÃO assume zero (resultado em branco)",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.13b",
+  "descricao": "Exercício do Cap. 4 com pagamento adicional digitado como 0: R$ 100 por milheiro",
   "esperado": 100,
   "obtido": 100,
   "ok": true
@@ -699,16 +739,24 @@
   "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
   "id": "3.27",
   "descricao": "… aviso",
-  "esperado": "Sem bônus informado: só a conversão foi considerada.",
-  "obtido": "Sem bônus informado: só a conversão foi considerada.",
+  "esperado": "Bônus de 0%: só a conversão foi considerada.",
+  "obtido": "Bônus de 0%: só a conversão foi considerada.",
   "ok": true
  },
  {
   "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
   "id": "3.28",
-  "descricao": "Bônus em texto: tratado como zero, sem erro",
-  "esperado": 20000,
-  "obtido": 20000,
+  "descricao": "Bônus em texto ou vazio: NÃO é zero; sem erro e sem total",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.28b",
+  "descricao": "… aviso",
+  "esperado": "Informe o percentual de bônus (0% se não houver): campo vazio = não informado.",
+  "obtido": "Informe o percentual de bônus (0% se não houver): campo vazio = não informado.",
   "ok": true
  },
  {
@@ -834,17 +882,25 @@
  {
   "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
   "id": "3.44",
-  "descricao": "Conta com lotes: saldo vem da soma dos lotes (13 lotes × 100 = 1.300 nas linhas preenchidas com \"P\")",
-  "esperado": 1300,
-  "obtido": 1300,
+  "descricao": "Conta com lotes: saldo = soma dos lotes NÃO vencidos (13 lotes × 100 = 1.300, menos 1 vencido)",
+  "esperado": 1200,
+  "obtido": 1200,
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.44b",
+  "descricao": "… e o lote vencido aparece na coluna R",
+  "esperado": 100,
+  "obtido": 100,
   "ok": true
  },
  {
   "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
   "id": "3.45",
   "descricao": "… o saldo manual divergente é ignorado e isso é informado",
-  "esperado": "Soma dos lotes (o saldo manual foi ignorado)",
-  "obtido": "Soma dos lotes (o saldo manual foi ignorado)",
+  "esperado": "Soma dos lotes não vencidos (o saldo manual foi ignorado) Há pontos vencidos (coluna R).",
+  "obtido": "Soma dos lotes não vencidos (o saldo manual foi ignorado) Há pontos vencidos (coluna R).",
   "ok": true
  },
  {
@@ -978,9 +1034,9 @@
  {
   "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
   "id": "3.62",
-  "descricao": "Data-limite de reclamação já passou (aguardando)",
-  "esperado": "Data-limite de reclamação já passou.",
-  "obtido": "Data-limite de reclamação já passou.",
+  "descricao": "Data-limite de reclamação já passou E prazo de crédito passou (aguardando): os dois avisos",
+  "esperado": "Data-limite de reclamação já passou. O prazo previsto de crédito passou sem crédito registrado.",
+  "obtido": "Data-limite de reclamação já passou. O prazo previsto de crédito passou sem crédito registrado.",
   "ok": true
  },
  {
@@ -1049,6 +1105,30 @@
  },
  {
   "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.70b",
+  "descricao": "Clube com outros custos e bônus em branco: NÃO assume zero (sem total) e avisa",
+  "esperado": "Campo vazio = não informado, não zero: preencha outros custos, pontos regulares e bônus (digite 0 se não houver).",
+  "obtido": "Campo vazio = não informado, não zero: preencha outros custos, pontos regulares e bônus (digite 0 se não houver).",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.70c",
+  "descricao": "… sem custo total",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.70d",
+  "descricao": "Compra com o bônus em branco: total recebido não é calculado",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
   "id": "3.71",
   "descricao": "Renovação: pontos necessários maiores que a quantidade elegível: aviso",
   "esperado": "Os pontos necessários superam a quantidade elegível: o resgate não cabe só neste lote.",
@@ -1075,6 +1155,22 @@
   "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
   "id": "3.74",
   "descricao": "Renovação sem comparação: desembolsos em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.74b",
+  "descricao": "Renovação com o pagamento adicional em branco: NÃO assume zero (sem desembolso) e avisa",
+  "esperado": "Campo vazio = não informado, não zero: preencha o pagamento adicional e os outros gastos do resgate (digite 0 se não houver).",
+  "obtido": "Campo vazio = não informado, não zero: preencha o pagamento adicional e os outros gastos do resgate (digite 0 se não houver).",
+  "ok": true
+ },
+ {
+  "grupo": "G3 Entradas inválidas, vazias e casos de borda (arquivo do aluno com dados de teste)",
+  "id": "3.74c",
+  "descricao": "… desembolso em branco",
   "esperado": "",
   "obtido": "",
   "ok": true
@@ -1270,6 +1366,174 @@
   "ok": true
  },
  {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.01",
+  "descricao": "Programa só com lotes vencidos: saldo considerado = 0 (não 300)",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.02",
+  "descricao": "… e os 300 pontos vencidos aparecem na coluna R",
+  "esperado": 300,
+  "obtido": 300,
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.03",
+  "descricao": "Lote que vence hoje, sem data e sem expiração entram no saldo (50 + 70 + 30)",
+  "esperado": 150,
+  "obtido": 150,
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.04",
+  "descricao": "… sem pontos vencidos",
+  "esperado": 0,
+  "obtido": 0,
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.05",
+  "descricao": "Data em texto não é tratada como vencida (10 no saldo)",
+  "esperado": 10,
+  "obtido": 10,
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.06",
+  "descricao": "Divergência + data-limite vencida: os dois avisos",
+  "esperado": "Divergência: creditado diferente do esperado. Data-limite de reclamação já passou.",
+  "obtido": "Divergência: creditado diferente do esperado. Data-limite de reclamação já passou.",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.07",
+  "descricao": "Divergência sem prazo de reclamação informado: avisa que não há data-limite",
+  "esperado": "Divergência: creditado diferente do esperado. Sem data-limite de reclamação calculada: informe o prazo, o tipo de dias e a base.",
+  "obtido": "Divergência: creditado diferente do esperado. Sem data-limite de reclamação calculada: informe o prazo, o tipo de dias e a base.",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.08",
+  "descricao": "Creditado certo: nenhum alerta de reclamação",
+  "esperado": "Acompanhando.",
+  "obtido": "Acompanhando.",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.09",
+  "descricao": "Creditado, mas com divergência e prazo vencido: os dois avisos",
+  "esperado": "Divergência: creditado diferente do esperado. Data-limite de reclamação já passou.",
+  "obtido": "Divergência: creditado diferente do esperado. Data-limite de reclamação já passou.",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.10",
+  "descricao": "Divergência com a data-limite ainda longe: só a divergência",
+  "esperado": "Divergência: creditado diferente do esperado.",
+  "obtido": "Divergência: creditado diferente do esperado.",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.11",
+  "descricao": "Aba 01 conta cada compra com alerta uma vez (4 das 5 têm alerta)",
+  "esperado": 4,
+  "obtido": 4,
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.12",
+  "descricao": "Aba 08: taxa de cancelamento (milhas) apagada: a perda NÃO cai para R$ 0; fica em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.13",
+  "descricao": "… a taxa total de cancelamento também fica em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.14",
+  "descricao": "… e o aviso lista o campo pendente",
+  "esperado": true,
+  "obtido": true,
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.15",
+  "descricao": "… a perda em dinheiro (opção em dinheiro), que não depende desse campo, continua R$ 336",
+  "esperado": 336,
+  "obtido": 336,
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.16",
+  "descricao": "Com todos os campos (zeros digitados), a perda é calculada e o aviso some",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.17",
+  "descricao": "Aba 08: \"outros custos\" (dinheiro) apagado: perda em branco (não R$ 336)",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.18",
+  "descricao": "Aba 08: \"diferença de tarifa\" apagada: custo de alteração em branco (não R$ 300)",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.19",
+  "descricao": "Aba 07: bagagem apagada na opção em dinheiro: total em branco (não \"sem bagagem\")",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.20",
+  "descricao": "… e o aviso pede para informar a bagagem",
+  "esperado": "Informe a bagagem e os serviços das opções em dinheiro (digite 0 se não houver) para calcular os totais.",
+  "obtido": "Informe a bagagem e os serviços das opções em dinheiro (digite 0 se não houver) para calcular os totais.",
+  "ok": true
+ },
+ {
+  "grupo": "G6 Correções do parecer do Codex (v1.1): saldo, reclamação e campo vazio ≠ zero",
+  "id": "6.21",
+  "descricao": "Aba 07: \"outros pagamentos adicionais\" apagado: total do resgate em branco",
+  "esperado": "",
+  "obtido": "",
+  "ok": true
+ },
+ {
   "grupo": "G5 Estrutura, proteção e conformidade",
   "id": "5.01",
   "descricao": "Quatorze abas, na ordem do plano, com nomes até 31 caracteres",
@@ -1326,7 +1590,7 @@
  {
   "grupo": "G5 Estrutura, proteção e conformidade",
   "id": "5.04",
-  "descricao": "Todas as células com fórmula estão bloqueadas (1423 fórmulas)",
+  "descricao": "Todas as células com fórmula estão bloqueadas (1454 fórmulas)",
   "esperado": 0,
   "obtido": 0,
   "ok": true
@@ -1342,7 +1606,7 @@
  {
   "grupo": "G5 Estrutura, proteção e conformidade",
   "id": "5.06",
-  "descricao": "As duas versões têm exatamente as mesmas fórmulas (1423)",
+  "descricao": "As duas versões têm exatamente as mesmas fórmulas (1454)",
   "esperado": true,
   "obtido": true,
   "ok": true

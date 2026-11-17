@@ -32,7 +32,7 @@ def sheet07(book):
         20: ('Taxas de embarque pagas em dinheiro no resgate', 'O que você ainda paga em dinheiro mesmo usando pontos (Cap. 4).'),
         21: ('Outros pagamentos adicionais do resgate (taxas de serviço, etc.)', 'Digite 0 se não houver.'),
         22: ('Bagagem e serviços', 'Compare com a mesma bagagem nas duas opções: ela entra dos dois lados e se cancela na conta.'),
-        23: ('Total pago em dinheiro (calculado)', 'Dinheiro e alternativa: preço total + bagagem. Pontos: taxas + outros pagamentos + bagagem.'),
+        23: ('Total pago em dinheiro (calculado)', 'Dinheiro e alternativa: preço total + bagagem. Pontos: taxas + outros pagamentos + bagagem. Campo vazio = não informado, não zero: digite 0 onde não houver.'),
         24: ('Condições relevantes de alteração e cancelamento', 'Resumo. Detalhe e calcule na aba 08. Cite a fonte.'),
         25: ('Observações de cada opção', ''),
     }
@@ -47,9 +47,9 @@ def sheet07(book):
     s.static_calc('B20', '—'); s.inp('C20', 'money', ex=280); s.static_calc('D20', '—')
     s.static_calc('B21', '—'); s.inp('C21', 'money', ex=0); s.static_calc('D21', '—')
     s.inp('B22', 'money', ex=360); s.inp('C22', 'money', ex=360); s.inp('D22', 'money', ex=360)
-    s.calc('B23', '=IF(ISNUMBER(B16),B16+N(B22),"")', 'money', bold=True)
-    s.calc('C23', '=IF(OR(ISNUMBER(C20),ISNUMBER(C21),ISNUMBER(C22)),N(C20)+N(C21)+N(C22),"")', 'money', bold=True)
-    s.calc('D23', '=IF(ISNUMBER(D16),D16+N(D22),"")', 'money', bold=True)
+    s.calc('B23', '=IF(AND(ISNUMBER(B16),ISNUMBER(B22)),B16+B22,"")', 'money', bold=True)
+    s.calc('C23', '=IF(AND(ISNUMBER(C20),ISNUMBER(C21),ISNUMBER(C22)),C20+C21+C22,"")', 'money', bold=True)
+    s.calc('D23', '=IF(AND(ISNUMBER(D16),ISNUMBER(D22)),D16+D22,"")', 'money', bold=True)
     s.inp('B24', 'long', ex='Condições fictícias do Passo 6 (veja a aba 08).' if book.ex else None); s.inp('C24', 'long', ex='Condições fictícias do Passo 6 (veja a aba 08).' if book.ex else None); s.inp('D24', 'long', ex='Não definidas na simulação do livro.' if book.ex else None)
     s.inp('B25', 'long', ex=None); s.inp('C25', 'long', ex=None); s.inp('D25', 'long', ex='Datas flexíveis (Passo 5): R$ 745 por pessoa, R$ 1.490 no total, com as mesmas condições de bagagem.' if book.ex else None)
     s.validate_num('B16:B17', 0); s.validate_num('D16:D17', 0); s.validate_num('C19', 0); s.validate_num('C20:C21', 0); s.validate_num('B22:D22', 0)
@@ -63,8 +63,8 @@ def sheet07(book):
         s.label('A%d' % r, lb, bold=True); s.calc('B%d' % r, fm, kd, bold=True); s.t('E%d' % r, note, italic=True, font_color=GRAY, text_wrap=True, valign='top')
         ws.set_row(r - 1, 46)
     avisos = [(33, '=IF(N($C$19)<=0,"Informe os pontos ou milhas utilizados (maior que zero) para calcular o valor por milheiro.","")'),
-              (34, '=IF(AND(N($C$19)>0,NOT(ISNUMBER($C$23))),"Informe os pagamentos adicionais do resgate (digite 0 se não houver).","")'),
-              (35, '=IF(AND(ISNUMBER($B$16),NOT(ISNUMBER($D$16))),"Informe a melhor alternativa em dinheiro para ver o resultado contra ela (Capítulo 12).","")'),
+              (34, '=IF(AND(N($C$19)>0,OR(NOT(ISNUMBER($C$20)),NOT(ISNUMBER($C$21)),NOT(ISNUMBER($C$22)))),"Campo vazio = não informado, não zero: preencha as taxas de embarque, os outros pagamentos e a bagagem do resgate (digite 0 onde não houver).","")'),
+              (35, '=IF(OR(AND(ISNUMBER($B$16),NOT(ISNUMBER($B$22))),AND(ISNUMBER($D$16),NOT(ISNUMBER($D$22)))),"Informe a bagagem e os serviços das opções em dinheiro (digite 0 se não houver) para calcular os totais.",IF(AND(ISNUMBER($B$16),NOT(ISNUMBER($D$16))),"Informe a melhor alternativa em dinheiro para ver o resultado contra ela (Capítulo 12).",""))'),
               (36, '=IF(AND(ISNUMBER($B$17),ISNUMBER($B$16),$B$17>$B$16),"A taxa de embarque informada é maior que o preço total em dinheiro: confira para não contar a taxa duas vezes.","")'),
               (37, '=IF(AND(ISNUMBER($B$29),ISNUMBER($B$31)),"Um resultado positivo indica economia calculada nesta comparação; ele não significa, sozinho, que o resgate seja a melhor escolha (custo de acumular, outros usos, validade e orçamento: Capítulo 4).","")')]
     for r, fm in avisos: s.calc('A%d' % r, fm, 'long')
@@ -83,7 +83,7 @@ def sheet07(book):
     ws.set_row(44, 44)
     s.t('E41', 'A coluna "Milhas" mostra, na linha "Tarifa", os pontos ou milhas utilizados, como na tabela do livro.', italic=True, font_color=GRAY, text_wrap=True)
     band(s, 47, 'BCDEFGH', 'E. Exercício rápido do Capítulo 4 (várias comparações; uma por linha)', book)
-    s.head(48, ['Descrição', 'Preço total em dinheiro (R$)', 'Pagamento adicional no resgate (R$)', 'Pontos ou milhas necessários', 'Valor por milheiro (R$)', 'Alternativa em dinheiro (opcional, R$)', 'Valor por milheiro contra a alternativa (R$)', 'Observações'], height=52, calc_cols=(4, 6))
+    s.head(48, ['Descrição', 'Preço total em dinheiro (R$)', 'Pagamento adicional no resgate (R$; 0 se não houver)', 'Pontos ou milhas necessários', 'Valor por milheiro (R$)', 'Alternativa em dinheiro (opcional, R$)', 'Valor por milheiro contra a alternativa (R$)', 'Observações'], height=52, calc_cols=(4, 6))
     ex = {49: ('Exemplo A (Capítulo 4)', 1200, 100, 20000, None, '[Exemplo do livro] Resultado esperado: R$ 55 por milheiro.'),
           50: ('Exemplo B (Capítulo 4)', 600, 80, 15000, None, '[Exemplo do livro] Resultado esperado: ≈ R$ 34,67 por milheiro.'),
           51: ('Exemplo C (Capítulo 4): Exemplo A com alternativa de R$ 700', 1200, 100, 20000, 700, '[Exemplo do livro] O livro só diz que a alternativa de R$ 700 deve ser considerada. O valor contra a alternativa (R$ 30,00) é o resultado da mesma fórmula, calculado aqui.')}
@@ -91,9 +91,9 @@ def sheet07(book):
         e = ex.get(r) if book.ex else None
         e = e or (None,) * 6
         s.inp('A%d' % r, 'text', ex=e[0]); s.inp('B%d' % r, 'money', ex=e[1]); s.inp('C%d' % r, 'money', ex=e[2]); s.inp('D%d' % r, 'pts', ex=e[3])
-        s.calc('E%d' % r, '=IF(AND(ISNUMBER($B{r}),ISNUMBER($D{r}),N($D{r})>0),($B{r}-N($C{r}))/($D{r}/1000),"")'.format(r=r), 'money', bold=True)
+        s.calc('E%d' % r, '=IF(AND(ISNUMBER($B{r}),ISNUMBER($C{r}),ISNUMBER($D{r}),N($D{r})>0),($B{r}-$C{r})/($D{r}/1000),"")'.format(r=r), 'money', bold=True)
         s.inp('F%d' % r, 'money', ex=e[4])
-        s.calc('G%d' % r, '=IF(AND(ISNUMBER($F{r}),ISNUMBER($D{r}),N($D{r})>0),($F{r}-N($C{r}))/($D{r}/1000),"")'.format(r=r), 'money', bold=True)
+        s.calc('G%d' % r, '=IF(AND(ISNUMBER($F{r}),ISNUMBER($C{r}),ISNUMBER($D{r}),N($D{r})>0),($F{r}-$C{r})/($D{r}/1000),"")'.format(r=r), 'money', bold=True)
         s.inp('H%d' % r, 'long', ex=e[5])
         ws.set_row(r - 1, 30 if r != 51 else 62)
     s.validate_num('B49:D58', 0); s.validate_num('F49:F58', 0)
@@ -129,8 +129,8 @@ def sheet08(book):
          (11, 'Outros pagamentos adicionais do resgate', None, '=IF(ISNUMBER(%s!$C$21),%s!$C$21,"")' % (q7, q7), 'money'),
          (12, 'Bagagem e serviços pagos', '=IF(ISNUMBER(%s!$B$22),%s!$B$22,"")' % (q7, q7), '=IF(ISNUMBER(%s!$C$22),%s!$C$22,"")' % (q7, q7), 'money'),
          (13, 'Pontos ou milhas utilizados', None, '=IF(N(%s!$C$19)>0,%s!$C$19,"")' % (q7, q7), 'pts'),
-         (14, 'Total pago em dinheiro antes da bagagem (tarifa + taxas de embarque)', '=IF(ISNUMBER($B$9),$B$9+N($B$10),"")', '=IF(OR(ISNUMBER($C$10),ISNUMBER($C$11)),N($C$10)+N($C$11),"")', 'money'),
-         (15, 'Total pago em dinheiro, com a bagagem', '=IF(ISNUMBER($B$14),$B$14+N($B$12),IF(ISNUMBER(%s!$B$23),%s!$B$23,""))' % (q7, q7), '=IF(ISNUMBER(%s!$C$23),%s!$C$23,"")' % (q7, q7), 'money')]
+         (14, 'Total pago em dinheiro antes da bagagem (tarifa + taxas de embarque)', '=IF(AND(ISNUMBER($B$9),ISNUMBER($B$10)),$B$9+$B$10,"")', '=IF(AND(ISNUMBER($C$10),ISNUMBER($C$11)),$C$10+$C$11,"")', 'money'),
+         (15, 'Total pago em dinheiro, com a bagagem', '=IF(AND(ISNUMBER($B$14),ISNUMBER($B$12)),$B$14+$B$12,"")', '=IF(ISNUMBER(%s!$C$23),%s!$C$23,"")' % (q7, q7), 'money')]
     for r, lb, fb, fc, kd in a:
         s.label('A%d' % r, lb, wrap=False)
         if fb: s.calc('B%d' % r, fb, kd)
@@ -142,17 +142,17 @@ def sheet08(book):
     s.t('D15', 'Dinheiro: tarifa + taxas + bagagem. Milhas: taxas + outros pagamentos + bagagem.', italic=True, font_color=GRAY, text_wrap=True)
     band(s, 16, 'BCD', 'B. Condições informadas por você', book)
     s.head(17, ['Item', 'Dinheiro', 'Milhas', 'Observação'], height=22)
-    inp = [(18, 'Taxa de alteração por pessoa (R$)', 'money', 150, 100), (19, 'Diferença de tarifa, se houver (R$)', 'money', None, '—'), (20, 'Diferença de pontos ou milhas, se houver (positivo = pagar mais)', 'pts', '—', None),
-           (21, 'Outros custos de alteração (R$)', 'money', None, None), (22, 'Cancelamento: percentual da tarifa devolvido', 'pct', 0.8, '—'),
+    inp = [(18, 'Taxa de alteração por pessoa (R$)', 'money', 150, 100), (19, 'Diferença de tarifa, se houver (R$; 0 se não houver)', 'money', 0, '—'), (20, 'Diferença de pontos ou milhas, se houver (positivo = pagar mais)', 'pts', '—', None),
+           (21, 'Outros custos de alteração (R$; 0 se não houver)', 'money', 0, 0), (22, 'Cancelamento: percentual da tarifa devolvido', 'pct', 0.8, '—'),
            (23, 'Cancelamento: taxas de embarque devolvidas (R$)', 'money', 280, 280), (24, 'Cancelamento: pontos ou milhas devolvidos', 'pts', '—', 72000),
-           (25, 'Cancelamento: taxa de cancelamento por pessoa (R$)', 'money', None, 150), (26, 'Cancelamento: outros custos (R$)', 'money', None, None),
+           (25, 'Cancelamento: taxa de cancelamento por pessoa (R$; 0 se não houver)', 'money', 0, 150), (26, 'Cancelamento: outros custos (R$; 0 se não houver)', 'money', 0, 0),
            (27, 'Bagagem não usada: valor devolvido (R$)', 'money', 360, 360)]
     for r, lb, kd, eb, ec in inp:
         s.label('A%d' % r, lb, wrap=False)
         for col, e in (('B', eb), ('C', ec)):
             if e == '—': s.static_calc('%s%d' % (col, r), '—')
             else: s.inp('%s%d' % (col, r), kd, ex=e)
-    s.t('D18', 'Em branco = não informado.', italic=True, font_color=GRAY)
+    s.t('D18', 'Campo vazio = NÃO INFORMADO (não é zero). Digite 0 quando não houver o custo.', italic=True, font_color=GRAY)
     t = parse_table('| | Dinheiro | Milhas |', 2)
     txt = {r[0]: r for r in t[1:]}
     s.label('A28', 'Condições e fonte: Alteração (2 pessoas)', bold=True); s.label('A29', 'Condições e fonte: Cancelamento antes do embarque', bold=True); s.label('A30', 'Condições e fonte: Bagagem não usada', bold=True)
@@ -165,15 +165,15 @@ def sheet08(book):
     band(s, 33, 'BCD', 'C. Resultados calculados (nas condições que você informou)', book)
     s.head(34, ['Item', 'Dinheiro', 'Milhas', 'Observação'], height=22)
     res = [(35, 'Alteração: taxa total (por pessoa × passageiros) (R$)', '=IF(AND(ISNUMBER($B$18),ISNUMBER($B$8)),$B$18*$B$8,"")', '=IF(AND(ISNUMBER($C$18),ISNUMBER($B$8)),$C$18*$B$8,"")', 'money', 'Livro (fictício): R$ 300 e R$ 200.'),
-           (36, 'Alteração: custo adicional total em dinheiro (R$)', '=IF(ISNUMBER($B$35),$B$35+N($B$19)+N($B$21),"")', '=IF(ISNUMBER($C$35),$C$35+N($C$21),"")', 'money', 'Dinheiro: taxa total + diferença de tarifa + outros custos. Milhas: taxa total + outros custos.'),
+           (36, 'Alteração: custo adicional total em dinheiro (R$)', '=IF(AND(ISNUMBER($B$35),ISNUMBER($B$19),ISNUMBER($B$21)),$B$35+$B$19+$B$21,"")', '=IF(AND(ISNUMBER($C$35),ISNUMBER($C$21)),$C$35+$C$21,"")', 'money', 'Dinheiro: taxa total + diferença de tarifa + outros custos. Milhas: taxa total + outros custos.'),
            (37, 'Alteração: diferença de pontos ou milhas', None, '=IF(ISNUMBER($C$20),$C$20,"")', 'pts', 'Informada por você; a diferença em pontos não vira reais aqui.'),
-           (38, 'Cancelamento: valor devolvido em dinheiro, sem a bagagem (R$)', '=IF(AND(ISNUMBER($B$9),ISNUMBER($B$22)),$B$9*$B$22+N($B$23),"")', '=IF(ISNUMBER($C$23),$C$23,"")', 'money', 'Dinheiro: tarifa × percentual devolvido + taxas devolvidas. Livro (fictício): R$ 1.624 em dinheiro.'),
+           (38, 'Cancelamento: valor devolvido em dinheiro, sem a bagagem (R$)', '=IF(AND(ISNUMBER($B$9),ISNUMBER($B$22),ISNUMBER($B$23)),$B$9*$B$22+$B$23,"")', '=IF(ISNUMBER($C$23),$C$23,"")', 'money', 'Dinheiro: tarifa × percentual devolvido + taxas devolvidas. Livro (fictício): R$ 1.624 em dinheiro.'),
            (39, 'Cancelamento: taxa de cancelamento total (por pessoa × passageiros) (R$)', '=IF(AND(ISNUMBER($B$25),ISNUMBER($B$8)),$B$25*$B$8,"")', '=IF(AND(ISNUMBER($C$25),ISNUMBER($B$8)),$C$25*$B$8,"")', 'money', 'Livro (fictício): R$ 300 na opção com milhas.'),
            (40, 'Cancelamento: pontos ou milhas devolvidos', None, '=IF(ISNUMBER($C$24),$C$24,"")', 'pts', ''),
            (41, 'Cancelamento: pontos ou milhas não devolvidos', None, '=IF(AND(ISNUMBER($C$13),ISNUMBER($C$24)),$C$13-$C$24,"")', 'pts', ''),
-           (42, 'Bagagem não usada: valor não devolvido (R$)', '=IF(ISNUMBER($B$12),$B$12-N($B$27),"")', '=IF(ISNUMBER($C$12),$C$12-N($C$27),"")', 'money', 'Zero quando a bagagem é devolvida por inteiro.'),
-           (43, 'Perda calculada em dinheiro no cancelamento (R$)', '=IF(AND(ISNUMBER($B$9),ISNUMBER($B$22)),($B$9+N($B$10))-($B$9*$B$22+N($B$23))+N($B$39)+N($B$26)+N($B$42),"")',
-            '=IF(ISNUMBER($C$14),(N($C$10)+N($C$11))-N($C$23)+N($C$39)+N($C$26)+N($C$42),"")', 'money', 'Dinheiro: tarifa + taxas − devolvido + taxa de cancelamento + outros custos + bagagem não devolvida. Livro (fictício): R$ 336 e R$ 300.'),
+           (42, 'Bagagem não usada: valor não devolvido (R$)', '=IF(AND(ISNUMBER($B$12),ISNUMBER($B$27)),$B$12-$B$27,"")', '=IF(AND(ISNUMBER($C$12),ISNUMBER($C$27)),$C$12-$C$27,"")', 'money', 'Zero quando a bagagem é devolvida por inteiro.'),
+           (43, 'Perda calculada em dinheiro no cancelamento (R$)', '=IF(AND(ISNUMBER($B$14),ISNUMBER($B$22),ISNUMBER($B$23),ISNUMBER($B$26),ISNUMBER($B$39),ISNUMBER($B$42)),$B$14-($B$9*$B$22+$B$23)+$B$39+$B$26+$B$42,"")',
+            '=IF(AND(ISNUMBER($C$14),ISNUMBER($C$23),ISNUMBER($C$26),ISNUMBER($C$39),ISNUMBER($C$42)),$C$14-$C$23+$C$39+$C$26+$C$42,"")', 'money', 'Só é calculada com TODOS os campos informados (campo vazio = não informado; digite 0 se não houver). Dinheiro: tarifa + taxas − devolvido + taxa de cancelamento + outros custos + bagagem não devolvida. Livro (fictício): R$ 336 e R$ 300.'),
            (44, 'Perda calculada em pontos ou milhas', None, '=IF(ISNUMBER($C$41),$C$41,"")', 'pts', 'Pontos devolvidos voltam para a conta e precisam ser usados dentro da validade do lote (Capítulo 10).')]
     for r, lb, fb, fc, kd, note in res:
         s.label('A%d' % r, lb, bold=(r in (43, 44)), wrap=False)
@@ -182,6 +182,17 @@ def sheet08(book):
         s.calc('C%d' % r, fc, kd, bold=(r in (43, 44)))
         s.t('D%d' % r, note, italic=True, font_color=GRAY, text_wrap=True)
         ws.set_row(r - 1, 32)
+    PEND = ('=IF(AND(NOT(ISNUMBER($B$9)),NOT(ISNUMBER($C$13))),"",IF(LEN('
+            'IF(ISNUMBER($B$18),"","taxa de alteração por pessoa (dinheiro); ")&IF(ISNUMBER($B$19),"","diferença de tarifa (dinheiro); ")&IF(ISNUMBER($B$21),"","outros custos de alteração (dinheiro); ")'
+            '&IF(ISNUMBER($C$18),"","taxa de alteração por pessoa (milhas); ")&IF(ISNUMBER($C$21),"","outros custos de alteração (milhas); ")'
+            '&IF(ISNUMBER($B$22),"","percentual da tarifa devolvido (dinheiro); ")&IF(ISNUMBER($B$23),"","taxas devolvidas (dinheiro); ")&IF(ISNUMBER($B$25),"","taxa de cancelamento (dinheiro); ")&IF(ISNUMBER($B$26),"","outros custos de cancelamento (dinheiro); ")&IF(ISNUMBER($B$27),"","bagagem devolvida (dinheiro); ")'
+            '&IF(ISNUMBER($C$23),"","taxas devolvidas (milhas); ")&IF(ISNUMBER($C$24),"","pontos devolvidos (milhas); ")&IF(ISNUMBER($C$25),"","taxa de cancelamento (milhas); ")&IF(ISNUMBER($C$26),"","outros custos de cancelamento (milhas); ")&IF(ISNUMBER($C$27),"","bagagem devolvida (milhas); "))=0,"",'
+            '"Campo vazio = não informado, não zero. Sem estes campos a perda não é calculada (digite 0 se não houver): "&'
+            'IF(ISNUMBER($B$18),"","taxa de alteração por pessoa (dinheiro); ")&IF(ISNUMBER($B$19),"","diferença de tarifa (dinheiro); ")&IF(ISNUMBER($B$21),"","outros custos de alteração (dinheiro); ")'
+            '&IF(ISNUMBER($C$18),"","taxa de alteração por pessoa (milhas); ")&IF(ISNUMBER($C$21),"","outros custos de alteração (milhas); ")'
+            '&IF(ISNUMBER($B$22),"","percentual da tarifa devolvido (dinheiro); ")&IF(ISNUMBER($B$23),"","taxas devolvidas (dinheiro); ")&IF(ISNUMBER($B$25),"","taxa de cancelamento (dinheiro); ")&IF(ISNUMBER($B$26),"","outros custos de cancelamento (dinheiro); ")&IF(ISNUMBER($B$27),"","bagagem devolvida (dinheiro); ")'
+            '&IF(ISNUMBER($C$23),"","taxas devolvidas (milhas); ")&IF(ISNUMBER($C$24),"","pontos devolvidos (milhas); ")&IF(ISNUMBER($C$25),"","taxa de cancelamento (milhas); ")&IF(ISNUMBER($C$26),"","outros custos de cancelamento (milhas); ")&IF(ISNUMBER($C$27),"","bagagem devolvida (milhas); ")))')
+    s.calc('A45', PEND, 'long'); ws.set_row(44, 78)
     s.t('A46', 'Atenção: o resultado vale só para as condições digitadas. Esta aba não calcula nem conclui direitos legais do passageiro: consulte o quadro do Capítulo 14, a companhia e o programa.', bold=True, font_color=COPPER)
     band(s, 48, 'BCD', 'D. Registro de contatos e protocolos (Capítulo 15: "como pedir ajuda")', book)
     s.head(49, ['Assunto (código da reserva, nome dos passageiros e datas, se for o caso)', 'Data e hora do contato', 'Canal oficial usado', 'Protocolo, nome do atendente e resultado'], height=40)
@@ -200,34 +211,34 @@ def sheet09(book):
             'Nada aqui é obrigatório: só faça se a conta fechar. Parcelar sem juros não é grátis: use o valor total pago. Um bônus inicial entra UMA vez, como total do período, e não como se fosse mensal.')
     s.back_link('A4')
     band(s, 6, 'BCDEFGHIJ', 'A. Comparar clubes (uma linha por clube)', book)
-    s.head(7, ['Clube (nome e programa)', 'Mensalidade (R$)', 'Meses analisados', 'Permanência mínima (meses)', 'Outros custos no período (R$)', 'Pontos regulares por mês', 'Bônus elegíveis no período (pontos, total)',
+    s.head(7, ['Clube (nome e programa)', 'Mensalidade (R$)', 'Meses analisados', 'Permanência mínima (meses)', 'Outros custos no período (R$; 0 se não houver)', 'Pontos regulares por mês', 'Bônus elegíveis no período (pontos, total; 0 se não houver)',
                'Custo total no período (R$)', 'Total recebido no período (pontos)', 'Custo por milheiro (R$)', 'Alerta', 'Validade', 'Regras de cancelamento', 'Uso concreto pretendido', 'Valor obtido no uso, por milheiro (R$, opcional)', 'Diferença (valor obtido − custo) (R$)', 'Fonte e data'],
            height=66, calc_cols=(7, 8, 9, 10, 15))
-    ex = {8: ('Clube de exemplo (Capítulo 16)', 42, 1, None, None, 1000, None, 'Informar conforme a fonte oficial', 'Informar conforme a fonte oficial', 'Nenhum resgate concreto identificado', 23.33, '[Exemplo do livro] R$ 42 por mês, 1.000 pontos por mês: R$ 42 por milheiro. O valor obtido de R$ 23,33 vem da simulação do Capítulo 13.'),
+    ex = {8: ('Clube de exemplo (Capítulo 16)', 42, 1, None, 0, 1000, 0, 'Informar conforme a fonte oficial', 'Informar conforme a fonte oficial', 'Nenhum resgate concreto identificado', 23.33, '[Exemplo do livro] R$ 42 por mês, 1.000 pontos por mês: R$ 42 por milheiro. O valor obtido de R$ 23,33 vem da simulação do Capítulo 13.'),
           9: ('Clube B (exemplo adicional fictício)', 42, 12, 3, 0, 1000, 1000, 'Informar conforme a fonte oficial', 'Informar conforme a fonte oficial', None, None, '[Exemplo adicional fictício] Bônus de 1.000 pontos só no primeiro mês, contado uma vez no período de 12 meses.')}
     for r in range(8, 18):
         e = ex.get(r) if book.ex else None
         e = e or (None,) * 12
         s.inp('A%d' % r, 'text', ex=e[0]); s.inp('B%d' % r, 'money', ex=e[1]); s.inp('C%d' % r, 'int', ex=e[2]); s.inp('D%d' % r, 'int', ex=e[3]); s.inp('E%d' % r, 'money', ex=e[4]); s.inp('F%d' % r, 'pts', ex=e[5]); s.inp('G%d' % r, 'pts', ex=e[6])
-        s.calc('H%d' % r, '=IF(OR(NOT(ISNUMBER($B{r})),NOT(ISNUMBER($C{r}))),"",$B{r}*$C{r}+N($E{r}))'.format(r=r), 'money')
-        s.calc('I%d' % r, '=IF(OR(NOT(ISNUMBER($C{r})),AND(NOT(ISNUMBER($F{r})),NOT(ISNUMBER($G{r})))),"",N($F{r})*$C{r}+N($G{r}))'.format(r=r), 'pts')
+        s.calc('H%d' % r, '=IF(AND(ISNUMBER($B{r}),ISNUMBER($C{r}),ISNUMBER($E{r})),$B{r}*$C{r}+$E{r},"")'.format(r=r), 'money')
+        s.calc('I%d' % r, '=IF(AND(ISNUMBER($C{r}),ISNUMBER($F{r}),ISNUMBER($G{r})),$F{r}*$C{r}+$G{r},"")'.format(r=r), 'pts')
         s.calc('J%d' % r, '=IF(AND(ISNUMBER($H{r}),ISNUMBER($I{r}),N($I{r})>0),$H{r}/($I{r}/1000),"")'.format(r=r), 'money', bold=True)
-        s.calc('K%d' % r, '=IF($A{r}="","",IF(AND(ISNUMBER($D{r}),ISNUMBER($C{r}),$C{r}<$D{r}),"O período analisado é menor que a permanência mínima: analise o período completo do compromisso.",IF(AND(ISNUMBER($G{r}),$G{r}>0,ISNUMBER($C{r}),$C{r}<12),"Há bônus e o período é curto: confira se o bônus se repete ou vale só uma vez.","")))'.format(r=r), 'long')
+        s.calc('K%d' % r, '=IF($A{r}="","",IF(OR(NOT(ISNUMBER($B{r})),NOT(ISNUMBER($C{r}))),"Informe a mensalidade e os meses analisados.",IF(OR(NOT(ISNUMBER($E{r})),NOT(ISNUMBER($F{r})),NOT(ISNUMBER($G{r}))),"Campo vazio = não informado, não zero: preencha outros custos, pontos regulares e bônus (digite 0 se não houver).",IF(AND(ISNUMBER($D{r}),$C{r}<$D{r}),"O período analisado é menor que a permanência mínima: analise o período completo do compromisso.",IF(AND($G{r}>0,$C{r}<12),"Há bônus e o período é curto: confira se o bônus se repete ou vale só uma vez.","")))))'.format(r=r), 'long')
         s.inp('L%d' % r, 'long', ex=e[7]); s.inp('M%d' % r, 'long', ex=e[8]); s.inp('N%d' % r, 'long', ex=e[9]); s.inp('O%d' % r, 'money', ex=e[10])
         s.calc('P%d' % r, '=IF(AND(ISNUMBER($O{r}),ISNUMBER($J{r})),$O{r}-$J{r},"")'.format(r=r), 'money')
         s.inp('Q%d' % r, 'long', ex=e[11]); ws.set_row(r - 1, 48)
     s.validate_num('B8:B17', 0); s.validate_num('C8:D17', 0, 600, integer=True); s.validate_num('E8:G17', 0); s.validate_num('O8:O17', 0)
     ws.set_row(6, 66)
     band(s, 20, 'BCDEFGHIJ', 'B. Compra de pontos ou milhas (uma linha por compra)', book)
-    s.head(21, ['Programa', 'Quantidade comprada (pontos)', 'Bônus (pontos)', 'Valor total pago (R$)', 'Taxas e outros custos (R$)', 'Total recebido (pontos)', 'Custo total (R$)', 'Custo por milheiro (R$)',
+    s.head(21, ['Programa', 'Quantidade comprada (pontos)', 'Bônus (pontos; 0 se não houver)', 'Valor total pago (R$)', 'Taxas e outros custos (R$; 0 se não houver)', 'Total recebido (pontos)', 'Custo total (R$)', 'Custo por milheiro (R$)',
                 'Prazo de crédito', 'Validade', 'Resgate pretendido', 'Valor obtido no resgate, por milheiro (R$, opcional)', 'Diferença (valor obtido − custo) (R$)', 'Fonte e data'], height=66, calc_cols=(5, 6, 7, 12))
     exb = {22: ('Programa de exemplo (adicional fictício)', 20000, 0, 600, 0, 'Informar conforme a fonte oficial', 'Informar conforme a fonte oficial', 'Nenhum resgate concreto identificado', None, '[Exemplo adicional fictício] Mesmos R$ 600 por 20.000 pontos do exemplo do Capítulo 17 (R$ 30 por milheiro), tratados aqui como uma compra.')}
     for r in range(22, 32):
         e = exb.get(r) if book.ex else None
         e = e or (None,) * 10
         s.inp('A%d' % r, 'text', ex=e[0]); s.inp('B%d' % r, 'pts', ex=e[1]); s.inp('C%d' % r, 'pts', ex=e[2]); s.inp('D%d' % r, 'money', ex=e[3]); s.inp('E%d' % r, 'money', ex=e[4])
-        s.calc('F%d' % r, '=IF(AND(NOT(ISNUMBER($B{r})),NOT(ISNUMBER($C{r}))),"",N($B{r})+N($C{r}))'.format(r=r), 'pts')
-        s.calc('G%d' % r, '=IF(AND(NOT(ISNUMBER($D{r})),NOT(ISNUMBER($E{r}))),"",N($D{r})+N($E{r}))'.format(r=r), 'money')
+        s.calc('F%d' % r, '=IF(AND(ISNUMBER($B{r}),ISNUMBER($C{r})),$B{r}+$C{r},"")'.format(r=r), 'pts')
+        s.calc('G%d' % r, '=IF(AND(ISNUMBER($D{r}),ISNUMBER($E{r})),$D{r}+$E{r},"")'.format(r=r), 'money')
         s.calc('H%d' % r, '=IF(AND(ISNUMBER($G{r}),ISNUMBER($F{r}),N($F{r})>0),$G{r}/($F{r}/1000),"")'.format(r=r), 'money', bold=True)
         s.inp('I%d' % r, 'long', ex=e[5]); s.inp('J%d' % r, 'long', ex=e[6]); s.inp('K%d' % r, 'long', ex=e[7]); s.inp('L%d' % r, 'money', ex=e[8])
         s.calc('M%d' % r, '=IF(AND(ISNUMBER($L{r}),ISNUMBER($H{r})),$L{r}-$H{r},"")'.format(r=r), 'money'); s.inp('N%d' % r, 'long', ex=e[9]); ws.set_row(r - 1, 48)
@@ -246,7 +257,7 @@ def sheet10(book):
     s.back_link('A4')
     s.t('A5', 'Fórmula básica: milhas recebidas = pontos transferidos × conversão × (1 + bônus). Com limite de bônus, esta aba calcula: base + (pontos elegíveis ao bônus × conversão × bônus). Se não houver limite informado, o cálculo assume que todos os pontos recebem bônus: confirme no regulamento da promoção.', italic=True, font_color=GRAY)
     hdr = ['Programa de origem', 'Programa de destino', 'Pontos transferidos', 'Fator de conversão (milhas por ponto de origem)', 'Percentual de bônus', 'Limite de pontos de origem que recebem bônus (opcional)',
-           'Custo dos pontos de origem (R$ total)', 'Taxas e gastos adicionais (R$)', 'Cadastro prévio na promoção necessário?',
+           'Custo dos pontos de origem (R$ total)', 'Taxas e gastos adicionais (R$; 0 se não houver)', 'Cadastro prévio na promoção necessário?',
            'Milhas-base', 'Pontos elegíveis ao bônus', 'Total do bônus', 'Total recebido', 'Custo total (R$)', 'Custo por milheiro no destino (R$)', 'Aviso',
            'Prazo de crédito da base', 'Prazo de crédito do bônus', 'Validade da base', 'Validade do bônus', 'Valor obtido no resgate, por milheiro (R$, opcional)', 'Diferença (valor obtido − custo) (R$)', 'Fonte e data', 'Observações']
     s.head(7, hdr, height=74, calc_cols=(9, 10, 11, 12, 13, 14, 15, 21))
@@ -259,14 +270,14 @@ def sheet10(book):
         s.inp('G%d' % r, 'money', ex=e[6]); s.inp('H%d' % r, 'money', ex=e[7]); s.inp('I%d' % r, 'text', ex=e[8])
         s.calc('J%d' % r, '=IF(AND(ISNUMBER($C{r}),ISNUMBER($D{r})),$C{r}*$D{r},"")'.format(r=r), 'pts')
         s.calc('K%d' % r, '=IF(ISNUMBER($C{r}),IF(ISNUMBER($F{r}),MIN($C{r},$F{r}),$C{r}),"")'.format(r=r), 'pts')
-        s.calc('L%d' % r, '=IF(AND(ISNUMBER($K{r}),ISNUMBER($D{r})),$K{r}*$D{r}*N($E{r}),"")'.format(r=r), 'pts')
+        s.calc('L%d' % r, '=IF(AND(ISNUMBER($K{r}),ISNUMBER($D{r}),ISNUMBER($E{r})),$K{r}*$D{r}*$E{r},"")'.format(r=r), 'pts')
         s.calc('M%d' % r, '=IF(AND(ISNUMBER($J{r}),ISNUMBER($L{r})),$J{r}+$L{r},"")'.format(r=r), 'pts', bold=True)
-        s.calc('N%d' % r, '=IF(OR(ISNUMBER($G{r}),ISNUMBER($H{r})),N($G{r})+N($H{r}),"")'.format(r=r), 'money')
+        s.calc('N%d' % r, '=IF(AND(ISNUMBER($G{r}),ISNUMBER($H{r})),$G{r}+$H{r},"")'.format(r=r), 'money')
         s.calc('O%d' % r, '=IF(AND(ISNUMBER($N{r}),ISNUMBER($M{r}),N($M{r})>0),$N{r}/($M{r}/1000),"")'.format(r=r), 'money', bold=True)
         s.calc('P%d' % r, ('=IF(AND($A{r}="",$B{r}="",$C{r}=""),"",IF(NOT(ISNUMBER($C{r})),"Informe os pontos transferidos.",IF(NOT(ISNUMBER($D{r})),"Informe o fator de conversão (1 = 1 para 1).",'
-                           'IF(N($D{r})<=0,"O fator de conversão precisa ser maior que zero.",IF(AND(ISNUMBER($F{r}),$F{r}<$C{r},N($E{r})>0),"O limite informado é menor que os pontos transferidos: o bônus foi calculado só sobre o limite.",'
-                           'IF(AND(NOT(ISNUMBER($F{r})),N($E{r})>0),"Nenhum limite informado: o cálculo assume que todos os pontos transferidos recebem bônus. Confira o regulamento da promoção.",'
-                           'IF(N($E{r})=0,"Sem bônus informado: só a conversão foi considerada.",""))))))) ').format(r=r), 'long')
+                           'IF(N($D{r})<=0,"O fator de conversão precisa ser maior que zero.",IF(NOT(ISNUMBER($E{r})),"Informe o percentual de bônus (0% se não houver): campo vazio = não informado.",IF(OR(NOT(ISNUMBER($G{r})),NOT(ISNUMBER($H{r}))),"Informe o custo dos pontos de origem e as taxas e gastos adicionais (digite 0 se não houver).",IF(AND(ISNUMBER($F{r}),$F{r}<$C{r},$E{r}>0),"O limite informado é menor que os pontos transferidos: o bônus foi calculado só sobre o limite.",'
+                           'IF(AND(NOT(ISNUMBER($F{r})),$E{r}>0),"Nenhum limite informado: o cálculo assume que todos os pontos transferidos recebem bônus. Confira o regulamento da promoção.",'
+                           'IF($E{r}=0,"Bônus de 0%: só a conversão foi considerada.",""))))))))) ').format(r=r), 'long')
         s.inp('Q%d' % r, 'long', ex=e[9]); s.inp('R%d' % r, 'long', ex=e[10]); s.inp('S%d' % r, 'long', ex=e[11]); s.inp('T%d' % r, 'long', ex=e[12])
         s.inp('U%d' % r, 'money', ex=e[13])
         s.calc('V%d' % r, '=IF(AND(ISNUMBER($U{r}),ISNUMBER($O{r})),$U{r}-$O{r},"")'.format(r=r), 'money')
@@ -300,13 +311,14 @@ def sheet11(book):
         e = e or (None,) * 17
         s.inp('A%d' % r, 'text', ex=e[0]); s.inp('B%d' % r, 'text', ex=e[1]); s.inp('C%d' % r, 'text', ex=e[2]); s.inp('D%d' % r, 'pts', ex=e[3]); s.inp('E%d' % r, 'money', ex=e[4]); s.inp('F%d' % r, 'date', ex=e[5]); s.inp('G%d' % r, 'text', ex=e[6])
         s.inp('H%d' % r, 'long', ex=e[7]); s.inp('I%d' % r, 'money', ex=e[8]); s.inp('J%d' % r, 'pts', ex=e[9]); s.inp('K%d' % r, 'money', ex=e[10]); s.inp('L%d' % r, 'money', ex=e[11]); s.inp('M%d' % r, 'pts', ex=e[12])
-        s.calc('N%d' % r, '=IF(AND(ISNUMBER($E{r}),ISNUMBER($I{r}),N($J{r})>0),$E{r}+N($K{r})+N($L{r}),"")'.format(r=r), 'money', bold=True)
-        s.calc('O%d' % r, '=IF(AND(ISNUMBER($E{r}),ISNUMBER($I{r}),N($J{r})>0),$I{r},"")'.format(r=r), 'money', bold=True)
+        s.calc('N%d' % r, '=IF(AND(ISNUMBER($E{r}),ISNUMBER($I{r}),ISNUMBER($K{r}),ISNUMBER($L{r}),N($J{r})>0),$E{r}+$K{r}+$L{r},"")'.format(r=r), 'money', bold=True)
+        s.calc('O%d' % r, '=IF(ISNUMBER($N{r}),$I{r},"")'.format(r=r), 'money', bold=True)
         s.calc('P%d' % r, '=IF(AND(ISNUMBER($N{r}),ISNUMBER($O{r})),$O{r}-$N{r},"")'.format(r=r), 'money', bold=True)
         s.calc('Q%d' % r, ('=IF(AND($A{r}="",$E{r}=""),"",IF(NOT(ISNUMBER($I{r})),"Sem uso concreto com valor em dinheiro informado: não há o que comparar. Pagar sem perspectiva de uso pode gerar outra perda.",'
                            'IF(OR(NOT(ISNUMBER($E{r})),N($J{r})<=0),"Preencha o custo da renovação e os pontos necessários no resgate.",'
+                           'IF(OR(NOT(ISNUMBER($K{r})),NOT(ISNUMBER($L{r}))),"Campo vazio = não informado, não zero: preencha o pagamento adicional e os outros gastos do resgate (digite 0 se não houver).",'
                            'IF(AND(ISNUMBER($D{r}),$J{r}>$D{r}),"Os pontos necessários superam a quantidade elegível: o resgate não cabe só neste lote.",'
-                           'IF(AND(ISNUMBER($F{r}),$F{r}<=DataRef),"A nova validade informada não é posterior à data de referência.","Comparação apenas de desembolsos. Não considera o valor dos pontos, a disponibilidade nem a validade do bilhete.")))))').format(r=r), 'long')
+                           'IF(AND(ISNUMBER($F{r}),$F{r}<=DataRef),"A nova validade informada não é posterior à data de referência.","Comparação apenas de desembolsos. Não considera o valor dos pontos, a disponibilidade nem a validade do bilhete."))))))').format(r=r), 'long')
         s.inp('R%d' % r, 'text', ex=e[13]); s.inp('S%d' % r, 'long', ex=e[14]); s.inp('T%d' % r, 'long', ex=e[15]); s.inp('U%d' % r, 'long', ex=e[16]); ws.set_row(r - 1, 62)
     s.validate_list('C7:C21', items=['Extensão', 'Reativação'])
     s.validate_list('R7:R21', items=['Estender', 'Reativar', 'Usar sem pagar renovação', 'Deixar vencer', 'Ainda não decidi'])
