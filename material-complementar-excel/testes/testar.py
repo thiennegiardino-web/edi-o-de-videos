@@ -99,6 +99,8 @@ add(g, '1.51', 'Aba 03: alerta de inatividade (a menos de 3 meses)', 'Atenção:
 add(g, '1.51b', 'Aba 03: o saldo do Programa B exclui os 3.000 pontos já vencidos (1.000 + 1.500 + 0 não vencidos…)', 2500, v(we, S[3], 'E8'))
 add(g, '1.51c', 'Aba 03: os 3.000 pontos vencidos aparecem na coluna R, fora do saldo', 3000, v(we, S[3], 'R8'))
 add(g, '1.51d', 'Aba 03: a origem do saldo avisa que há pontos vencidos', 'Soma dos lotes não vencidos (aba 04) Há pontos vencidos (coluna R).', v(we, S[3], 'F8'))
+add(g, '1.51e', 'Aba 07 (v1.2): tarifa em reais e milhas em linhas separadas: milhas utilizadas na linha 46', 72000, v(we, S[7], 'C46'))
+add(g, '1.51f', '… e a célula de tarifa na coluna Milhas não mistura unidades', 'Paga com milhas', v(we, S[7], 'C41'))
 add(g, '1.52', 'Aba 05: diferença de preço do liquidificador (R$ 220 − R$ 200)', 20, v(we, S[5], 'K7'))
 add(g, '1.53', 'Aba 02: resumo montado (Marina)', 'Quero viajar de Campinas para Salvador, com 2 pessoa(s), daqui a 10 meses. Já tenho cadastro em Programa da farmácia (exemplo), Programa do supermercado (exemplo). Meu primeiro passo é Ver o saldo e a validade desses dois programas.', v(we, S[2], 'B56'))
 # valores em cache do arquivo entregue = valores recalculados
@@ -407,7 +409,7 @@ checks = [('Cap. 1: Programa | Saldo | Validade', S[2], ['Programa', 'Saldo (pon
           ('Cap. 7: mapa de acúmulo', S[5], ['O que eu já gasto', 'Onde gasto', 'Esse lugar tem programa de pontos?', 'Qual o passo para pontuar?']),
           ('Cap. 10: vencimento, inatividade e extensão/reativação', S[14], ['Vencimento dos pontos', 'Encerramento da conta por inatividade', 'Extensão ou reativação']),
           ('Cap. 10: validade da Smiles por origem', S[14], ['Milhas acumuladas em voos da GOL', 'Milhas reativadas']),
-          ('Cap. 13: comparação dinheiro × milhas', S[7], ['Tarifa (sem as taxas de embarque)', 'Pago em dinheiro']),
+          ('Cap. 13: comparação dinheiro × milhas', S[7], ['Tarifa em reais (sem as taxas de embarque)', 'Milhas ou pontos utilizados', 'Pago em dinheiro']),
           ('Cap. 13: alteração, cancelamento e bagagem', S[8], ['Condições e fonte: Alteração (2 pessoas)', 'Condições e fonte: Cancelamento antes do embarque', 'Condições e fonte: Bagagem não usada'])]
 for k, (nome, sh, termos) in enumerate(checks):
     conj = ' | '.join(str(c.value) for row in wx[sh].iter_rows() for c in row if c.value is not None)

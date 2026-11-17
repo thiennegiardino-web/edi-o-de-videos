@@ -6,7 +6,7 @@ from common import *
 import openpyxl, xlsxwriter
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-SAIDA = os.path.join(BASE, 'saida'); PAC = os.path.join(BASE, 'pacote-v1.1')
+SAIDA = os.path.join(BASE, 'saida'); PAC = os.path.join(BASE, 'pacote-v1.2')
 ALUNO = 'Milhas-do-zero-Planilha-do-aluno.xlsx'; EXEM = 'Milhas-do-zero-Exemplos-preenchidos.xlsx'
 res = json.load(open(os.path.join(BASE, 'testes', 'resultado-testes.json'), encoding='utf-8'))
 
@@ -41,7 +41,7 @@ tabs = [(2, 'Capítulo 1', 'Diagnóstico inicial, programas com saldo e validade
         (14, 'Capítulo 10 e fontes', 'Tabelas explicativas, exemplos datados da Smiles e fontes do material.')]
 leia = f"""# Material complementar em Excel — Milhas do zero (De Malas e Milhas)
 
-**Versão 1.1** (corrige os três pontos do parecer do Codex sobre a v1.0, commit `6892d31`; ver «Mudanças da v1.1»). **Para revisão pelo Codex.** Pacote gerado em {datetime.date.today().strftime('%d/%m/%Y')}.
+**Versão 1.2** (v1.1 = commit `c1238bf`, pasta `pacote-v1.1/`; v1.0 = commit `6892d31`, pasta `pacote/`; ambas preservadas). **PENDENTE: validação no Microsoft Excel (e no Google Sheets, se for oferecido aos alunos) antes da distribuição; os testes no LibreOffice não a substituem.** **Para revisão pelo Codex.** Pacote gerado em {datetime.date.today().strftime('%d/%m/%Y')}.
 **Base de conteúdo:** e-book 1, versão única v3 (6 partes, 20 capítulos), pacote de referência do commit `ac182ad` (`entrega-diagramacao/ebook-1-milhas-do-zero/01-texto-consolidado.md`). O pacote de diagramação foi preservado; este material está em `material-complementar-excel/`.
 
 ## O que há neste pacote
@@ -55,6 +55,15 @@ leia = f"""# Material complementar em Excel — Milhas do zero (De Malas e Milha
 | `Achados-sobre-o-texto.md` | Erros, ambiguidades e sugestões encontrados no texto aprovado (nada foi alterado no texto). |
 | `Versoes-e-checksums.md` | Versões e SHA-256. |
 | `previas/` | Imagens das abas principais (renderizadas no LibreOffice). |
+
+## Mudanças da v1.2 (em relação à v1.1, commit `c1238bf`, preservada)
+Somente **notas explicativas** e um ajuste de rótulos; **nenhuma regra de cálculo foi alterada** (as 1.454 fórmulas anteriores continuam as mesmas; a única fórmula movida é a das milhas utilizadas, de `07 Comparar!C41` para `C46`). Decisões do Codex sobre os achados 1, 3, 4, 5, 7 e 8 (`decisoes/Decisoes-sobre-os-achados.md`):
+- **Aba 01:** nova seção «Como ler esta planilha (notas de uso)»: contas × lotes em abas separadas (achado 4); pontos a vencer dependem dos lotes (5); situação «Divergente» × «Em contestação» (3); vencimento por data, horário a confirmar no programa (8); campo vazio ≠ zero; versão 1.2.
+- **Aba 03:** nota de que as colunas G e H dependem dos lotes da aba 04 (5).
+- **Aba 04:** subtítulo avisa que a planilha trata o vencimento por data e que o horário deve ser confirmado no programa (8).
+- **Aba 07:** a tabela do Capítulo 13 separa a tarifa em reais (linha 41, coluna Milhas: «Paga com milhas») da quantidade de milhas (nova linha 46) (1). A tabela do livro, na versão 4 do texto, traz a mesma separação.
+- **Aba 10:** nota de que a fórmula simples só vale sem limite de bônus aplicável e de que se deve seguir a unidade e as condições da campanha (7).
+- Achados 2 e 10 só atuam no texto do livro; 6 e 9, sem alteração.
 
 ## Mudanças da v1.1 (em relação à v1.0, commit `6892d31`, preservada)
 1. **Saldo sem pontos vencidos (aba 03).** O saldo considerado (coluna E) passou a somar só os lotes **não vencidos**. Os pontos de lotes vencidos aparecem na nova coluna **R** ("Pontos vencidos (fora do saldo)"), e a origem do saldo (coluna F) avisa "Há pontos vencidos (coluna R)". Lote com data em branco, em texto ou com «expiração confirmada = Sim, confirmado» continua no saldo; lote que vence **hoje** também continua (vence ao fim do dia).
@@ -128,7 +137,7 @@ mapa = ["# Mapa de correspondência — e-book 1 × planilhas Excel\n",
         "| 4 | 7 | \"Tarefa: o seu mapa de acúmulo\" (O que eu já gasto \\| Onde gasto \\| Esse lugar tem programa de pontos? \\| Qual o passo para pontuar?) | `05 Acúmulo` | cabeçalho A6:N6; dados A7:N36 | As quatro colunas do livro em A a D; mais valor habitual (E), programa de destino (F), meio de pagamento (G), ativação ou cadastro (H), preço pelo programa (I), melhor preço alternativo (J), diferença (K), leitura (L), fonte e data (M), observações (N). |",
         "| 5 | 10 | \"Três coisas diferentes, que não devem ser confundidas\" | `14 Referências` | A7:C10 | Texto do livro (conceito, \"O que é\", exemplo de pergunta), sem alteração. |",
         "| 6 | 10 | Validade da Smiles por origem | `14 Referências` | A15:F20 | As cinco linhas do texto aprovado, com origem, categoria ou condição, validade, fonte, data (16/11/2026) e situação (exemplo histórico, pendente de reconferência). Não alimenta os lotes. |",
-        "| 7 | 13 | Passo 3: comparação dinheiro × milhas (Tarifa; Taxas de embarque; Bagagem; Pago em dinheiro) | `07 Comparar` | tabela reproduzida A40:C45; calculadora A15:E25; resultados A28:B32 | Tabela do livro com linhas e colunas iguais, ligada às entradas da calculadora. A coluna \"Milhas\" mostra, na linha \"Tarifa\", os pontos utilizados (como no livro). Composição \"R$ 1.680 + R$ 280 + R$ 360\" na linha 45. |",
+        "| 7 | 13 | Passo 3: comparação dinheiro × milhas (Tarifa em reais; Milhas utilizadas; Taxas de embarque; Bagagem; Pago em dinheiro) | `07 Comparar` | tabela reproduzida A40:C46; calculadora A15:E25; resultados A28:B32 | Tabela ligada às entradas da calculadora. Na v1.2, a tarifa em reais (linha 41; coluna Milhas: \"Paga com milhas\") e a quantidade de milhas (linha 46) ficam em linhas separadas, como na versão 4 do texto do livro (a v4 coloca \"Milhas utilizadas\" logo abaixo da tarifa; a planilha a mantém abaixo da composição para não mover células). Composição \"R$ 1.680 + R$ 280 + R$ 360\" na linha 45. |",
         "| 8 | 13 | Passo 6: Alteração (2 pessoas), Cancelamento antes do embarque, Bagagem não usada | `08 Alterar` | A28:C30 (texto das condições); entradas B18:C27; resultados A35:C44 | Texto das condições (idêntico ao livro na versão de exemplos) e cálculo de taxa de alteração, devolução, taxa de cancelamento, bagagem e perda em dinheiro e em pontos. |",
         "\n**Resultado da conferência:** as oito tabelas estão representadas (teste automatizado 5.14 a 5.21 do `Relatorio-de-testes.md`).\n",
         "## 2. Atividades, tarefas e fórmulas\n", "| Capítulo | Trecho do livro | Aba | Localização |", "|---|---|---|---|",
@@ -190,7 +199,7 @@ rt = [f"# Relatório de testes — material complementar em Excel\n",
       "## Histórico honesto das execuções\n",
       "- **Primeira execução da bateria:** 169 de 179 aprovados. Os 10 resultados reprovados eram: (1) **erro real das planilhas**: o alerta da aba 06 (`#VALUE!`) quando faltava a data-limite de reclamação; corrigido com `N()`; (2) um **link externo não intencional** criado pelo XlsxWriter na aba 14 (endereço da ANAC convertido em hiperlink); corrigido (`strings_to_urls: False`); (3) uma célula de legenda desbloqueada na aba 01; corrigida; (4) expectativas de teste erradas (soma de 700, em vez de 800; data de teste de reclamação); (5) limites do próprio teste (separador decimal do LibreOffice em inglês; a API não insere linhas em aba protegida; linha inserida nasce sem as fórmulas das colunas calculadas).",
       "- **Execução final da v1.0:** 188 de 188 aprovados, depois das correções acima e da inclusão das abas adicionais.",
-      "- **v1.1 (correções do parecer do Codex):** a bateria foi ampliada para cobrir (grupo G6) o saldo sem vencidos, o alerta de reclamação combinado e o campo vazio ≠ zero. Os testes de campo vazio das abas 07 a 11 e de células com valores digitados foram ajustados ao novo comportamento (zero digitado calcula; vazio não calcula). **Execução final da v1.1: todos aprovados (resultado acima).**\n",
+      "- **v1.2:** apenas notas explicativas e separação tarifa/milhas na aba 07; a bateria passou a 223 casos (os de G6 e dois novos para a linha de milhas) e os resultados estão acima. **v1.1 (correções do parecer do Codex):** a bateria foi ampliada para cobrir (grupo G6) o saldo sem vencidos, o alerta de reclamação combinado e o campo vazio ≠ zero. Os testes de campo vazio das abas 07 a 11 e de células com valores digitados foram ajustados ao novo comportamento (zero digitado calcula; vazio não calcula). **Execução final da v1.1: todos aprovados (resultado acima).**\n",
       "## Observações sobre o método\n",
       "- Valores esperados dos exemplos vêm do **texto aprovado** (R$ 23,33; R$ 16,81; R$ 55; R$ 34,67; R$ 336; R$ 300; R$ 23,08; R$ 15,00; etc.).",
       "- Casos de borda usam o **arquivo do aluno** com dados de teste inseridos por script (não pela interface).",
@@ -246,7 +255,7 @@ print('docs 1/2 ok')
 
 # ------------------------------------------------------------------ Achados sobre o texto
 ach = ["# Achados sobre o texto aprovado (e-book 1, versão única v3)\n",
-       "Nada foi alterado no texto. Cada achado traz capítulo, trecho, motivo e solução proposta, para decisão da revisão editorial. **Nenhum erro numérico foi encontrado:** todos os exemplos numéricos do livro foram reproduzidos nas planilhas e conferem (ver `Relatorio-de-testes.md`, grupo G1).\n",
+       "**Decisões do Codex (17/11/2026)** em `decisoes/Decisoes-sobre-os-achados.md`: achados 1, 2, 7 e 10 entram na versão 4 do texto (`entrega-diagramacao-v2/`); 3, 4, 5, 7 (aba 10) e 8 viraram notas na planilha v1.2; 6 e 9 sem alteração. A tabela abaixo é o registro original (v1.0). Nada foi alterado no texto aprovado v3. Cada achado traz capítulo, trecho, motivo e solução proposta, para decisão da revisão editorial. **Nenhum erro numérico foi encontrado:** todos os exemplos numéricos do livro foram reproduzidos nas planilhas e conferem (ver `Relatorio-de-testes.md`, grupo G1).\n",
        "| # | Capítulo | Trecho | Motivo | Solução proposta |", "|---|---|---|---|---|"]
 ach_rows = [
  ('13 (Passo 3)', 'Tabela: linha \"Tarifa (sem as taxas de embarque)\" com \"R$ 1.680\" em Dinheiro e \"72.000 milhas\" em Milhas', 'A linha mistura unidades: na coluna Milhas, a linha \"Tarifa\" mostra a quantidade de milhas, e não um valor em reais. A planilha reproduz como está, mas pode confundir.', 'Renomear a linha para \"Tarifa (sem taxas) / pontos ou milhas utilizados\" ou criar uma linha própria \"Pontos ou milhas utilizados\".'),
@@ -268,7 +277,7 @@ vc = [f"# Versões e checksums\n",
       f"- **Branch:** `{branch}`",
       f"- **Commit base do conteúdo:** `{base_commit}` (pacote de diagramação preservado). Este material entra em **novo commit** (o mais recente da branch), na pasta `material-complementar-excel/`.",
       f"- **Conteúdo usado:** e-book 1, **versão única v3** (6 partes, 20 capítulos). SHA-256 do texto: `{sha(os.path.join(BASE, '..', 'entrega-diagramacao', 'ebook-1-milhas-do-zero', '01-texto-consolidado.md'))}`.",
-      f"- **Versão do material complementar:** 1.1 (planilha do aluno e exemplos preenchidos). A v1.0 (commit `6892d31`, pasta `pacote/`) foi preservada.",
+      f"- **Versão do material complementar:** 1.2 (planilha do aluno e exemplos preenchidos). A v1.1 (`c1238bf`, `pacote-v1.1/`) e a v1.0 (`6892d31`, `pacote/`) foram preservadas. **Pendente: validação no Microsoft Excel (e no Google Sheets, se oferecido).**",
       f"- **Ferramentas:** {lo}; Python {platform.python_version()}; XlsxWriter {xlsxwriter.__version__}; openpyxl {openpyxl.__version__}.",
       f"- **Resultado dos testes:** {ok} de {tot} casos aprovados (LibreOffice). **Não testado em Excel nem em Google Sheets.**\n",
       "## SHA-256 dos arquivos do pacote\n", "O `.zip` não pode listar o próprio checksum; ele é informado na mensagem de entrega. Os arquivos `.xlsx` abaixo são os entregues. O `Versoes-e-checksums.md` não lista o próprio checksum.\n",
@@ -282,7 +291,7 @@ w('Versoes-e-checksums.md', '\n'.join(vc) + '\n')
 
 # ------------------------------------------------------------------ ZIP
 import zipfile
-zp = os.path.join(BASE, 'Milhas-do-zero-Material-complementar-Excel-v1.1.zip')
+zp = os.path.join(BASE, 'Milhas-do-zero-Material-complementar-Excel-v1.2.zip')
 if os.path.exists(zp): os.remove(zp)
 with zipfile.ZipFile(zp, 'w', zipfile.ZIP_DEFLATED) as z:
     for dp, dn, fn in sorted(os.walk(PAC)):

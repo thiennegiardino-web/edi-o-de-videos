@@ -72,8 +72,9 @@ def sheet07(book):
     ws.set_row(36, 44)
     band(s, 39, 'BCDE', 'D. Tabela do Capítulo 13 (reproduzida): comparação dinheiro × milhas', book)
     s.head(40, ['', 'Dinheiro', 'Milhas'], height=22)
-    s.label('A41', 'Tarifa (sem as taxas de embarque)', wrap=False); s.calc('B41', '=IF(ISNUMBER($B$18),$B$18,"")', 'money'); ws.write_formula('C41', '=IF(N($C$19)>0,$C$19,"")', book.calc_fmt('pts'), book.values.get((NAMES[7], 'C41'), '')); book.formula_cells.append((NAMES[7], 'C41'))
-    ws.write_comment('C41', 'Pontos ou milhas utilizados. Na tabela do livro, aparece como "72.000 milhas".')
+    s.label('A41', 'Tarifa em reais (sem as taxas de embarque)', wrap=False); s.calc('B41', '=IF(ISNUMBER($B$18),$B$18,"")', 'money'); s.label('C41', 'Paga com milhas', wrap=False); ws.write_formula('C46', '=IF(N($C$19)>0,$C$19,"")', book.calc_fmt('pts'), book.values.get((NAMES[7], 'C46'), '')); book.formula_cells.append((NAMES[7], 'C46'))
+    s.label('A46', 'Milhas ou pontos utilizados (a tarifa é paga com eles)', wrap=False); s.label('B46', 'Não se aplica', wrap=False)
+    ws.write_comment('C46', 'Pontos ou milhas utilizados. Na versão 4 do texto do livro, a tarifa em reais e a quantidade de milhas ficam em linhas separadas.')
     s.label('A42', 'Taxas de embarque', wrap=False); s.calc('B42', '=IF(ISNUMBER($B$17),$B$17,"")', 'money'); s.calc('C42', '=IF(ISNUMBER($C$20),$C$20,"")', 'money')
     s.label('A43', 'Bagagem', wrap=False); s.calc('B43', '=IF(ISNUMBER($B$22),$B$22,"")', 'money'); s.calc('C43', '=IF(ISNUMBER($C$22),$C$22,"")', 'money')
     s.label('A44', 'Pago em dinheiro', bold=True, wrap=False); s.calc('B44', '=IF(ISNUMBER($B$23),$B$23,"")', 'money', bold=True); s.calc('C44', '=IF(ISNUMBER($C$23),$C$23,"")', 'money', bold=True)
@@ -81,7 +82,7 @@ def sheet07(book):
     s.calc('B45', '=IF(NOT(ISNUMBER($B$23)),"",IF(ISNUMBER($B$18),"R$ "&FIXED($B$18,2)&" + R$ "&FIXED(N($B$17),2)&" + R$ "&FIXED(N($B$22),2),"R$ "&FIXED($B$16,2)&" + R$ "&FIXED(N($B$22),2)))', 'long')
     s.calc('C45', '=IF(NOT(ISNUMBER($C$23)),"",IF(N($C$21)>0,"R$ "&FIXED(N($C$20),2)&" + R$ "&FIXED($C$21,2)&" + R$ "&FIXED(N($C$22),2),"R$ "&FIXED(N($C$20),2)&" + R$ "&FIXED(N($C$22),2)))', 'long')
     ws.set_row(44, 44)
-    s.t('E41', 'A coluna "Milhas" mostra, na linha "Tarifa", os pontos ou milhas utilizados, como na tabela do livro.', italic=True, font_color=GRAY, text_wrap=True)
+    s.t('E41', 'A tarifa em reais e a quantidade de milhas ficam em linhas separadas (linhas 41 e 46), para não misturar unidades.', italic=True, font_color=GRAY, text_wrap=True)
     band(s, 47, 'BCDEFGH', 'E. Exercício rápido do Capítulo 4 (várias comparações; uma por linha)', book)
     s.head(48, ['Descrição', 'Preço total em dinheiro (R$)', 'Pagamento adicional no resgate (R$; 0 se não houver)', 'Pontos ou milhas necessários', 'Valor por milheiro (R$)', 'Alternativa em dinheiro (opcional, R$)', 'Valor por milheiro contra a alternativa (R$)', 'Observações'], height=52, calc_cols=(4, 6))
     ex = {49: ('Exemplo A (Capítulo 4)', 1200, 100, 20000, None, '[Exemplo do livro] Resultado esperado: R$ 55 por milheiro.'),
@@ -255,7 +256,7 @@ def sheet10(book):
     s.title('Transferências bonificadas', 'Capítulo 17 — Quantas milhas chegam e quanto custa cada milheiro',
             'Fator de conversão = quantas milhas ou pontos do DESTINO chegam por 1 ponto de ORIGEM, antes do bônus (1 = "1 para 1"; 0,5 = 2 pontos de origem para 1 no destino). O bônus é um percentual sobre o que se transfere.')
     s.back_link('A4')
-    s.t('A5', 'Fórmula básica: milhas recebidas = pontos transferidos × conversão × (1 + bônus). Com limite de bônus, esta aba calcula: base + (pontos elegíveis ao bônus × conversão × bônus). Se não houver limite informado, o cálculo assume que todos os pontos recebem bônus: confirme no regulamento da promoção.', italic=True, font_color=GRAY)
+    s.t('A5', 'Fórmula básica: milhas recebidas = pontos transferidos × conversão × (1 + bônus). Com limite de bônus, esta aba calcula: base + (pontos elegíveis ao bônus × conversão × bônus). Se não houver limite informado, o cálculo assume que todos os pontos recebem bônus: confirme no regulamento da promoção. A fórmula simples só vale quando não há limite de bônus aplicável; siga a unidade e as condições da campanha (o limite pode ser em pontos de origem ou em milhas de bônus: converta antes de digitar).', italic=True, font_color=GRAY)
     hdr = ['Programa de origem', 'Programa de destino', 'Pontos transferidos', 'Fator de conversão (milhas por ponto de origem)', 'Percentual de bônus', 'Limite de pontos de origem que recebem bônus (opcional)',
            'Custo dos pontos de origem (R$ total)', 'Taxas e gastos adicionais (R$; 0 se não houver)', 'Cadastro prévio na promoção necessário?',
            'Milhas-base', 'Pontos elegíveis ao bônus', 'Total do bônus', 'Total recebido', 'Custo total (R$)', 'Custo por milheiro no destino (R$)', 'Aviso',

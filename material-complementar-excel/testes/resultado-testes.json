@@ -441,6 +441,22 @@
  },
  {
   "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.51e",
+  "descricao": "Aba 07 (v1.2): tarifa em reais e milhas em linhas separadas: milhas utilizadas na linha 46",
+  "esperado": 72000,
+  "obtido": 72000,
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
+  "id": "1.51f",
+  "descricao": "… e a célula de tarifa na coluna Milhas não mistura unidades",
+  "esperado": "Paga com milhas",
+  "obtido": "Paga com milhas",
+  "ok": true
+ },
+ {
+  "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
   "id": "1.52",
   "descricao": "Aba 05: diferença de preço do liquidificador (R$ 220 − R$ 200)",
   "esperado": 20,
@@ -458,7 +474,7 @@
  {
   "grupo": "G1 Exemplos aprovados do livro (arquivo de exemplos)",
   "id": "1.54",
-  "descricao": "Valores em cache do arquivo de exemplos = valores recalculados pelo LibreOffice (1583 células comparadas)",
+  "descricao": "Valores em cache do arquivo de exemplos = valores recalculados pelo LibreOffice (1593 células comparadas)",
   "esperado": 0,
   "obtido": 0,
   "ok": true

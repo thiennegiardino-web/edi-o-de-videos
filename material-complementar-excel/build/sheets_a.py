@@ -93,7 +93,16 @@ def sheet01(book):
         s.label('A%d' % r, lb, bold=False, wrap=False)
         s.calc('B%d' % r, fm, kd)
         s.t('C%d' % r, ds, italic=True, font_color=GRAY)
-    s.finish(landscape=True, area='A1:C%d' % (52 + len(items)))
+    rn = 52 + len(items) + 1
+    s.section('A%d' % rn, 'Como ler esta planilha (notas de uso)'); ws.write_blank('B%d' % rn, None, book.f(bg_color=ROSE_L, bottom=2, bottom_color=COPPER2)); ws.write_blank('C%d' % rn, None, book.f(bg_color=ROSE_L, bottom=2, bottom_color=COPPER2))
+    notas = ['• Contas e lotes ficam em abas separadas de propósito: a aba 03 tem uma linha por programa e a aba 04 tem uma linha por lote. O saldo vem dos lotes, para você nunca digitar dois saldos para o mesmo programa.',
+             '• Pontos a vencer e próximo vencimento (aba 03) dependem do preenchimento dos lotes na aba 04. Sem lotes, essas colunas ficam em branco.',
+             '• Situação "Divergente" (aba 06): use quando os pontos creditados forem diferentes dos esperados e você ainda não tiver aberto a reclamação. "Em contestação" é para quando a reclamação já foi feita. A planilha avisa nos dois casos.',
+             '• Vencimento: a planilha trabalha com datas, não com horas. No dia do vencimento o lote aparece como "Vence hoje". O horário em que o vencimento realmente ocorre (por exemplo, 23h59) deve ser confirmado no programa.',
+             '• Campo vazio significa "não informado", não zero. Se um custo, taxa ou bônus não existe, digite 0.',
+             '• Versão 1.2 do material complementar. Mudanças em relação à 1.1: apenas notas explicativas e o ajuste da tabela do Capítulo 13 na aba 07; nenhuma regra de cálculo foi alterada.']
+    for i, a in enumerate(notas): s.t('A%d' % (rn + 1 + i), a)
+    s.finish(landscape=True, area='A1:C%d' % (rn + len(notas)))
     ws.activate()
     return s
 
@@ -180,7 +189,7 @@ def sheet03(book):
     s.title('Organização das contas', 'Capítulos 6 e 9 — Seu painel de controle, uma linha por programa',
             'Não registre senhas, códigos de verificação, CPF nem número completo de cartão. Último acesso NÃO é o mesmo que último acúmulo ou resgate: anote os dois separadamente.')
     s.back_link('A4')
-    s.t('A5', 'Saldo: quando há lotes na aba 04 para o programa, o saldo vem da SOMA DOS LOTES NÃO VENCIDOS (calculado); lotes vencidos aparecem na coluna R e não entram no saldo. O saldo manual só vale se ainda não houver lotes.', italic=True, font_color=GRAY)
+    s.t('A5', 'Saldo: quando há lotes na aba 04 para o programa, o saldo vem da SOMA DOS LOTES NÃO VENCIDOS (calculado); lotes vencidos aparecem na coluna R e não entram no saldo. O saldo manual só vale se ainda não houver lotes. Pontos a vencer e próximo vencimento (colunas G e H) dependem do preenchimento dos lotes na aba 04.', italic=True, font_color=GRAY)
     hdr = ['Programa', 'Login (e-mail ou identificador, opcional; nunca senha)', 'Saldo manual (use só se ainda não detalhou os lotes)', 'Saldo dos lotes NÃO vencidos (aba 04)', 'Saldo considerado',
            'Origem do saldo', 'Pontos a vencer em até 90 dias (aba 04)', 'Próximo vencimento (aba 04)', 'Último acesso', 'Último acúmulo ou resgate',
            'Prazo de inatividade informado pelo programa (meses)', 'Meses desde o último acúmulo ou resgate', 'Alerta de inatividade',
@@ -229,7 +238,7 @@ def sheet04(book):
     widths = {'A': 30, 'B': 12, 'C': 32, 'D': 14, 'E': 13, 'F': 14, 'G': 16, 'H': 12, 'I': 30, 'J': 30, 'K': 22, 'L': 36, 'M': 14, 'N': 34}
     for c, w in widths.items(): ws.set_column('%s:%s' % (c, c), w)
     s.title('Lotes e validade', 'Capítulos 10 e 11 — Uma linha por lote (programa, quantidade, origem e vencimento)',
-            'Não infira a validade pelo nome do programa: confira a regra no site oficial, para cada origem, e registre a fonte e a data da consulta. Os alertas de 30, 60 e 90 dias são sugestões de organização.')
+            'Não infira a validade pelo nome do programa: confira a regra no site oficial, para cada origem, e registre a fonte e a data da consulta. Os alertas de 30, 60 e 90 dias são sugestões de organização. A planilha trata o vencimento por data; o horário em que o lote vence (por exemplo, 23h59) deve ser confirmado no programa.')
     # resumo (contagens)
     labels = ['Vencidos', 'Vencem hoje', 'Até 30 dias', 'Até 60 dias', 'Até 90 dias', 'Sem data informada', 'Sem expiração confirmada']
     keys = ['Vencido', 'Vence hoje', 'Vence em até 30 dias', 'Vence em até 60 dias', 'Vence em até 90 dias', 'Data não informada', 'Sem expiração confirmada']
